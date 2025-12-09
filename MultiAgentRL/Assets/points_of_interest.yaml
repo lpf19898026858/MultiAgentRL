@@ -1,0 +1,428 @@
+points_of_interest:
+- name: V_UAV_0
+  description: My UAV
+  type: UAV
+  position:
+    x: -42.77
+    y: 29.6
+    z: 2
+  interaction_point:
+    x: -40.36128
+    y: 27.49237
+    z: 2
+  simplified_boundary:
+    min:
+      x: -43.77
+      y: 30.475
+      z: 1.5
+    max:
+      x: -41.77
+      y: 28.725
+      z: 2.5
+- name: MachineC
+  description: A point of interest.
+  type: Machine
+  position:
+    x: -29.3
+    y: 17.85
+    z: 0.55
+  interaction_point:
+    x: -27.68371
+    y: 16.23371
+    z: 2
+  simplified_boundary:
+    min:
+      x: -29.8
+      y: 18.35
+      z: -0.45
+    max:
+      x: -28.8
+      y: 17.35
+      z: 1.55
+- name: House2 (1)
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: -0.9000015
+    y: 3.4
+    z: 0
+  interaction_point:
+    x: -1.836061
+    y: -0.2651943
+    z: 2
+  simplified_boundary:
+    min:
+      x: -4.470532
+      y: 9.110056
+      z: -0.1500001
+    max:
+      x: 25.35616
+      y: -6.093409
+      z: 8.651436
+- name: MachineB
+  description: A point of interest.
+  type: Machine
+  position:
+    x: -37.72
+    y: 10.58
+    z: 0.55
+  interaction_point:
+    x: -36.10371
+    y: 8.963709
+    z: 2
+  simplified_boundary:
+    min:
+      x: -38.22
+      y: 11.08
+      z: -0.45
+    max:
+      x: -37.22
+      y: 10.08
+      z: 1.55
+- name: House2
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: -37.2
+    y: -35.8
+    z: 0
+  interaction_point:
+    x: -9.216784
+    y: -29.20962
+    z: 2
+  simplified_boundary:
+    min:
+      x: -40.77053
+      y: -30.08994
+      z: -0.1500001
+    max:
+      x: -10.94384
+      y: -45.29341
+      z: 8.651436
+- name: House6 (1)
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: 46.71346
+    y: 20.50236
+    z: 0
+  interaction_point:
+    x: 39.57368
+    y: 3.369023
+    z: 2
+  simplified_boundary:
+    min:
+      x: 40.43473
+      y: 22.58274
+      z: -0.2824993
+    max:
+      x: 53.22795
+      y: 4.580666
+      z: 20.16336
+- name: Church
+  description: There is a church
+  type: Buildings
+  position:
+    x: 48.11728
+    y: -25.65266
+    z: 0
+  interaction_point:
+    x: 35.08086
+    y: -14.06361
+    z: 2
+  simplified_boundary:
+    min:
+      x: 35.89906
+      y: -15.54855
+      z: -1.144409E-05
+    max:
+      x: 52.48035
+      y: -45.64177
+      z: 21.50002
+- name: House6
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: -20.98655
+    y: 16.60236
+    z: 0
+  interaction_point:
+    x: -13.61099
+    y: -0.530975
+    z: 2
+  simplified_boundary:
+    min:
+      x: -27.26527
+      y: 18.68274
+      z: -0.2825012
+    max:
+      x: -14.47205
+      y: 0.6806679
+      z: 20.16336
+- name: House5
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: -21
+    y: -15.4
+    z: 0
+  interaction_point:
+    x: -13.52791
+    y: 1.386494
+    z: 2
+  simplified_boundary:
+    min:
+      x: -27.26903
+      y: 0.490715
+      z: -0.2825012
+    max:
+      x: -14.56649
+      y: -17.44836
+      z: 12.5068
+- name: MachineA
+  description: A point of interest.
+  type: Machine
+  position:
+    x: -41.9
+    y: 21.91
+    z: 0.55
+- name: House3 (2)
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: 9.397285
+    y: -12.56266
+    z: 0
+  interaction_point:
+    x: 6.183844
+    y: -5.38848
+    z: 2
+  simplified_boundary:
+    min:
+      x: 7.392836
+      y: -6.240288
+      z: -0.2824974
+    max:
+      x: 25.24488
+      y: -18.81813
+      z: 20.16336
+- name: House3 (1)
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: -30.7
+    y: 39.1
+    z: 0
+  interaction_point:
+    x: -13.49438
+    y: 31.92966
+    z: 2
+  simplified_boundary:
+    min:
+      x: -32.85402
+      y: 45.80066
+      z: -0.2824974
+    max:
+      x: -14.70845
+      y: 32.79953
+      z: 20.16336
+- name: House1 (1)
+  description: A point of interest.
+  type: Bulidings
+  position:
+    x: 3.000004
+    y: 39.5
+    z: 0
+  interaction_point:
+    x: 0.8188337
+    y: 31.94984
+    z: 2
+  simplified_boundary:
+    min:
+      x: -12.8176
+      y: 45.74601
+      z: -0.2824993
+    max:
+      x: 4.974287
+      y: 33.25399
+      z: 12.5068
+- name: Wall
+  description: This is the wall, the boundary of the activity area, and cannot collide or exceed this activity area
+  type: Wall
+  position:
+    x: -42.90372
+    y: 23.83261
+    z: 2.387606
+  interaction_point:
+    x: -1.427951
+    y: 0.3792767
+    z: 2
+  simplified_boundary:
+    min:
+      x: -46.2
+      y: 49.86245
+      z: -0.5831633
+    max:
+      x: 54.67449
+      y: -52.11335
+      z: 8.583163
+- name: House4
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: 0
+    y: 14.5
+    z: 1.7
+  interaction_point:
+    x: 0.2111826
+    y: 7.934423
+    z: 2
+  simplified_boundary:
+    min:
+      x: -6.745056
+      y: 19.99963
+      z: -0.4656849
+    max:
+      x: 4.858334
+      y: 9.148951
+      z: 14.53601
+- name: House2 (2)
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: 2
+    y: -35.8
+    z: 0
+  interaction_point:
+    x: -1.672665
+    y: -29.13698
+    z: 2
+  simplified_boundary:
+    min:
+      x: -1.570531
+      y: -30.08994
+      z: -1.907349E-06
+    max:
+      x: 28.25616
+      y: -45.29341
+      z: 8.651438
+- name: House3
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: 8.399998
+    y: 39.3
+    z: 0
+  interaction_point:
+    x: 5.031905
+    y: 32.12967
+    z: 2
+  simplified_boundary:
+    min:
+      x: 6.245975
+      y: 46.00066
+      z: -0.2824974
+    max:
+      x: 24.39155
+      y: 32.99954
+      z: 20.16336
+- name: House5 (1)
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: 46.7
+    y: -11.5
+    z: 0
+  interaction_point:
+    x: 39.15213
+    y: 0.9219509
+    z: 2
+  simplified_boundary:
+    min:
+      x: 40.43097
+      y: 4.39071
+      z: -0.2825003
+    max:
+      x: 53.1335
+      y: -13.54836
+      z: 12.5068
+- name: House4 (2)
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: -40.17271
+    y: -9.552654
+    z: 1.7
+  interaction_point:
+    x: -34.22083
+    y: -3.030416
+    z: 2
+  simplified_boundary:
+    min:
+      x: -46.91777
+      y: -4.05303
+      z: -0.4656849
+    max:
+      x: -35.31438
+      y: -14.9037
+      z: 14.53601
+- name: Ground
+  description: This is the floor. During flight, be careful not to collide with the bottom surface. When landing, be careful to determine the distance from the ground
+  type: Ground
+  position:
+    x: 2.9989
+    y: -1
+    z: -0.5
+  interaction_point:
+    x: -1.897297
+    y: 0.6326641
+    z: 2
+  simplified_boundary:
+    min:
+      x: -47.0011
+      y: 49
+      z: -0.5
+    max:
+      x: 52.9989
+      y: -51
+      z: -0.5
+- name: House1
+  description: There is a house.
+  type: Buildings
+  position:
+    x: 43.2
+    y: 39.7
+    z: 0
+  interaction_point:
+    x: 25.95565
+    y: 32.45226
+    z: 2
+  simplified_boundary:
+    min:
+      x: 27.38239
+      y: 45.94601
+      z: -0.2824974
+    max:
+      x: 45.17428
+      y: 33.454
+      z: 12.5068
+- name: House4 (1)
+  description: A point of interest.
+  type: Buildings
+  position:
+    x: -38.28271
+    y: 38.14735
+    z: 1.7
+  interaction_point:
+    x: -32.33083
+    y: 31.77369
+    z: 2
+  simplified_boundary:
+    min:
+      x: -45.02777
+      y: 43.64697
+      z: -0.4656849
+    max:
+      x: -33.42438
+      y: 32.7963
+      z: 14.53601

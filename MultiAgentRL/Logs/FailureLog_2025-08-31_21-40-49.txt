@@ -1,0 +1,31 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (22.56, 2.50, 24.55) - Reason: Hit Obstacle: Plane.000
+Target: (22.56, 2.50, 24.55) - Reason: Hit Obstacle: Plane.000
+Target: (22.56, 2.50, 24.55) - Reason: Hit Obstacle: Plane.000
+Target: (22.56, 2.50, 24.55) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Obstacle: Plane.000
+Target: (15.96, 2.00, 26.75) - Reason: Hit Ground

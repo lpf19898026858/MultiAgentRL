@@ -1,0 +1,7 @@
+--- Unity ML-Agents Training Log Started at 2025/8/28 20:00:05 ---
+
+[20:00:05] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[20:00:05] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[20:00:06] [Log] ROS连接已设置。订阅: /drone_target. 发布: /drone_status, /drone_pose, /camera/image_raw
+[20:00:06] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[20:00:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>

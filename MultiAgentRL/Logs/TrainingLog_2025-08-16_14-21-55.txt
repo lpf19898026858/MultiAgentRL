@@ -1,0 +1,191 @@
+--- Unity ML-Agents Training Log Started at 2025/8/16 14:21:55 ---
+
+[14:21:55] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[14:21:55] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[14:21:55] [Log] ROS连接已设置。订阅: /drone_target. 发布: /drone_status, /drone_pose, /camera/image_raw
+[14:21:55] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[14:21:55] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:22:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:22:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:22:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:22:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:22:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:22:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:23:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:23:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:23:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:23:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:23:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:23:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:24:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:24:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:24:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:24:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:24:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:24:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:25:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:25:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:25:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:25:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:25:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:25:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:26:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:26:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:26:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:26:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:26:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:26:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:03] [Log] <color=lightblue>Received action service request: takeoff</color>
+[14:27:03] [Log] Executing TakeoffRoutine to altitude: 3m.
+[14:27:03] [Log] Takeoff finished. Hovering at target altitude.
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -42.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -42.75)。 队列中总目标数: 1。</color>
+[14:27:04] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, -42.75)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -35.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -35.75)。 队列中总目标数: 1。</color>
+[14:27:04] [Log] <color=green>到达航点: (-29.64, 2.50, -42.75)。正在处理队列中的下一个目标...</color>
+[14:27:04] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, -35.75)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -28.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -28.75)。 队列中总目标数: 1。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -21.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -21.75)。 队列中总目标数: 2。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -14.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -14.75)。 队列中总目标数: 3。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -7.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -7.75)。 队列中总目标数: 4。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -0.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -0.75)。 队列中总目标数: 5。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, 6.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, 6.25)。 队列中总目标数: 6。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, 13.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, 13.25)。 队列中总目标数: 7。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, 20.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, 20.25)。 队列中总目标数: 8。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, 27.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, 27.25)。 队列中总目标数: 9。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, 34.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, 34.25)。 队列中总目标数: 10。</color>
+[14:27:04] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.94, 2.50, 36.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[14:27:04] [Log] <color=yellow>新目标已入队。位置: (-29.94, 2.50, 36.25)。 队列中总目标数: 11。</color>
+[14:27:04] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:04] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:04] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:04] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:04] [Log] <color=lightblue>Received action service request: adjust_camera</color>
+[14:27:04] [Log] Executing AdjustCameraRoutine to pitch: 0 degrees.
+[14:27:04] [Log] Camera adjustment finished.
+[14:27:07] [Log] <color=lightblue>Received action service request: adjust_camera</color>
+[14:27:07] [Log] Executing AdjustCameraRoutine to pitch: -90 degrees.
+[14:27:07] [Log] Camera adjustment finished.
+[14:27:10] [Log] <color=lightblue>Received action service request: adjust_camera</color>
+[14:27:10] [Log] Executing AdjustCameraRoutine to pitch: 0 degrees.
+[14:27:10] [Log] Camera adjustment finished.
+[14:27:12] [Log] <color=lightblue>Received action service request: rotate_yaw</color>
+[14:27:12] [Log] Executing RotateYawRoutine for 90 degrees.
+[14:27:12] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:12] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:12] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:12] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:12] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:12] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:12] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:12] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:12] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:12] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:12] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:12] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:13] [Log] Rotation by 90 degrees finished.
+[14:27:16] [Log] <color=lightblue>Received action service request: rotate_yaw</color>
+[14:27:16] [Log] Executing RotateYawRoutine for -180 degrees.
+[14:27:16] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:16] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:16] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:16] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[14:27:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:16] [Log] Rotation by -180 degrees finished.
+[14:27:19] [Log] <color=lightblue>Received action service request: rotate_yaw</color>
+[14:27:19] [Log] Executing RotateYawRoutine for 90 degrees.
+[14:27:19] [Log] Rotation by 90 degrees finished.
+[14:27:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:27:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:28:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:28:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:28:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:28:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:28:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:28:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:29:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:29:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:29:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:29:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:29:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:29:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:30:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:30:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:30:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:30:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:30:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:30:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:31:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:31:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:31:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:31:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:31:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:31:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:32:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:32:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:32:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:32:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:32:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:32:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:33:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:33:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:33:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:33:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:33:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:33:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:34:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:34:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:34:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:34:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:34:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:34:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:35:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:35:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:35:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:35:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:35:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:35:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:36:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:36:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:36:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:36:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:36:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:36:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:37:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:37:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:37:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:37:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:37:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:37:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:38:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:38:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:38:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:38:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:38:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:38:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:39:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:39:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:39:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:39:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:39:46] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:39:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:40:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:40:16] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:40:26] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[14:40:36] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>

@@ -1,0 +1,60 @@
+--- Unity ML-Agents Training Log Started at 2025/8/15 17:03:01 ---
+
+[17:03:01] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[17:03:01] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[17:03:01] [Log] 已订阅: /drone_target, /clock. 已发布: /drone_status, /drone_pose
+[17:03:01] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[17:03:01] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:03:12] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:03:22] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:03:32] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:03:42] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.60, 3.00, -42.77), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-29.60, 3.00, -42.77)。 队列中总目标数: 1。</color>
+[17:03:49] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.60, 3.00, -42.77)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[17:03:49] [Log] <color=red>碰撞失败! Hit Ground。最终奖励: -12</color>
+[17:03:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.24, 2.00, -42.85), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-29.24, 2.00, -42.85)。 队列中总目标数: 1。</color>
+[17:03:49] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.24, 2.00, -42.85)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[17:03:49] [Log] <color=red>碰撞失败! Hit Ground。最终奖励: -12</color>
+[17:03:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.24, 2.00, -35.85), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-29.24, 2.00, -35.85)。 队列中总目标数: 1。</color>
+[17:03:49] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.24, 2.00, -35.85)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, -29.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, -29.75)。 队列中总目标数: 1。</color>
+[17:03:49] [Log] <color=red>碰撞失败! Hit Ground。最终奖励: -12</color>
+[17:03:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, -22.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, -22.75)。 队列中总目标数: 1。</color>
+[17:03:49] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-31.44, 2.00, -22.75)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[17:03:49] [Log] <color=red>碰撞失败! Hit Ground。最终奖励: -12</color>
+[17:03:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, -15.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, -15.75)。 队列中总目标数: 1。</color>
+[17:03:49] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-31.44, 2.00, -15.75)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, -8.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, -8.75)。 队列中总目标数: 1。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, -1.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, -1.75)。 队列中总目标数: 2。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 5.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 5.25)。 队列中总目标数: 3。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 12.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 12.25)。 队列中总目标数: 4。</color>
+[17:03:49] [Log] <color=red>碰撞失败! Hit Ground。最终奖励: -12</color>
+[17:03:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 19.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 19.25)。 队列中总目标数: 1。</color>
+[17:03:49] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-31.44, 2.00, 19.25)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[17:03:49] [Log] <color=lightblue>Received action service request: hover_and_monitor</color>
+[17:03:49] [Log] Executing HoverAndMonitorRoutine for 5 seconds.
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 26.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 26.25)。 队列中总目标数: 1。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 33.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 33.25)。 队列中总目标数: 2。</color>
+[17:03:49] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 36.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:03:49] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 36.25)。 队列中总目标数: 3。</color>
+[17:03:49] [Log] Monitoring finished.
+[17:03:50] [Log] <color=red>碰撞失败! Hit Obstacle: Cylinder (1)。最终奖励: -12</color>
+[17:03:50] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>

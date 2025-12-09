@@ -1,0 +1,369 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (-29.60, 2.00, -42.77) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.28, 2.20, -43.88) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.25, 2.20, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-30.30, 2.28, -43.96) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.30, 2.27, -43.90) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.33, 2.33, -43.93) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.57, 2.27, -43.88) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.59, 2.30, -43.91) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.61, 2.36, -43.90) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.63, 2.37, -43.91) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.63, 2.42, -43.91) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.61, 2.43, -43.89) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.73, 2.40, -43.87) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.77, 2.40, -43.87) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.29, 2.40, -43.89) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.31, 2.42, -43.90) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.26, 2.49, -43.91) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.28, 2.53, -43.88) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.30, 2.49, -43.90) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.29, 2.54, -43.90) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.30, 2.59, -43.89) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.30, 2.64, -43.91) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.29, 2.62, -43.88) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.35, 2.67, -43.91) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.36, 2.73, -43.92) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.39, 2.74, -43.93) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.38, 2.77, -43.87) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.41, 2.86, -43.93) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.42, 2.85, -43.93) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.42, 2.85, -43.92) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.47, 2.84, -43.86) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.36, 2.86, -43.88) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.33, 2.89, -43.93) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.30, 2.91, -43.94) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.25, 2.89, -43.91) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.20, 2.93, -43.95) - Reason: Hit Obstacle: Cube
+Target: (-30.14, 2.90, -43.93) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.14, 2.90, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-29.98, 3.01, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-29.97, 3.03, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-29.79, 3.04, -43.94) - Reason: Hit Obstacle: Cube
+Target: (-29.71, 3.02, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-29.72, 3.01, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-29.72, 3.01, -43.86) - Reason: Hit Obstacle: Cube
+Target: (-29.72, 3.00, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-29.70, 2.97, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-29.71, 3.02, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-29.13, 2.87, -43.98) - Reason: Hit Obstacle: Cube
+Target: (-28.90, 3.10, -43.96) - Reason: Hit Obstacle: Cube
+Target: (-28.95, 3.09, -44.07) - Reason: Hit Obstacle: Cube
+Target: (-28.91, 3.09, -44.10) - Reason: Hit Obstacle: Cube
+Target: (-28.91, 3.09, -44.11) - Reason: Hit Obstacle: Cube
+Target: (-28.87, 3.06, -44.10) - Reason: Hit Obstacle: Cube
+Target: (-28.84, 3.08, -44.11) - Reason: Hit Obstacle: Cube
+Target: (-28.73, 3.11, -44.15) - Reason: Hit Obstacle: Cube
+Target: (-28.65, 3.13, -44.09) - Reason: Hit Obstacle: Cube
+Target: (-28.64, 3.13, -44.08) - Reason: Hit Obstacle: Cube
+Target: (-28.61, 3.07, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.32, 3.07, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.31, 3.08, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.26, 3.10, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.25, 3.11, -43.94) - Reason: Hit Obstacle: Cube
+Target: (-28.22, 3.12, -43.94) - Reason: Hit Obstacle: Cube
+Target: (-28.20, 3.13, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.20, 3.10, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.19, 3.12, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.19, 3.11, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-28.18, 3.17, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.17, 3.13, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.16, 3.14, -43.86) - Reason: Hit Obstacle: Cube
+Target: (-28.18, 3.08, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.15, 3.12, -43.86) - Reason: Hit Obstacle: Cube
+Target: (-28.17, 3.11, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.19, 3.05, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.21, 3.10, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.21, 3.05, -43.86) - Reason: Hit Obstacle: Cube
+Target: (-28.21, 3.13, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.31, 2.91, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-28.33, 2.93, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.33, 2.94, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-28.37, 2.93, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-27.74, 2.51, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-27.87, 2.69, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.00, 2.58, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.04, 2.62, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.02, 2.62, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.03, 2.65, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.03, 2.67, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.09, 2.75, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.07, 2.74, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-28.09, 2.74, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.09, 2.73, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.10, 2.75, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.11, 2.82, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.10, 2.81, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.10, 2.82, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.23, 2.76, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.19, 2.72, -43.86) - Reason: Hit Obstacle: Cube
+Target: (-28.22, 2.76, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.23, 2.79, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.21, 2.81, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.23, 2.87, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.19, 2.91, -43.86) - Reason: Hit Obstacle: Cube
+Target: (-28.28, 3.01, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.27, 2.97, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.29, 3.02, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.30, 3.05, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.30, 3.05, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.31, 3.03, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.32, 3.06, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.35, 3.01, -43.85) - Reason: Hit Obstacle: Cube
+Target: (-28.35, 2.98, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.33, 2.98, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-28.36, 2.96, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.37, 3.04, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.45, 2.99, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.46, 3.03, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-28.46, 3.07, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.45, 3.13, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.46, 3.12, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.47, 3.10, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.50, 3.07, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.50, 3.07, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.49, 3.10, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.50, 3.09, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.49, 3.05, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.48, 3.05, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.49, 3.03, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.53, 3.02, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.57, 3.07, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.56, 3.01, -43.94) - Reason: Hit Obstacle: Cube
+Target: (-28.57, 3.03, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-28.58, 3.04, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.57, 3.07, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.58, 3.06, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.58, 2.99, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.59, 3.00, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.60, 3.01, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.59, 3.01, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.62, 3.05, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.63, 3.09, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.61, 3.12, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.66, 3.21, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.66, 3.23, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.68, 3.23, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.68, 3.25, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.69, 3.31, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.69, 3.30, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.68, 3.27, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.90, 3.35, -44.00) - Reason: Hit Obstacle: Cube
+Target: (-28.44, 3.50, -44.10) - Reason: Hit Obstacle: Cube
+Target: (-28.60, 3.56, -44.05) - Reason: Hit Obstacle: Cube
+Target: (-28.62, 3.56, -44.03) - Reason: Hit Obstacle: Cube
+Target: (-28.63, 3.60, -44.01) - Reason: Hit Obstacle: Cube
+Target: (-28.64, 3.56, -44.02) - Reason: Hit Obstacle: Cube
+Target: (-28.64, 3.57, -44.02) - Reason: Hit Obstacle: Cube
+Target: (-28.64, 3.58, -44.02) - Reason: Hit Obstacle: Cube
+Target: (-28.64, 3.58, -44.03) - Reason: Hit Obstacle: Cube
+Target: (-28.69, 3.56, -43.97) - Reason: Hit Obstacle: Cube
+Target: (-28.52, 3.51, -44.09) - Reason: Hit Obstacle: Cube
+Target: (-28.52, 3.52, -44.09) - Reason: Hit Obstacle: Cube
+Target: (-28.52, 3.53, -44.09) - Reason: Hit Obstacle: Cube
+Target: (-28.52, 3.54, -44.09) - Reason: Hit Obstacle: Cube
+Target: (-28.53, 3.55, -44.08) - Reason: Hit Obstacle: Cube
+Target: (-28.54, 3.62, -44.08) - Reason: Hit Obstacle: Cube
+Target: (-28.48, 3.59, -44.10) - Reason: Hit Obstacle: Cube
+Target: (-28.53, 3.56, -44.11) - Reason: Hit Obstacle: Cube
+Target: (-28.55, 3.57, -44.10) - Reason: Hit Obstacle: Cube
+Target: (-28.61, 3.58, -44.12) - Reason: Hit Obstacle: Cube
+Target: (-28.63, 3.61, -44.10) - Reason: Hit Obstacle: Cube
+Target: (-28.66, 3.44, -44.10) - Reason: Hit Obstacle: Cube
+Target: (-28.66, 3.45, -44.11) - Reason: Hit Obstacle: Cube
+Target: (-28.61, 3.38, -43.98) - Reason: Hit Obstacle: Cube
+Target: (-28.82, 3.36, -44.03) - Reason: Hit Obstacle: Cube
+Target: (-28.81, 3.41, -44.02) - Reason: Hit Obstacle: Cube
+Target: (-28.78, 3.46, -44.00) - Reason: Hit Obstacle: Cube
+Target: (-28.77, 3.46, -44.01) - Reason: Hit Obstacle: Cube
+Target: (-28.75, 3.52, -43.99) - Reason: Hit Obstacle: Cube
+Target: (-28.65, 3.47, -44.05) - Reason: Hit Obstacle: Cube
+Target: (-28.64, 3.48, -44.05) - Reason: Hit Obstacle: Cube
+Target: (-28.64, 3.49, -44.03) - Reason: Hit Obstacle: Cube
+Target: (-28.64, 3.54, -43.95) - Reason: Hit Obstacle: Cube
+Target: (-28.64, 3.55, -43.95) - Reason: Hit Obstacle: Cube
+Target: (-28.60, 3.59, -43.95) - Reason: Hit Obstacle: Cube
+Target: (-28.60, 3.58, -43.96) - Reason: Hit Obstacle: Cube
+Target: (-28.49, 3.61, -43.86) - Reason: Hit Obstacle: Cube
+Target: (-28.45, 3.65, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.42, 3.60, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-28.39, 3.61, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.41, 3.36, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.42, 3.41, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.47, 3.37, -43.94) - Reason: Hit Obstacle: Cube
+Target: (-28.45, 3.41, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.42, 3.46, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.46, 3.44, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.44, 3.42, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.56, 3.48, -44.07) - Reason: Hit Obstacle: Cube
+Target: (-28.56, 3.45, -44.02) - Reason: Hit Obstacle: Cube
+Target: (-28.61, 3.45, -44.05) - Reason: Hit Obstacle: Cube
+Target: (-28.59, 3.38, -44.09) - Reason: Hit Obstacle: Cube
+Target: (-28.72, 3.54, -44.05) - Reason: Hit Obstacle: Cube
+Target: (-28.84, 3.59, -44.10) - Reason: Hit Obstacle: Cube
+Target: (-28.84, 3.60, -44.11) - Reason: Hit Obstacle: Cube
+Target: (-28.53, 3.53, -44.12) - Reason: Hit Obstacle: Cube
+Target: (-28.54, 3.45, -44.11) - Reason: Hit Obstacle: Cube
+Target: (-28.54, 3.51, -43.99) - Reason: Hit Obstacle: Cube
+Target: (-28.54, 3.53, -43.96) - Reason: Hit Obstacle: Cube
+Target: (-28.68, 3.55, -43.94) - Reason: Hit Obstacle: Cube
+Target: (-28.69, 3.52, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.69, 3.52, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.69, 3.51, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.69, 3.53, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.60, 3.53, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.78, 3.54, -43.98) - Reason: Hit Obstacle: Cube
+Target: (-28.79, 3.53, -43.98) - Reason: Hit Obstacle: Cube
+Target: (-28.80, 3.55, -43.97) - Reason: Hit Obstacle: Cube
+Target: (-28.77, 3.60, -43.98) - Reason: Hit Obstacle: Cube
+Target: (-28.76, 3.62, -43.97) - Reason: Hit Obstacle: Cube
+Target: (-28.67, 3.68, -43.97) - Reason: Hit Obstacle: Cube
+Target: (-28.87, 3.80, -44.06) - Reason: Hit Obstacle: Cube
+Target: (-28.84, 3.85, -44.07) - Reason: Hit Obstacle: Cube
+Target: (-28.84, 3.81, -44.06) - Reason: Hit Obstacle: Cube
+Target: (-28.84, 3.79, -44.06) - Reason: Hit Obstacle: Cube
+Target: (-28.85, 3.79, -44.06) - Reason: Hit Obstacle: Cube
+Target: (-28.95, 3.79, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.95, 3.76, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.94, 3.75, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-28.94, 3.73, -43.87) - Reason: Hit Obstacle: Cube
+Target: (-28.73, 3.33, -43.94) - Reason: Hit Obstacle: Cube
+Target: (-28.73, 3.32, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.73, 3.36, -43.95) - Reason: Hit Obstacle: Cube
+Target: (-28.72, 3.38, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-28.73, 3.02, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.73, 3.04, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.74, 3.10, -43.95) - Reason: Hit Obstacle: Cube
+Target: (-28.72, 3.07, -43.95) - Reason: Hit Obstacle: Cube
+Target: (-28.71, 3.08, -43.95) - Reason: Hit Obstacle: Cube
+Target: (-28.74, 3.11, -43.94) - Reason: Hit Obstacle: Cube
+Target: (-28.75, 3.10, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-28.74, 3.08, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.72, 3.07, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.71, 3.03, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-28.67, 3.08, -43.90) - Reason: Hit Obstacle: Cube
+Target: (-28.60, 3.11, -43.96) - Reason: Hit Obstacle: Cube
+Target: (-28.61, 3.09, -43.99) - Reason: Hit Obstacle: Cube
+Target: (-28.61, 3.10, -43.95) - Reason: Hit Obstacle: Cube
+Target: (-28.59, 3.15, -43.99) - Reason: Hit Obstacle: Cube
+Target: (-28.60, 3.13, -43.96) - Reason: Hit Obstacle: Cube
+Target: (-28.79, 3.00, -44.11) - Reason: Hit Obstacle: Cube
+Target: (-28.76, 3.03, -44.10) - Reason: Hit Obstacle: Cube
+Target: (-28.91, 2.85, -44.14) - Reason: Hit Obstacle: Cube
+Target: (-28.90, 2.85, -44.16) - Reason: Hit Obstacle: Cube
+Target: (-28.90, 2.85, -44.13) - Reason: Hit Obstacle: Cube
+Target: (-28.91, 2.88, -44.14) - Reason: Hit Obstacle: Cube
+Target: (-28.91, 3.02, -44.00) - Reason: Hit Obstacle: Cube
+Target: (-28.88, 2.99, -44.04) - Reason: Hit Obstacle: Cube
+Target: (-28.86, 2.98, -44.04) - Reason: Hit Obstacle: Cube
+Target: (-28.91, 2.99, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.90, 3.00, -43.94) - Reason: Hit Obstacle: Cube
+Target: (-28.91, 3.03, -43.92) - Reason: Hit Obstacle: Cube
+Target: (-28.92, 3.10, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-28.92, 3.09, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.93, 3.05, -43.89) - Reason: Hit Obstacle: Cube
+Target: (-28.95, 3.10, -43.91) - Reason: Hit Obstacle: Cube
+Target: (-29.03, 2.96, -43.88) - Reason: Hit Obstacle: Cube
+Target: (-29.25, 2.87, -44.00) - Reason: Hit Obstacle: Cube
+Target: (-29.24, 2.86, -43.95) - Reason: Hit Obstacle: Cube
+Target: (-29.29, 2.84, -43.99) - Reason: Hit Obstacle: Cube
+Target: (-29.22, 2.83, -43.93) - Reason: Hit Obstacle: Cube
+Target: (-29.23, 2.81, -43.94) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.44, 2.83, -44.00) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.46, 2.86, -44.01) - Reason: Hit Obstacle: Cube
+Target: (-29.46, 2.86, -44.01) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.44, 2.87, -43.98) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.47, 2.41, -44.06) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.06, 2.08, -44.06) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.02, 2.12, -44.06) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.89, 2.16, -44.00) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.98, 2.12, -43.97) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.03, 2.20, -44.01) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.94, 2.32, -44.12) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.92, 2.37, -44.23) - Reason: Hit Obstacle: Cube
+Target: (-29.92, 2.37, -44.23) - Reason: Hit Obstacle: Cube
+Target: (-28.89, 2.75, -47.15) - Reason: Hit Obstacle: Cube
+Target: (-28.87, 2.76, -47.24) - Reason: Hit Obstacle: Cube
+Target: (-29.02, 2.70, -47.45) - Reason: Hit Obstacle: Cube
+Target: (-29.01, 2.70, -47.40) - Reason: Hit Obstacle: Cube
+Target: (-28.97, 2.73, -47.42) - Reason: Hit Obstacle: Cube
+Target: (-28.97, 2.71, -47.41) - Reason: Hit Obstacle: Cube
+Target: (-29.01, 2.60, -47.39) - Reason: Hit Obstacle: Cube
+Target: (-29.01, 2.66, -47.37) - Reason: Hit Obstacle: Cube
+Target: (-29.01, 2.66, -47.37) - Reason: Hit Obstacle: Cube
+Target: (-29.05, 2.64, -47.41) - Reason: Hit Obstacle: Cube
+Target: (-29.04, 2.69, -47.39) - Reason: Hit Obstacle: Cube
+Target: (-29.05, 2.71, -47.39) - Reason: Hit Obstacle: Cube
+Target: (-29.08, 2.77, -47.40) - Reason: Hit Obstacle: Cube
+Target: (-29.08, 2.74, -47.44) - Reason: Hit Obstacle: Cube
+Target: (-29.12, 2.84, -47.48) - Reason: Hit Obstacle: Cube
+Target: (-29.15, 2.81, -47.51) - Reason: Hit Obstacle: Cube
+Target: (-29.13, 2.85, -47.48) - Reason: Hit Obstacle: Cube
+Target: (-29.13, 2.85, -47.49) - Reason: Hit Obstacle: Cube
+Target: (-29.12, 2.85, -47.48) - Reason: Hit Obstacle: Cube
+Target: (-29.13, 2.85, -47.47) - Reason: Hit Obstacle: Cube
+Target: (-29.15, 2.86, -47.48) - Reason: Hit Obstacle: Cube
+Target: (-29.15, 2.85, -47.49) - Reason: Hit Obstacle: Cube
+Target: (-29.20, 2.82, -47.49) - Reason: Hit Obstacle: Cube
+Target: (-29.18, 2.84, -47.47) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.71, 2.64, -47.48) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.69, 2.65, -47.42) - Reason: Hit Obstacle: Cube
+Target: (-29.69, 2.65, -47.42) - Reason: Hit Obstacle: Cube
+Target: (-29.72, 2.68, -47.42) - Reason: Hit Obstacle: Cube
+Target: (-29.75, 2.76, -47.52) - Reason: Hit Obstacle: Cube
+Target: (-29.76, 2.77, -47.49) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.78, 2.81, -47.51) - Reason: Hit Obstacle: Cube
+Target: (-29.78, 2.81, -47.51) - Reason: Hit Obstacle: Cube
+Target: (-29.79, 2.82, -47.51) - Reason: Hit Obstacle: Cube
+Target: (-29.87, 2.90, -47.53) - Reason: Hit Obstacle: Cube
+Target: (-29.87, 2.89, -47.50) - Reason: Hit Obstacle: Cube
+Target: (-29.86, 2.88, -47.50) - Reason: Hit Obstacle: Cube
+Target: (-29.87, 2.92, -47.53) - Reason: Hit Obstacle: Cube
+Target: (-29.85, 2.97, -47.49) - Reason: Hit Obstacle: Cube
+Target: (-29.87, 2.98, -47.50) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.90, 3.00, -47.53) - Reason: Hit Obstacle: Cube
+Target: (-29.99, 2.96, -47.52) - Reason: Hit Obstacle: Cube
+Target: (-29.96, 2.93, -47.49) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.01, 2.99, -47.52) - Reason: Hit Obstacle: Cube
+Target: (-30.01, 2.99, -47.52) - Reason: Hit Obstacle: Cube
+Target: (-29.99, 2.96, -47.50) - Reason: Hit Obstacle: Cube
+Target: (-29.98, 3.10, -47.54) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.98, 3.06, -47.55) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.99, 3.07, -47.54) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.03, 3.14, -47.53) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.09, 3.04, -47.51) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.08, 3.03, -47.50) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.11, 3.01, -47.49) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.22, 3.05, -47.52) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.22, 3.04, -47.52) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.21, 3.05, -47.51) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.21, 3.04, -47.50) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.23, 3.04, -47.49) - Reason: Hit Obstacle: Cube
+Target: (-30.20, 3.10, -47.45) - Reason: Hit Obstacle: Cube
+Target: (-30.18, 3.09, -47.44) - Reason: Hit Obstacle: Cube
+Target: (-30.19, 3.07, -47.42) - Reason: Hit Obstacle: Cube
+Target: (-29.96, 2.84, -47.31) - Reason: Hit Obstacle: Cube
+Target: (-29.89, 2.85, -47.41) - Reason: Hit Obstacle: Cube
+Target: (-29.94, 2.82, -47.38) - Reason: Hit Obstacle: Cube
+Target: (-29.92, 2.94, -47.41) - Reason: Hit Obstacle: Cube
+Target: (-29.88, 2.95, -47.39) - Reason: Hit Obstacle: Cube
+Target: (-29.89, 2.94, -47.40) - Reason: Hit Obstacle: Cube
+Target: (-29.92, 2.91, -47.37) - Reason: Hit Obstacle: Cube
+Target: (-29.92, 2.96, -47.38) - Reason: Hit Obstacle: Cube
+Target: (-29.98, 2.94, -47.38) - Reason: Hit Obstacle: Cube
+Target: (-29.97, 3.03, -47.36) - Reason: Hit Obstacle: Cube
+Target: (-30.05, 3.01, -47.41) - Reason: Hit Obstacle: Cube
+Target: (-30.05, 3.02, -47.42) - Reason: Hit Obstacle: Cube
+Target: (-30.03, 2.99, -47.40) - Reason: Hit Obstacle: Cube
+Target: (-30.08, 3.10, -47.42) - Reason: Hit Obstacle: Cube
+Target: (-30.07, 3.07, -47.40) - Reason: Hit Obstacle: Cube
+Target: (-30.09, 3.00, -47.42) - Reason: Hit Obstacle: Cube
+Target: (-30.15, 2.98, -47.40) - Reason: Hit Obstacle: Cube
+Target: (-30.13, 3.05, -47.43) - Reason: Hit Obstacle: Cube
+Target: (-30.09, 3.01, -47.39) - Reason: Hit Obstacle: Cube

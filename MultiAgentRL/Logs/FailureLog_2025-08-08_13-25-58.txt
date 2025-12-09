@@ -1,0 +1,5 @@
+--- Drone Failure Log ---
+
+Target: (11.11, 5.48, -11.98) - Reason: Hit Obstacle: Plane.000
+Target: (-18.95, 0.87, -29.54) - Reason: Hit Obstacle: Plane.000
+Target: (28.39, 1.50, 22.91) - Reason: Hit Obstacle: Plane.000

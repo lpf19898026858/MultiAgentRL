@@ -1,0 +1,21 @@
+--- Unity ML-Agents Training Log Started at 2025/8/27 10:31:35 ---
+
+[10:31:35] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[10:31:35] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[10:31:35] [Log] ROS连接已设置。订阅: /drone_target. 发布: /drone_status, /drone_pose, /camera/image_raw
+[10:31:35] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[10:31:35] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:31:37] [Log] Test command: Rotating to 90 degrees!
+[10:31:37] [Log] 接收到相对旋转命令: 90°
+[10:31:37] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 90°</color>
+[10:31:37] [Log] <color=green>已到达并稳定在目标偏航角 90° (实际: 90.00, 角速度: -0.18 deg/s)</color>
+[10:31:37] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:31:39] [Log] Test command: Rotating to 90 degrees!
+[10:31:39] [Log] 接收到相对旋转命令: 90°
+[10:31:39] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 170.4863°</color>
+[10:31:40] [Error] 旋转超时！未能到达目标偏航角 170.4863°。当前角度: 107.6119, 角速度: 2864.79 deg/s
+UnityEngine.Debug:LogError (object)
+PIDControlAgent/<AnimateDroneYawRoutine>d__130:MoveNext () (at Assets/SingleAgent/Scripts/PIDControlAgent.cs:602)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[10:31:40] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>

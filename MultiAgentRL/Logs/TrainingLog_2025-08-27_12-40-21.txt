@@ -1,0 +1,57 @@
+--- Unity ML-Agents Training Log Started at 2025/8/27 12:40:21 ---
+
+[12:40:21] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[12:40:21] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[12:40:21] [Log] ROS连接已设置。订阅: /drone_target. 发布: /drone_status, /drone_pose, /camera/image_raw
+[12:40:21] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[12:40:21] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:40:28] [Log] <color=red>碰撞失败! Hit Obstacle: Cube。最终奖励: -12</color>
+[12:40:28] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:40:32] [Log] <color=red>碰撞失败! Hit Obstacle: Cube。最终奖励: -12</color>
+[12:40:32] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:40:45] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:40:46] [Log] <color=red>碰撞失败! Hit Obstacle: Cube。最终奖励: -12</color>
+[12:40:46] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:40:46] [Log] <color=red>碰撞失败! Hit Obstacle: Cube。最终奖励: -12</color>
+[12:40:46] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:40:49] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(2)。最终奖励: -12</color>
+[12:40:49] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:40:50] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(1)。最终奖励: -12</color>
+[12:40:50] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:40:53] [Log] <color=red>碰撞失败! Hit Obstacle: Cube。最终奖励: -12</color>
+[12:40:53] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:41:01] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(1)。最终奖励: -12</color>
+[12:41:01] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:41:03] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(1)。最终奖励: -12</color>
+[12:41:03] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:41:05] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(1)。最终奖励: -12</color>
+[12:41:05] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:41:07] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(1)。最终奖励: -12</color>
+[12:41:07] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:41:11] [Log] <color=red>碰撞失败! Hit Obstacle: Cube。最终奖励: -12</color>
+[12:41:11] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:41:14] [Log] <color=red>碰撞失败! Hit Obstacle: Cube。最终奖励: -12</color>
+[12:41:14] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:41:14] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(2)。最终奖励: -12</color>
+[12:41:14] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:41:22] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(1)。最终奖励: -12</color>
+[12:41:22] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:41:23] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(2)。最终奖励: -12</color>
+[12:41:23] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:41:24] [Log] <color=red>碰撞失败! Hit Obstacle: Cube。最终奖励: -12</color>
+[12:41:24] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:41:28] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(1)。最终奖励: -12</color>
+[12:41:28] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:41:41] [Log] <color=red>碰撞失败! Hit Obstacle: Plane.000。最终奖励: -12</color>
+[12:41:41] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:41:45] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(1)。最终奖励: -12</color>
+[12:41:45] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:41:48] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(1)。最终奖励: -12</color>
+[12:41:48] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:41:49] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(1)。最终奖励: -12</color>
+[12:41:49] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:42:01] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>
+[12:42:07] [Log] <color=red>碰撞失败! Hit Obstacle: Cube。最终奖励: -12</color>
+[12:42:07] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[12:42:10] [Log] <color=red>碰撞失败! Hit Obstacle: Wall(1)。最终奖励: -12</color>
+[12:42:10] [Log] <color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>

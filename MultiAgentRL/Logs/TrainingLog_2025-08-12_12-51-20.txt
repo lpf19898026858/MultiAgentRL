@@ -1,0 +1,14 @@
+--- Unity ML-Agents Training Log Started at 2025/8/12 12:51:20 ---
+
+[12:51:20] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[12:51:20] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[12:51:21] [Log] 已订阅: /drone_target, /clock. 已发布: /drone_status, /drone_pose
+[12:51:21] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[12:51:21] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[12:51:21] [Error] 远程推理服务器返回错误: [ONNXRuntimeError] : 2 : INVALID_ARGUMENT : Got invalid dimensions for input: obs_1 for the following indices
+ index: 1 Got: 57 Expected: 18
+ Please fix either the inputs/outputs or the model.
+UnityEngine.Debug:LogError (object)
+PIDControlAgent/<RequestRemoteActionAsync>d__107:MoveNext () (at Assets/SingleAgent/Scripts/PIDControlAgent.cs:829)
+UnityEngine.UnitySynchronizationContext:ExecuteTasks () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/UnitySynchronizationContext.cs:107)
+

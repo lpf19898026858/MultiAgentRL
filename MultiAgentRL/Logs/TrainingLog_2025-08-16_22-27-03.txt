@@ -1,0 +1,99 @@
+--- Unity ML-Agents Training Log Started at 2025/8/16 22:27:03 ---
+
+[22:27:03] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[22:27:03] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[22:27:03] [Log] ROS连接已设置。订阅: /drone_target. 发布: /drone_status, /drone_pose, /camera/image_raw
+[22:27:03] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[22:27:03] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[22:27:55] [Log] <color=lightblue>Received action service request: takeoff</color>
+[22:27:56] [Log] Executing TakeoffRoutine to altitude: 3m.
+[22:27:56] [Log] Takeoff finished. Hovering at target altitude.
+[22:27:56] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -42.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -42.75)。 队列中总目标数: 1。</color>
+[22:27:56] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, -42.75)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[22:27:56] [Log] <color=green>到达航点: (-29.64, 2.50, -42.75)。正在处理队列中的下一个目标...</color>
+[22:27:56] [Log] <color=cyan>航点队列已空。正在悬停并等待新的ROS目标。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -35.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -35.75)。 队列中总目标数: 1。</color>
+[22:27:56] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, -35.75)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -28.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -28.75)。 队列中总目标数: 1。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -21.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -21.75)。 队列中总目标数: 2。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -14.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -14.75)。 队列中总目标数: 3。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -7.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -7.75)。 队列中总目标数: 4。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -0.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -0.75)。 队列中总目标数: 5。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, 6.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, 6.25)。 队列中总目标数: 6。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, 13.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, 13.25)。 队列中总目标数: 7。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, 20.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, 20.25)。 队列中总目标数: 8。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, 27.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, 27.25)。 队列中总目标数: 9。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, 34.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, 34.25)。 队列中总目标数: 10。</color>
+[22:27:56] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.94, 2.50, 36.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:27:56] [Log] <color=yellow>新目标已入队。位置: (-29.94, 2.50, 36.25)。 队列中总目标数: 11。</color>
+[22:27:56] [Log] <color=green>到达航点: (-29.64, 2.50, -35.75)。正在处理队列中的下一个目标...</color>
+[22:27:56] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, -28.75)。 偏航角: 0°。队列中还剩 10 个目标。</color>
+[22:27:57] [Log] <color=green>到达航点: (-29.64, 2.50, -28.75)。正在处理队列中的下一个目标...</color>
+[22:27:57] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, -21.75)。 偏航角: 0°。队列中还剩 9 个目标。</color>
+[22:27:57] [Log] <color=green>到达航点: (-29.64, 2.50, -21.75)。正在处理队列中的下一个目标...</color>
+[22:27:57] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, -14.75)。 偏航角: 0°。队列中还剩 8 个目标。</color>
+[22:27:57] [Log] <color=green>到达航点: (-29.64, 2.50, -14.75)。正在处理队列中的下一个目标...</color>
+[22:27:57] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, -7.75)。 偏航角: 0°。队列中还剩 7 个目标。</color>
+[22:27:58] [Log] <color=green>到达航点: (-29.64, 2.50, -7.75)。正在处理队列中的下一个目标...</color>
+[22:27:58] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, -0.75)。 偏航角: 0°。队列中还剩 6 个目标。</color>
+[22:27:58] [Log] <color=green>到达航点: (-29.64, 2.50, -0.75)。正在处理队列中的下一个目标...</color>
+[22:27:58] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, 6.25)。 偏航角: 0°。队列中还剩 5 个目标。</color>
+[22:27:59] [Log] <color=green>到达航点: (-29.64, 2.50, 6.25)。正在处理队列中的下一个目标...</color>
+[22:27:59] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, 13.25)。 偏航角: 0°。队列中还剩 4 个目标。</color>
+[22:27:59] [Log] <color=green>到达航点: (-29.64, 2.50, 13.25)。正在处理队列中的下一个目标...</color>
+[22:27:59] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, 20.25)。 偏航角: 0°。队列中还剩 3 个目标。</color>
+[22:28:00] [Log] <color=green>到达航点: (-29.64, 2.50, 20.25)。正在处理队列中的下一个目标...</color>
+[22:28:00] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, 27.25)。 偏航角: 0°。队列中还剩 2 个目标。</color>
+[22:28:01] [Log] <color=green>到达航点: (-29.64, 2.50, 27.25)。正在处理队列中的下一个目标...</color>
+[22:28:01] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, 34.25)。 偏航角: 0°。队列中还剩 1 个目标。</color>
+[22:28:01] [Log] <color=green>到达航点: (-29.64, 2.50, 34.25)。正在处理队列中的下一个目标...</color>
+[22:28:01] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.94, 2.50, 36.25)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[22:28:01] [Log] <color=green>到达航点: (-29.94, 2.50, 36.25)。正在处理队列中的下一个目标...</color>
+[22:28:01] [Log] <color=cyan>航点队列已空。正在悬停并等待新的ROS目标。</color>
+[22:28:02] [Log] <color=lightblue>Received action service request: rotate_drone_yaw_relative</color>
+[22:28:02] [Log] 命令无人机旋转至 Yaw: -49.84092°
+[22:28:02] [Log] 已到达目标偏航角。
+[22:28:02] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:28:02] [Log] <color=lightblue>Received action service request: backup</color>
+[22:28:02] [Log] Executing BackupRoutine for 2 meters.
+[22:28:02] [Log] Backup maneuver finished.
+[22:28:02] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:28:02] [Log] <color=lightblue>Received action service request: adjust_camera_pitch</color>
+[22:28:03] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:28:03] [Log] <color=lightblue>Received action service request: adjust_camera_pitch</color>
+[22:28:04] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:28:04] [Log] <color=lightblue>Received action service request: adjust_camera_pitch</color>
+[22:28:05] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:28:05] [Log] <color=lightblue>Received action service request: rotate_drone_yaw_relative</color>
+[22:28:05] [Log] 命令无人机旋转至 Yaw: -103.4745°
+[22:28:05] [Log] 已到达目标偏航角。
+[22:28:05] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:28:06] [Log] <color=lightblue>Received action service request: rotate_drone_yaw_relative</color>
+[22:28:06] [Log] 命令无人机旋转至 Yaw: -217.101°
+[22:28:06] [Log] 已到达目标偏航角。
+[22:28:06] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:28:07] [Log] <color=lightblue>Received action service request: rotate_drone_yaw_relative</color>
+[22:28:07] [Log] 命令无人机旋转至 Yaw: 89.26666°
+[22:28:07] [Log] 已到达目标偏航角。
+[22:28:07] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:28:07] [Log] <color=lightblue>Received action service request: rotate_drone_yaw_relative</color>
+[22:28:07] [Log] 命令无人机旋转至 Yaw: 95.65019°
+[22:28:07] [Log] 已到达目标偏航角。
+[22:28:07] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:28:07] [Log] <color=lightblue>Received action service request: rotate_drone_yaw_relative</color>
+[22:28:07] [Log] 命令无人机旋转至 Yaw: 42.0173°
+[22:28:08] [Log] 已到达目标偏航角。
+[22:28:08] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>

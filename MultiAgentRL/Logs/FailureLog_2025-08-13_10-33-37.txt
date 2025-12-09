@@ -1,0 +1,3 @@
+--- Drone Failure Log ---
+
+Target: (-38.22, 2.00, -31.42) - Reason: Hit Obstacle: Cube

@@ -1,0 +1,88 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (-20.64, 2.50, 2.85) - Reason: Hit Obstacle: Cube
+Target: (-20.93, 2.44, -2.71) - Reason: Hit Obstacle: Cube
+Target: (-22.54, 2.50, -0.95) - Reason: Hit Obstacle: Cube
+Target: (-21.24, 2.78, -0.41) - Reason: Hit Obstacle: Cube
+Target: (-21.30, 2.78, -0.40) - Reason: Hit Obstacle: Cube
+Target: (-21.31, 2.79, -0.14) - Reason: Hit Obstacle: Cube
+Target: (29.26, 2.50, 13.35) - Reason: Hit Obstacle: Cube.131
+Target: (31.29, 3.92, 13.36) - Reason: Hit Obstacle: Cube.053
+Target: (31.29, 3.92, 13.36) - Reason: Hit Obstacle: Cube.131
+Target: (31.31, 3.92, 13.37) - Reason: Hit Obstacle: Cube.053
+Target: (31.31, 3.92, 13.37) - Reason: Hit Obstacle: Cube.131
+Target: (-29.64, 3.00, -42.75) - Reason: Hit Obstacle: Wall(1)
+Target: (-29.06, 3.41, -43.89) - Reason: Hit Ground
+Target: (-28.94, 0.15, -43.76) - Reason: Hit Obstacle: Wall(1)
+Target: (31.25, 3.92, 13.35) - Reason: Hit Ground
+Target: (29.50, -0.01, 14.31) - Reason: Out of Bounds
+Target: (29.50, -0.01, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds
+Target: (29.50, 0.00, 14.31) - Reason: Out of Bounds

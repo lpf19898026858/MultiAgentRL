@@ -1,0 +1,9 @@
+--- Unity ML-Agents Training Log Started at 2025/8/16 22:14:49 ---
+
+[22:14:49] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[22:14:49] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[22:14:50] [Log] ROS连接已设置。订阅: /drone_target. 发布: /drone_status, /drone_pose, /camera/image_raw
+[22:14:50] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[22:14:50] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[22:14:54] [Log] <color=red>碰撞失败! Hit Obstacle: Cube。最终奖励: -12</color>
+[22:14:54] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>

@@ -1,0 +1,30 @@
+--- Unity ML-Agents Training Log Started at 2025/8/11 21:09:56 ---
+
+[21:09:56] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[21:09:56] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[21:09:56] [Log] 已订阅: /drone_target, /clock. 已发布: /drone_status, /drone_pose
+[21:09:56] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[21:09:56] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[21:10:07] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[21:10:17] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[21:10:18] [Log] <color=cyan>接收到新目标。Unity坐标: (-18.30, 1.50, -41.90), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[21:10:18] [Log] [DEBUG] SetTargetFromRos: Function Entered.
+[21:10:18] [Log] [DEBUG] SetTargetFromRos: Agent is awaiting, proceeding to process new target. Pos=(-18.30, 1.50, -41.90)
+[21:10:18] [Log] <color=green>解析出的目标偏航角为: 0°</color>
+[21:10:18] [Log] <color=cyan>推理模式: 到达目标。现在开始悬停并等待下一个ROS目标。</color>
+[21:10:23] [Log] <color=cyan>接收到新目标。Unity坐标: (0.00, 0.00, 0.00), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[21:10:23] [Log] [DEBUG] SetTargetFromRos: Function Entered.
+[21:10:23] [Log] [DEBUG] SetTargetFromRos: Agent is awaiting, proceeding to process new target. Pos=(0.00, 0.00, 0.00)
+[21:10:23] [Log] <color=green>解析出的目标偏航角为: 0°</color>
+[21:10:23] [Log] <color=red>OnCollisionEnter: Hit Obstacle! Episode Ended. Hit: Cube (4)</color>
+[21:10:23] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[21:10:28] [Log] <color=cyan>接收到新目标。Unity坐标: (-9.10, 1.50, -37.72), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[21:10:28] [Log] [DEBUG] SetTargetFromRos: Function Entered.
+[21:10:28] [Log] [DEBUG] SetTargetFromRos: Agent is awaiting, proceeding to process new target. Pos=(-9.10, 1.50, -37.72)
+[21:10:28] [Log] <color=green>解析出的目标偏航角为: 0°</color>
+[21:10:28] [Log] <color=red>OnCollisionEnter: Hit Obstacle! Episode Ended. Hit: Cube (4)</color>
+[21:10:28] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[21:10:28] [Log] <color=red>OnCollisionEnter: Hit Obstacle! Episode Ended. Hit: Cube (4)</color>
+[21:10:28] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[21:10:28] [Log] <color=red>OnCollisionEnter: Hit Obstacle! Episode Ended. Hit: Cube (4)</color>
+[21:10:28] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>

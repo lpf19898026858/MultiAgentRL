@@ -1,0 +1,1793 @@
+﻿<Project>
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>Temp/obj/$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+    <OutputPath>Temp/bin/Debug/</OutputPath>
+  </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Include="Unity" />
+  </ItemGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <LangVersion>9.0</LangVersion>
+    <RootNamespace></RootNamespace>
+    <OutputType>Library</OutputType>
+    <AssemblyName>siemens.ros-sharp.Runtime</AssemblyName>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0169;USG0001</NoWarn>
+    <DefineConstants>UNITY_2022_3_54;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_LINUX;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStandardLibraries>true</NoStandardLibraries>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.23</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneLinux64:24</UnityBuildTarget>
+    <UnityVersion>2022.3.54f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/home/lpf/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.2/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/LoadMapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/GetActionServersRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/GetParamNamesRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/SetPlannerParams_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/Joy.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/Topics_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Actionlib/ActionServer.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/OrientationConstraint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Transform.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/msg/TF2Error.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/TopicsForType_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Tf2/srv/FrameGraphResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Accel.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/SaveRobotStateToWarehouse_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/GetActionServersResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Communicators.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Trigger_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Tf2/msg/LookupTransformActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/RegionOfInterest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ChangeDriftDimensions_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/Temperature.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupSequenceActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/NodesResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/msg/RecognizedObject.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/CameraInfo.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/DeleteRobotStateFromWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PlaceAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfVisual.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetPlannerParamsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/ApplyPlanningSceneRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Octomap/srv/GetOctomapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceProvidersRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/ChangeControlDimensionsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/PlannerParams.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Int64MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/LocalPlannerAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/CollisionObject.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/PolygonStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Actionlib/ActionStatus.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PickupActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/SearchParamResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Int64.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetPlannerParamsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetPositionIKRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ContactInformation.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/srv/SetBoolResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/BoundingVolume.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/RosSocket.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetMotionSequenceRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/GetTimeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/ChangeDriftDimensionsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Actionlib/ActionClient.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/JointStateSubscriber.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/Constraints.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/GetParamServiceProvider.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetRobotStateFromWarehouse_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Protocols/Protocol.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupSequenceAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/srv/EmptyRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/MotionPlanRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/NodeDetails_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServiceResponseDetailsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/TopicTypeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/DisplayRobotState.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/srv/FrameGraphResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/Nodes_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PickupActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ExecuteKnownTrajectory_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/Services_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/JointLimitsManagers/HingeJointLimitsManager.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServiceRequestDetailsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ChangeControlDimensions_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/SetParamResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServiceProvidersRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceHostRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/srv/SetMapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Vector3.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/GetParam_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/QueryPlannerInterfaces_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/MultiEchoLaserScan.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/Temperature.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/srv/GetObjectInformationRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Int16MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/ExecuteTrajectoryActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/SetBool_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/MoveItErrorCodes.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Shape/msg/Mesh.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/action/LookupTransformGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ApplyPlanningScene_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Float64.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetPlannerParamsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/HybridPlannerActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/UInt16.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/msg/ObjectInformation.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/JointConstraint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/QueryPlannerInterfacesResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Shape/msg/Plane.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GraspPlanningResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/CartesianTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/LocalPlannerResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GripperTranslation.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/NodesRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Octomap/msg/GetOctomap_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/action/ObjectRecognitionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/TimeReference.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/MessageDetailsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/msg/Table.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/SetPlannerParamsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/SetParam_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/Odometry.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/GlobalPlannerResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PlaceActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/OccupancyGrid.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Shape/msg/MeshTriangle.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/JointConstraint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/WrenchStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/SubscribersResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/TransformStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/BaseMessages/Actions/ActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ActionTutorialsInterfaces/action/FibonacciActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetPositionIK_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/MotionPlanDetailedResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/TopicsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetStateValidityRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/PlaceLocation.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/MessageGeneration/MessageAutoGen.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/Urdf/XAttributeExtensions.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/action/ObjectRecognitionActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/srv/GetObjectInformationRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Octomap/srv/BoundingBoxQueryResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Serializers/ISerializer.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/GetMapAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/SaveRobotStateToWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/Image.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Action/srv/CancelGoalRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/Illuminance.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/DeleteParamRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetPlanningSceneResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetMotionSequenceResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Polygon.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/CheckIfRobotStateExistsInWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ActionTutorialsInterfaces/action/FibonacciAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/Range.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/RenameRobotStateInWarehouse_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/TwistWithCovarianceStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/UInt32MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/QueryPlannerInterfacesRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfPlugin.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/AveragingResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetMotionSequence_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/PointCloud.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Int8MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfJoints/HingeJointAngleCalculator.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/TopicsAndRawTypes_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Empty_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/QueryPlannerInterfacesResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupSequenceAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestRequestResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetRobotStateFromWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Int64.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/LocalPlannerActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/Timing/Timer.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfJoints/UrdfJoint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/PlanningSceneComponents.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/MessageGeneration/MessageToken.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/UnityFibonacciActionSever.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/srv/GetPlanRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/JoyButtonWriter.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/CostSource.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/MessageGeneration/MessageParser.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServiceRequestDetails_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/MapMetaData.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/ColorRGBA.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/PointCloud.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/NavSatStatus.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServicesRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/RenameRobotStateInWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Octomap/srv/BoundingBoxQueryResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/JointLimitsManagers/PrismaticJointLimitsManager.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/ExecuteTrajectoryActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/UInt16MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/srv/LoadMapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/TopicsAndRawTypesResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GraspPlanningRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfVisuals.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/TopicsForTypeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Log.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Int16MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServicesRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/srv/TriggerRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/GetMapGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/BaseMessages/Message.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/AllowedCollisionMatrix.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/GetParamNamesRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/MultiArrayDimension.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/MultiArrayLayout.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Vector3Stamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/PositionConstraint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetPositionIKResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/DeleteRobotStateFromWarehouse_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Empty_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetCartesianPath_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfJoints/UrdfJointFixed.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/LinkScale.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/TopicTypeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/GetMapActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/Urdf/Joint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/ExecuteKnownTrajectoryResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestRequestActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/String.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/MultiDOFJointState.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/JointState.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/srv/SetCameraInfoRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetRobotStateFromWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/GetROSVersion_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServiceProvidersResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/InertiaStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetStateValidityResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/TwistWithCovariance.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/GlobalPlannerAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/ColorRGBA.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupSequenceActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/KinematicSolverInfo.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PickupAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/GetParamResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Vector3.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/TwistStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Pose2D.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/srv/GetPlanRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TwoIntsAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/TopicsAndRawTypesRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/LocalPlannerActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/GlobalPlannerActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GenericTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PickupActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/JoyAxisJointMotorWriter.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/DeleteRobotStateFromWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/DisplayTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/SearchParamRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Tf2/msg/LookupTransformResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Int64MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Serializers/NewtonsoftJsonSerializer.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Tf2/msg/TF2Error.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetPlannerParams_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/PublishersResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupSequenceActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/ChangeDriftDimensionsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Trajectory/msg/JointTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/srv/TriggerRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/FileServer/srv/GetBinaryFileRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/ChangeControlDimensionsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/LoadMap_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/SetMap_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServicesResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/LaserScanSubscriber.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/PlannerInterfaceDescription.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestRequestAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/TopicsAndRawTypesRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/PublishersRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfCollisions.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/LinkPadding.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServicesResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Octomap/srv/GetOctomapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/ObjectColor.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PickupAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/LaserScanPublisher.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/BuiltinInterfaces/msg/Time.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/OrientationConstraint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Header.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PickupActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/action/ObjectRecognitionAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/action/LookupTransformResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/SensorDataVisualization/LaserScanVisualizerMesh.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfLink.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/TrajectoryConstraints.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Wrench.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/LaserEcho.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ExecuteKnownTrajectory_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/OdometrySubscriber.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/JointLimits.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/JoyAxisReader.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PickupGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/srv/SetCameraInfoResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/PoseArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/LaserEcho.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/HybridPlannerActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ChangeDriftDimensions_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/Publishers_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Tf2/msg/TFMessage.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/ExecuteTrajectoryGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/GoalID.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/UpdatePointcloudOctomap_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Octomap/msg/BoundingBoxQuery_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestRequestActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/srv/LoadMapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ListRobotStatesInWarehouse_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/FibonacciActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/srv/SetBoolRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/PointField.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/MessageGeneration/MessageTokenizer.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/Imu.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/Urdf/Plugin.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/HasParamRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/Urdf/Link.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/FileServer2/srv/GetBinaryFileResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Float64MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PickupGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Trajectory/msg/JointTrajectoryPoint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceResponseDetailsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/GetTime_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/RobotState.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceHostResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServiceType_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/ExecuteKnownTrajectoryRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/ExecuteKnownTrajectoryResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TwoIntsActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Transform.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/LinkScale.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/action/ObjectRecognitionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/HasParamResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/MagneticField.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/msg/TypeDef.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/MessageGeneration/ServiceAutoGen.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/JoyFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PickupActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Communication.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/Services_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/TopicTypeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/GridCells.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/MotionPlanRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/AccelStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/srv/TriggerResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/BaseMessages/Actions/Action.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/MagneticField.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/LaserScan.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/AveragingGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceNodeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/SaveMap_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/GlobalPlannerFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/RobotState.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupSequenceFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/ExecuteTrajectoryAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/VisibilityConstraint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/CartesianPoint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/ExecuteTrajectoryFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/LaserScanReader.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Tf2/msg/LookupTransformAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/PoseArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/JoyPublisher.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ObjectColor.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/PoseStampedPublisher.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/MultiEchoLaserScan.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/PlanningSceneWorld.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Pose.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/GetMap_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Int16.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetStateValidity_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/RosConnector.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/MessageDetailsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/Constraints.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/ListRobotStatesInWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/MultiArrayDimension.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TwoIntsResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Extensions/TransformExtensions.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/GoalStatus.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PlaceResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/SetParam_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Serializers/MicrosoftSerializer.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/Range.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/RenameRobotStateInWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Byte.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/AllowedCollisionEntry.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/SetPlannerParamsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/MessageDetailsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServiceNodeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Vector3Stamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/srv/EmptyRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Int8.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetPlanningScene_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/MotionSequenceRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/PlanningSceneComponents.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/JoyFeedbackArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupSequenceActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/GetActionServers_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/msg/ObjectInformation.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/CartesianTrajectoryPoint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Trigger_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/SubscribersRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/QuaternionStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/GetMap_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Float32.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/SetMap_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/msg/FrameGraph_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/UInt8MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/RelativeHumidity.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/Path.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/GetActionServersRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/CompressedImageSubscriber.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/UpdatePointcloudOctomapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/AveragingActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServiceResponseDetailsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/action/ObjectRecognitionActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Trajectory/msg/MultiDOFJointTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetMotionSequenceResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/UInt32.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/Subscribers_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/GoalStatusArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/NodesRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/UInt64MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/srv/EmptyResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/DeleteParamResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/ExecuteTrajectoryActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PlaceGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/UnitySubscriber.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Tf2/msg/LookupTransformActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/AllowedCollisionMatrix.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/GetActionServersResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Float32.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/LinkPadding.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/Subscribers_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/TopicsAndRawTypes_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetPlannerParams_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/TopicType_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/ContactInformation.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetPositionFK_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/MessageDetails_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/KinematicSolverInfo.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupSequenceResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/SensorDataVisualization/LaserScanVisualizerSpheres.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/AccelWithCovariance.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/WrenchStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/msg/GetObjectInformation_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/ApplyPlanningSceneResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/ExecuteTrajectoryActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Shape/msg/SolidPrimitive.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/UpdatePointcloudOctomapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Int16.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Int32.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Float64.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupSequenceGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupSequenceGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/NodeDetails_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/Topics_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetMotionPlanRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/TopicsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/SetBool_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/UrdfTransfer/UrdfTransfer.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/SaveMapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Int8.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/PlannerInterfaceDescription.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/AveragingActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/TwistWithCovariance.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GraspPlanningRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TwoIntsActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfJoints/UrdfJointPlanar.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceTypeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestRequestGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/CartesianPoint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/MotionSequenceResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/SaveRobotStateToWarehouse_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/SubscribersResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/QuaternionStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/JointStatePublisher.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/FileServer2/srv/SaveBinaryFileRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/TypeDef.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/BaseMessages/Actions/ActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/CollisionObject.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/msg/TFMessage.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/DeleteParam_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/JointLimits.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/RobotTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Point32.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/RenameRobotStateInWarehouse_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/UInt16MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/AveragingFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/DeleteParamResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/AccelStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PlaceFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/ChangeDriftDimensionsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PickupResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceRequestDetailsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/RegionOfInterest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/PointCloud2.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/RawImageSubscriber.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/TwistWithCovarianceStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/action/ObjectRecognitionAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServiceNode_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/PlannerParams.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/JoyFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/ListRobotStatesInWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServiceNode_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/LocalPlannerActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/action/LookupTransformActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/GripperTranslation.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/OrientedBoundingBox.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Shape/msg/MeshTriangle.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/SaveRobotStateToWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetRobotStateFromWarehouse_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServicesForTypeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/WorkspaceParameters.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PickupActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/DisplayRobotState.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/CartesianTrajectoryPoint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/ByteMultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/PoseStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/NodeDetailsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Float32MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/BatteryState.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/MotionSequenceResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Polygon.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/ListRobotStatesInWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/UInt32MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Byte.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ActionTutorialsInterfaces/action/FibonacciActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/PlanningScene.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/FibonacciFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/NavSatFix.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/PointCloud.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/UInt8.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Octomap/msg/GetOctomap_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Actionlib/FibonacciActionClient.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Octomap/srv/BoundingBoxQueryRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/CameraInfo.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/PointCloud2.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServicesForTypeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/UInt64MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/PublishersRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/NodeDetailsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/GetParamNames_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/CheckIfRobotStateExistsInWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Octomap/srv/BoundingBoxQueryRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/ApplyPlanningSceneResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Empty.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/TransformStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/TopicTypeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceResponseDetailsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/JointState.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/ExecuteTrajectoryActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/IAxisReader.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfCollision.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ActionTutorialsInterfaces/action/FibonacciActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/SetParamResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/GetTime_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/srv/SetBoolRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfRobot.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/LocalPlannerGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/srv/EmptyResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/AttachedCollisionObject.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestRequestActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/TopicsForTypeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/action/ObjectRecognitionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupSequenceFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/HybridPlannerResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/NodeDetailsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ListRobotStatesInWarehouse_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/JointStatePatcher.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/SaveMap_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/CheckIfRobotStateExistsInWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/JoyAxisInputPasser.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/FileServer/srv/SaveBinaryFileRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/ExecuteTrajectoryActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/PolygonStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/HybridPlannerFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServiceRequestDetails_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/CostSource.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/Nodes_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetStateValidity_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/ExecuteTrajectoryGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/GetMapResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/MotionPlanResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/SensorDataVisualization/LaserScanVisualizer.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Int32.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/FileServer2/srv/SaveBinaryFileResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetPositionIKResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/ChannelFloat32.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/QueryPlannerInterfacesRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/action/ObjectRecognitionActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/SetCameraInfo_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/AccelWithCovariance.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/SaveRobotStateToWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Action/msg/CancelGoal_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetStateValidityResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/JointStateReader.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/UInt16.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/OrientedBoundingBox.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfJoints/UrdfJointFloating.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfJoints/UrdfJointRevolute.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/UrdfTransfer/UrdfTransferFromRos.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/OccupancyGrid.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PickupFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/LoadMap_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/SetPlannerParams_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/FileServer/srv/GetBinaryFileResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/PositionIKRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/PoseWithCovariance.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetMotionPlan_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/ChannelFloat32.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/PlanningScene.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/srv/LoadMapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/CheckIfRobotStateExistsInWarehouse_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServiceProviders_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Octomap/msg/BoundingBoxQuery_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/Illuminance.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/TwistSubscriber.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/srv/FrameGraphRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServicesForTypeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceNodeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/MapMetaData.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/NodesResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TwoIntsActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/RenameRobotStateInWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/PoseStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServiceTypeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/GetTimeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/GetParam_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/PointField.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Pose.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/GetParamRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/InertiaStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/AveragingAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Float64MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GraspPlanning_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/DeleteRobotStateFromWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/NavSatFix.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Protocols/IProtocol.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Octomap/msg/Octomap.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Tf2/msg/LookupTransformFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/WorkspaceParameters.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/Imu.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/GetTimeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/MessageDetails_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/LoadMapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/BoundingVolume.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceTypeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/srv/GetMapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceProvidersResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/AveragingActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/UInt8MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/BuiltinInterfaces/msg/Duration.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/ImagePublisher.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/FluidPressure.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/GetParamResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/MotionSequenceRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Accel.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/HasParam_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/MotionPlanResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/FluidPressure.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/LaserScanWriter.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/FileServer/srv/SaveBinaryFileResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/MessageGeneration/ActionAutoGen.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Trajectory/msg/JointTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/SubscribersRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetRobotStateFromWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/StringSubscriber.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/Odometry.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/FibonacciActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/PlanningOptions.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Point32.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/GetPlan_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/Urdf/Origin.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServiceType_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/srv/GetObjectInformationResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/msg/ObjectType.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/PoseStampedSubscriber.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/ExecuteTrajectoryAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/SetParamRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Protocols/MessageEventArgs.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/CompressedImage.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/GetMapActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/SaveMapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PlaceResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/MultiArrayLayout.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/FileServer2/srv/GetBinaryFileRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/ChangeControlDimensionsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/ChangeControlDimensionsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Trajectory/msg/MultiDOFJointTrajectoryPoint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/CheckIfRobotStateExistsInWarehouse_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/VisibilityConstraint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Tf2/msg/LookupTransformActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/action/LookupTransformActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/UpdatePointcloudOctomapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfOrigin.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/HasParam_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetMotionPlanRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/DeleteParamRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TwoIntsFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetPlanningSceneResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GraspPlanningResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/LoadMapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TestRequestFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetMotionPlanResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/srv/SetMapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/TopicsForType_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetMotionPlanResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/PoseWithCovarianceStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/Image.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/ConstraintEvalResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Empty.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/DeleteRobotStateFromWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/CartesianTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetMotionSequence_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/GetParamNamesResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/ExecuteKnownTrajectoryRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Extensions/HeaderExtensions.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/JoySubscriber.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/GlobalPlannerActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/GetROSVersion_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/ExecuteTrajectoryFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Action/msg/GoalStatus.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ActionTutorialsInterfaces/action/FibonacciGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/msg/ObjectType.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Char.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/GetTimeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/UInt8.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Char.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/NavSatStatus.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/msg/RecognizedObjectArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/BatteryState.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetCartesianPathRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServiceResponseDetails_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/FibonacciGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/srv/GetMapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/GenericTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/TopicsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/Math/Matrix3x3.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/action/ObjectRecognitionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/SaveMapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Bool.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/LaserScan.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/action/LookupTransformAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Quaternion.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetMotionPlan_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/ExecuteTrajectoryResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServiceNodeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/UnityPublisher.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/PoseWithCovarianceStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/PointStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PickupResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/SetPlannerParamsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/SetParamRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Shape/msg/Plane.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/UrdfTransfer/UrdfTransferToRos.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Quaternion.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupSequenceActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/UnityFibonacciActionClient.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetRobotStateFromWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/msg/GetObjectInformation_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/PositionIKRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/PlanningSceneWorld.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/msg/FrameGraph_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/AccelWithCovarianceStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/msg/RecognizedObject.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServiceResponseDetails_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/GetROSVersionRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/action/ObjectRecognitionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServiceTypeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Protocols/WebSocketSharpProtocol.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/FibonacciActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/GetROSVersionResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/PublishersResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/msg/TableArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/srv/SetMapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/Joy.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetStateValidityRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/ApplyPlanningSceneRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/GridCells.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Actionlib/msg/TwoIntsGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/MoveItErrorCodes.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Time.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Int32MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/StringPublisher.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/ChangeDriftDimensionsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Point.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/Publishers_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ActionTutorialsInterfaces/action/FibonacciFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetPlanningSceneRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/String.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/srv/GetMapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/SetPlannerParamsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/srv/SetCameraInfoResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetCartesianPathResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Action/srv/CancelGoalResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/msg/RecognizedObjectArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/PlaceLocation.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/CheckIfRobotStateExistsInWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/Path.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/GetActionServers_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/LoadMapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/PoseWithCovariance.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupSequenceResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/SaveRobotStateToWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Octomap/msg/OctomapWithPose.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ApplyPlanningScene_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/RelativeHumidity.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Tf2/msg/LookupTransformGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/AllowedCollisionEntry.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/srv/GetObjectInformationResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PlaceGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/UpdatePointcloudOctomap_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/HybridPlannerGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServicesForType_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Twist.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/UInt64.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetCartesianPath_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Twist.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/LoadMap_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/JoyButtonReader.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/GlobalPlannerGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/MoveGroupSequenceActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfJoints/UrdfJointContinuous.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/GetMapActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/QueryPlannerInterfaces_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetPlanningScene_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/SensorDataVisualization/LaserScanVisualizerLines.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfPlugins.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetCartesianPathResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/HasParamResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/TopicsForTypeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/BaseMessages/Actions/ActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/msg/GetMapFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/SetCameraInfo_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/GlobalPlannerActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/LocalPlannerFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/AccelWithCovarianceStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/JoyAxisWriter.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/ByteMultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/srv/GetMapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/UInt64.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GraspPlanning_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Inertia.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Octomap/msg/OctomapWithPose.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/RenameRobotStateInWarehouseRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/action/LookupTransformActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/Grasp.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/UniqueIdentifier/msg/UUID.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/TopicsAndRawTypesResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Action/msg/CancelGoal_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/MessageDetailsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Action/msg/GoalStatusArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Octomap/msg/Octomap.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/DisplayTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/MoveGroupActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/PlanningOptions.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/NodeDetailsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PickupFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/srv/GetPlanResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/PositionConstraint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Duration.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/TrajectoryConstraints.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/JoyFeedbackArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/AttachedCollisionObject.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetPositionFKResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/Grasp.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServiceProviders_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/msg/CompressedImage.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/srv/SetBoolResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/msg/TableArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Header.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ActionTutorialsInterfaces/action/FibonacciResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Pose2D.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/GetParamNamesResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/msg/Table.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfInertial.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/HybridPlannerAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/ExecuteTrajectoryResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Trajectory/msg/JointTrajectoryPoint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/action/ObjectRecognitionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Protocols/WebSocketNetProtocol.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServiceRequestDetailsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ConstraintEvalResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetPositionFK_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/Inertia.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetPositionIKRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Shape/msg/SolidPrimitive.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetCartesianPathRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/ServicesForTypeRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Shape/msg/Mesh.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PlaceActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PlaceActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Int8MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetPositionFKRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Geometry/msg/TwistStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/GetParamRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/action/ObjectRecognitionActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PlaceAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/ServicesForType_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetPlannerParamsResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/TopicsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Trajectory/msg/MultiDOFJointTrajectoryPoint.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/RobotTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/srv/TriggerResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Float32MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/srv/ServiceRequestDetailsRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/PointStamped.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/MotionSequenceItem.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/PlaceActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/srv/GetPlanResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/JoyAxisJointTransformWriter.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/UpdatePointcloudOctomapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Octomap/srv/GetOctomapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Action/msg/GoalInfo.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Trajectory/msg/MultiDOFJointTrajectory.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Sensor/srv/SetCameraInfoRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/DeleteParam_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/ObjectRecognition/action/ObjectRecognitionActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/ChangeControlDimensions_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Urdf/UrdfComponents/UrdfJoints/UrdfJointPrismatic.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/UInt32.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetPlanningSceneRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/GetPositionIK_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/ListRobotStatesInWarehouseResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/TopicType_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ObjectRecognition/action/ObjectRecognitionActionFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/action/HybridPlannerActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/Urdf/Robot.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/TwistPublisher.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PlaceFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/MultiDOFJointState.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/FibonacciAction.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Octomap/srv/GetOctomapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Rosapi/msg/GetParamNames_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/msg/DeleteRobotStateFromWarehouse_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/LoadMap_Response.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetPositionFKResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/SaveMapResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/msg/GetPlan_Request.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/srv/GetPositionFKRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Nav/srv/LoadMapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/TopicsForTypeResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Rosapi/srv/HasParamRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Wrench.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Tf2/action/LookupTransformFeedback.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Std/msg/Bool.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PlaceActionGoal.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Moveit/srv/GetMotionSequenceRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Geometry/msg/Point.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/action/PlaceActionResult.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Sensor/msg/TimeReference.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/Actionlib/FibonacciActionServer.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/MessageHandling/JointStateWriter.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/MessageGeneration/MsgAutoGenUtilities.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Std/msg/Int32MultiArray.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/RosBridgeClient/RosCommunication/UnityServiceProvider.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/MotionPlanDetailedResponse.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Moveit/msg/MotionSequenceItem.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS2/Nav/srv/SetMapRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/Tf2/srv/FrameGraphRequest.cs" />
+    <Compile Include="Assets/ROS# Project Team/ROS#/Runtime/Libraries/RosBridgeClient/MessageTypes/ROS1/ActionlibTutorials/action/FibonacciResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/ROS# Project Team/ROS#/Runtime/siemens.ros-sharp.Runtime.asmdef" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.EditorToolbarModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.EditorToolbarModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.SceneViewModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneViewModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets/ROS# Project Team/ROS#/Plugins/websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>Assets/ROS# Project Team/ROS#/Plugins/System.Text.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Channels">
+      <HintPath>Assets/ROS# Project Team/ROS#/Plugins/System.Threading.Channels.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>Assets/ROS# Project Team/ROS#/Plugins/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipelines">
+      <HintPath>Assets/ROS# Project Team/ROS#/Plugins/System.IO.Pipelines.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Remove="LaunchProfiles" />
+    <ProjectCapability Remove="SharedProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
+    <ProjectCapability Remove="ReferenceManagerProjects" />
+    <ProjectCapability Remove="COMReferences" />
+    <ProjectCapability Remove="ReferenceManagerCOM" />
+    <ProjectCapability Remove="AssemblyReferences" />
+    <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
+</Project>

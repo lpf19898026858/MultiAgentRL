@@ -1,0 +1,41 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (-32.01, 2.95, -14.11) - Reason: Out of Bounds
+Target: (-32.01, 2.95, -14.11) - Reason: Out of Bounds
+Target: (-32.01, 2.95, -14.11) - Reason: Out of Bounds
+Target: (-32.01, 2.95, -14.11) - Reason: Out of Bounds
+Target: (-32.01, 2.95, -14.12) - Reason: Out of Bounds
+Target: (-32.01, 2.95, -14.12) - Reason: Out of Bounds
+Target: (-32.01, 2.95, -14.12) - Reason: Out of Bounds
+Target: (-32.01, 2.95, -14.12) - Reason: Out of Bounds
+Target: (-32.01, 2.95, -14.12) - Reason: Out of Bounds
+Target: (-32.01, 2.95, -14.12) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.13) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.13) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.13) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.13) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.13) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.13) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.13) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.13) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.13) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.13) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.13) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds
+Target: (-32.00, 2.95, -14.14) - Reason: Out of Bounds

@@ -1,0 +1,69 @@
+--- Unity ML-Agents Training Log Started at 2025/8/16 15:35:17 ---
+
+[15:35:17] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[15:35:17] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[15:35:17] [Log] ROS连接已设置。订阅: /drone_target. 发布: /drone_status, /drone_pose, /camera/image_raw
+[15:35:17] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[15:35:17] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:36:15] [Log] <color=lightblue>Received action service request: takeoff</color>
+[15:36:15] [Log] Executing TakeoffRoutine to altitude: 3m.
+[15:36:15] [Log] Takeoff finished. Hovering at target altitude.
+[15:36:16] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 2.50, -42.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[15:36:16] [Log] <color=yellow>新目标已入队。位置: (-29.64, 2.50, -42.75)。 队列中总目标数: 1。</color>
+[15:36:16] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, -42.75)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[15:36:16] [Log] <color=cyan>接收到新目标。Unity坐标: (-24.74, 2.50, -37.65), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[15:36:16] [Log] <color=yellow>新目标已入队。位置: (-24.74, 2.50, -37.65)。 队列中总目标数: 1。</color>
+[15:36:16] [Log] <color=green>到达航点: (-29.64, 2.50, -42.75)。正在处理队列中的下一个目标...</color>
+[15:36:16] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-24.74, 2.50, -37.65)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[15:36:16] [Log] <color=cyan>接收到新目标。Unity坐标: (-21.14, 2.50, -32.05), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[15:36:16] [Log] <color=yellow>新目标已入队。位置: (-21.14, 2.50, -32.05)。 队列中总目标数: 1。</color>
+[15:36:16] [Log] <color=cyan>接收到新目标。Unity坐标: (-21.14, 2.50, -25.05), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[15:36:16] [Log] <color=yellow>新目标已入队。位置: (-21.14, 2.50, -25.05)。 队列中总目标数: 2。</color>
+[15:36:16] [Log] <color=cyan>接收到新目标。Unity坐标: (-21.14, 2.50, -20.85), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[15:36:16] [Log] <color=yellow>新目标已入队。位置: (-21.14, 2.50, -20.85)。 队列中总目标数: 3。</color>
+[15:36:16] [Log] <color=green>到达航点: (-24.74, 2.50, -37.65)。正在处理队列中的下一个目标...</color>
+[15:36:16] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-21.14, 2.50, -32.05)。 偏航角: 0°。队列中还剩 2 个目标。</color>
+[15:36:16] [Log] <color=green>到达航点: (-21.14, 2.50, -32.05)。正在处理队列中的下一个目标...</color>
+[15:36:16] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-21.14, 2.50, -25.05)。 偏航角: 0°。队列中还剩 1 个目标。</color>
+[15:36:17] [Log] <color=green>到达航点: (-21.14, 2.50, -25.05)。正在处理队列中的下一个目标...</color>
+[15:36:17] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-21.14, 2.50, -20.85)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[15:36:17] [Log] <color=green>到达航点: (-21.14, 2.50, -20.85)。正在处理队列中的下一个目标...</color>
+[15:36:17] [Log] <color=cyan>航点队列已空。正在悬停并等待新的ROS目标。</color>
+[15:36:17] [Log] <color=lightblue>Received action service request: adjust_camera</color>
+[15:36:17] [Log] Executing AdjustCameraRoutine to pitch: 0 degrees.
+[15:36:17] [Log] Camera adjustment finished.
+[15:36:20] [Log] <color=lightblue>Received action service request: adjust_camera</color>
+[15:36:20] [Log] Executing AdjustCameraRoutine to pitch: -90 degrees.
+[15:36:20] [Log] Camera adjustment finished.
+[15:36:23] [Log] <color=lightblue>Received action service request: adjust_camera</color>
+[15:36:23] [Log] Executing AdjustCameraRoutine to pitch: 0 degrees.
+[15:36:23] [Log] Camera adjustment finished.
+[15:36:25] [Log] <color=lightblue>Received action service request: rotate_yaw</color>
+[15:36:25] [Log] Executing RotateYawRoutine for 90 degrees.
+[15:36:25] [Log] <color=red>碰撞失败! Hit Obstacle: Plane.000。最终奖励: -12</color>
+[15:36:25] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:36:25] [Log] <color=red>碰撞失败! Hit Obstacle: Plane.000。最终奖励: -12</color>
+[15:36:25] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:36:25] [Log] <color=red>碰撞失败! Hit Obstacle: Plane.000。最终奖励: -12</color>
+[15:36:25] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:36:25] [Log] <color=red>碰撞失败! Hit Obstacle: Plane.000。最终奖励: -12</color>
+[15:36:25] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:36:25] [Log] Rotation by 90 degrees finished.
+[15:36:27] [Log] <color=red>碰撞失败! Hit Obstacle: Plane.000。最终奖励: -12</color>
+[15:36:27] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:36:28] [Log] <color=lightblue>Received action service request: rotate_yaw</color>
+[15:36:28] [Log] Executing RotateYawRoutine for -180 degrees.
+[15:36:28] [Log] <color=red>碰撞失败! Hit Obstacle: Plane.000。最终奖励: -12</color>
+[15:36:28] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:36:28] [Log] <color=red>碰撞失败! Hit Obstacle: Plane.000。最终奖励: -12</color>
+[15:36:28] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:36:28] [Log] <color=red>碰撞失败! Hit Obstacle: Plane.000。最终奖励: -12</color>
+[15:36:28] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:36:28] [Log] <color=red>碰撞失败! Hit Obstacle: Plane.000。最终奖励: -12</color>
+[15:36:28] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:36:29] [Log] <color=red>碰撞失败! Hit Obstacle: Plane.000。最终奖励: -12</color>
+[15:36:29] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:36:29] [Log] Rotation by -180 degrees finished.
+[15:36:32] [Log] <color=lightblue>Received action service request: rotate_yaw</color>
+[15:36:32] [Log] Executing RotateYawRoutine for 90 degrees.
+[15:36:32] [Log] Rotation by 90 degrees finished.

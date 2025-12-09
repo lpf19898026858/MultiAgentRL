@@ -1,0 +1,5 @@
+--- Drone Failure Log ---
+
+Target: (0.00, 3.00, 0.00) - Reason: Hit Obstacle: Cube (1)
+Target: (0.00, 3.00, 0.00) - Reason: Hit Obstacle: Cube (1)
+Target: (-27.29, 2.48, -37.99) - Reason: Hit Obstacle: Cube (1)

@@ -1,0 +1,8 @@
+--- End-to-End Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (-21.88, 0.85, -40.44) - Reason: Hit Ground

@@ -1,0 +1,87 @@
+--- Drone Failure Log ---
+
+Target: (-21.92, 0.58, -6.17) - Reason: Hit Obstacle: Cube
+Target: (-22.72, 1.42, -23.51) - Reason: Hit Obstacle: Plane.000
+Target: (-22.94, 2.25, -23.25) - Reason: Hit Obstacle: Plane.000
+Target: (-18.41, 5.46, -33.88) - Reason: Hit Obstacle: Cube (1)
+Target: (13.48, 1.14, -30.00) - Reason: Hit Obstacle: Cube
+Target: (21.55, 4.64, 12.09) - Reason: Hit Obstacle: Plane.000
+Target: (-22.39, 3.72, -30.17) - Reason: Hit Obstacle: Cube (1)
+Target: (-13.88, 2.37, -34.59) - Reason: Hit Obstacle: Cube (4)
+Target: (-23.68, 2.51, -23.97) - Reason: Hit Obstacle: Plane.000
+Target: (19.95, 4.94, 34.00) - Reason: Hit Obstacle: Church
+Target: (-23.86, 1.85, -41.32) - Reason: Hit Obstacle: Cube (1)
+Target: (-20.94, 4.06, 38.34) - Reason: Hit Obstacle: Plane.000
+Target: (-28.63, 1.39, -37.71) - Reason: Hit Obstacle: Cube (2)
+Target: (-18.34, 4.62, -32.33) - Reason: Hit Obstacle: Cube (4)
+Target: (-16.83, 5.63, -32.71) - Reason: Hit Obstacle: Cube (4)
+Target: (-1.08, 0.92, -6.64) - Reason: Hit Obstacle: Cube
+Target: (-15.62, 5.38, -30.86) - Reason: Hit Obstacle: Cube (4)
+Target: (-20.47, 1.03, -27.41) - Reason: Hit Obstacle: Plane.000
+Target: (-23.45, 1.02, -42.99) - Reason: Hit Obstacle: Cube (1)
+Target: (-10.51, 3.30, 38.63) - Reason: Hit Obstacle: Plane.000
+Target: (-13.04, 1.52, -41.80) - Reason: Hit Obstacle: Cube (4)
+Target: (-15.43, 4.84, -11.64) - Reason: Hit Obstacle: Plane.000
+Target: (23.48, 4.08, 13.69) - Reason: Hit Obstacle: Plane.000
+Target: (-28.99, 2.92, -34.52) - Reason: Hit Obstacle: Cube (3)
+Target: (1.29, 3.20, -34.73) - Reason: Hit Obstacle: Cube
+Target: (-9.38, 0.97, -37.72) - Reason: Hit Obstacle: Cube (4)
+Target: (-8.95, 2.41, 29.48) - Reason: Hit Ground
+Target: (-16.63, 2.54, -9.90) - Reason: Hit Obstacle: Cube
+Target: (-21.91, 3.33, -29.38) - Reason: Hit Obstacle: Cube (1)
+Target: (16.76, 1.76, -31.74) - Reason: Hit Obstacle: Plane.000
+Target: (-23.49, 2.73, -29.71) - Reason: Hit Obstacle: Cube (1)
+Target: (-31.25, 1.59, -7.38) - Reason: Hit Obstacle: Plane.000
+Target: (0.86, 2.23, -7.95) - Reason: Hit Obstacle: Cube
+Target: (-22.14, 1.31, -3.03) - Reason: Hit Obstacle: Cube
+Target: (8.85, 1.11, 0.69) - Reason: Hit Obstacle: Cube
+Target: (-13.47, 5.34, -38.75) - Reason: Hit Obstacle: Cube (4)
+Target: (-18.48, 5.97, -31.26) - Reason: Hit Obstacle: Cube (4)
+Target: (-20.81, 1.26, -41.17) - Reason: Hit Obstacle: Cube (1)
+Target: (-24.45, 0.62, -39.91) - Reason: Hit Obstacle: Cube (2)
+Target: (-17.41, 1.02, -29.69) - Reason: Hit Obstacle: Plane.000
+Target: (-9.35, 3.95, -31.39) - Reason: Hit Obstacle: Cube (4)
+Target: (-20.62, 1.80, -20.18) - Reason: Hit Obstacle: Plane.000
+Target: (-17.87, 4.84, -7.50) - Reason: Hit Obstacle: Cube
+Target: (23.26, 2.84, 19.06) - Reason: Hit Obstacle: Plane.000
+Target: (-16.84, 4.51, -29.87) - Reason: Hit Obstacle: Plane.000
+Target: (19.08, 4.99, -28.84) - Reason: Hit Obstacle: Plane.000
+Target: (-22.12, 4.81, -18.34) - Reason: Hit Obstacle: Plane.000
+Target: (8.10, 2.08, -5.94) - Reason: Hit Obstacle: Cube
+Target: (11.93, 4.39, 4.81) - Reason: Hit Obstacle: Plane.000
+Target: (-8.04, 5.67, 26.12) - Reason: Hit Obstacle: Cube.053
+Target: (22.00, 3.26, -16.85) - Reason: Hit Obstacle: Plane.000
+Target: (-13.45, 0.98, -34.42) - Reason: Hit Obstacle: Cube (4)
+Target: (-12.74, 4.78, -39.61) - Reason: Hit Obstacle: Cube (4)
+Target: (-8.22, 3.60, -42.32) - Reason: Hit Obstacle: Cube
+Target: (-13.31, 5.74, -36.23) - Reason: Hit Obstacle: Cube (4)
+Target: (16.84, 4.86, -29.31) - Reason: Hit Obstacle: Plane.000
+Target: (-10.21, 3.13, -34.27) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.79, 3.13, -37.26) - Reason: Hit Obstacle: Plane.000
+Target: (17.40, 3.72, -42.88) - Reason: Hit Obstacle: Cube
+Target: (-17.10, 0.67, -32.16) - Reason: Hit Obstacle: Plane.000
+Target: (21.40, 5.31, 20.81) - Reason: Hit Obstacle: Plane.000
+Target: (17.70, 4.28, 28.04) - Reason: Hit Obstacle: Plane.000
+Target: (-25.22, 3.67, 7.10) - Reason: Hit Obstacle: Cube
+Target: (9.78, 5.70, -29.93) - Reason: Hit Obstacle: Plane.000
+Target: (-15.05, 4.15, -33.88) - Reason: Hit Obstacle: Cube (4)
+Target: (-2.51, 5.27, -37.09) - Reason: Hit Obstacle: Cube
+Target: (7.48, 3.40, -33.26) - Reason: Hit Obstacle: Cube
+Target: (-30.16, 4.07, -34.87) - Reason: Hit Obstacle: Cube (1)
+Target: (19.45, 5.71, -24.01) - Reason: Hit Obstacle: Plane.000
+Target: (-13.82, 5.47, -32.58) - Reason: Hit Obstacle: Cube (4)
+Target: (-15.68, 3.59, -30.06) - Reason: Hit Obstacle: Cube (3)
+Target: (1.94, 1.85, -40.84) - Reason: Hit Obstacle: Cube
+Target: (24.37, 5.20, 23.89) - Reason: Hit Obstacle: Plane.000
+Target: (-25.25, 1.22, -14.55) - Reason: Hit Obstacle: Plane.000
+Target: (-19.52, 4.51, -30.50) - Reason: Hit Obstacle: Plane.000
+Target: (-14.93, 2.40, -32.36) - Reason: Hit Obstacle: Cube (4)
+Target: (-12.27, 2.60, 19.36) - Reason: Hit Obstacle: Cube.053
+Target: (-10.92, 5.09, -35.73) - Reason: Hit Obstacle: Cube (4)
+Target: (23.04, 0.83, -29.33) - Reason: Hit Ground
+Target: (-29.39, 5.18, -33.76) - Reason: Hit Obstacle: Cube (1)
+Target: (-20.78, 3.04, -40.29) - Reason: Hit Obstacle: Cube (4)
+Target: (-15.91, 5.76, -34.35) - Reason: Hit Obstacle: Cube (3)
+Target: (12.40, 3.43, 5.06) - Reason: Hit Obstacle: Plane.000
+Target: (-16.48, 3.19, -33.92) - Reason: Hit Obstacle: Cube (4)
+Target: (-6.04, 0.68, -43.10) - Reason: Hit Obstacle: Cube

@@ -1,0 +1,30 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (19.06, 2.50, 25.05) - Reason: Hit Obstacle: Plane.000
+Target: (13.56, 2.14, 26.36) - Reason: Hit Obstacle: Plane.000
+Target: (13.74, 2.12, 26.25) - Reason: Hit Obstacle: Plane.000
+Target: (24.06, 2.50, 20.05) - Reason: Hit Obstacle: Plane.000
+Target: (14.03, 2.19, 26.34) - Reason: Hit Obstacle: Plane.000
+Target: (14.35, 2.16, 26.25) - Reason: Hit Obstacle: Plane.000
+Target: (14.36, 2.16, 26.06) - Reason: Hit Obstacle: Plane.000
+Target: (14.35, 2.18, 25.71) - Reason: Hit Obstacle: Plane.000
+Target: (14.34, 2.18, 25.33) - Reason: Hit Obstacle: Plane.000
+Target: (15.24, 2.32, 24.65) - Reason: Hit Obstacle: Plane.000
+Target: (14.15, 2.34, 25.33) - Reason: Hit Ground
+Target: (12.60, 0.11, 27.30) - Reason: Hit Obstacle: Plane.000
+Target: (14.33, 2.22, 24.68) - Reason: Hit Obstacle: Plane.000
+Target: (14.33, 2.16, 24.38) - Reason: Hit Obstacle: Plane.000
+Target: (28.46, 2.50, 14.75) - Reason: Hit Obstacle: Church
+Target: (19.48, 3.20, 35.50) - Reason: Hit Obstacle: Church
+Target: (29.26, 2.50, 13.35) - Reason: Hit Obstacle: Church
+Target: (19.72, 3.18, 34.47) - Reason: Hit Obstacle: Church
+Target: (19.72, 3.18, 34.40) - Reason: Hit Obstacle: Church
+Target: (19.71, 3.18, 34.38) - Reason: Hit Obstacle: Church
+Target: (12.96, 3.00, 35.05) - Reason: Hit Obstacle: Church
+Target: (16.88, 2.68, 34.56) - Reason: Hit Ground
+Target: (6.86, 3.00, 37.25) - Reason: Hit Ground

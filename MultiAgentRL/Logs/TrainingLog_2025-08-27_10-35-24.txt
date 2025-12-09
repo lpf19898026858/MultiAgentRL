@@ -1,0 +1,130 @@
+--- Unity ML-Agents Training Log Started at 2025/8/27 10:35:24 ---
+
+[10:35:24] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[10:35:24] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[10:35:25] [Log] ROS连接已设置。订阅: /drone_target. 发布: /drone_status, /drone_pose, /camera/image_raw
+[10:35:25] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[10:35:25] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:35:27] [Log] Test command: Rotating to 90 degrees!
+[10:35:27] [Log] 接收到相对旋转命令: 90°
+[10:35:27] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 90°</color>
+[10:35:27] [Log] <color=green>已到达并稳定在目标偏航角 90° (实际: 90.00, 角速度: 0.00 deg/s)</color>
+[10:35:27] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:28] [Log] Test command: Rotating to 90 degrees!
+[10:35:28] [Log] 接收到相对旋转命令: 90°
+[10:35:28] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 180°</color>
+[10:35:29] [Error] 旋转超时！未能到达目标偏航角 180°。当前角度: -31.82382, 角速度: -2864.79 deg/s
+UnityEngine.Debug:LogError (object)
+PIDControlAgent/<AnimateDroneYawRoutine>d__130:MoveNext () (at Assets/SingleAgent/Scripts/PIDControlAgent.cs:602)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[10:35:29] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:34] [Log] Test command: Rotating to -45 degrees!
+[10:35:34] [Log] 接收到相对旋转命令: -45°
+[10:35:34] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -133.2649°</color>
+[10:35:34] [Log] <color=green>已到达并稳定在目标偏航角 -133.2649° (实际: -133.27, 角速度: -0.11 deg/s)</color>
+[10:35:34] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:35] [Log] Test command: Rotating to -45 degrees!
+[10:35:35] [Log] 接收到相对旋转命令: -45°
+[10:35:35] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -177.8015°</color>
+[10:35:36] [Error] 旋转超时！未能到达目标偏航角 -177.8015°。当前角度: -144.2169, 角速度: -2864.79 deg/s
+UnityEngine.Debug:LogError (object)
+PIDControlAgent/<AnimateDroneYawRoutine>d__130:MoveNext () (at Assets/SingleAgent/Scripts/PIDControlAgent.cs:602)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[10:35:36] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:39] [Log] Test command: Rotating to -45 degrees!
+[10:35:39] [Log] 接收到相对旋转命令: -45°
+[10:35:39] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -173.0049°</color>
+[10:35:40] [Log] Test command: Rotating to -45 degrees!
+[10:35:40] [Log] 接收到相对旋转命令: -45°
+[10:35:40] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 108.6569°</color>
+[10:35:40] [Error] 旋转超时！未能到达目标偏航角 -173.0049°。当前角度: 108.6319, 角速度: -1.21 deg/s
+UnityEngine.Debug:LogError (object)
+PIDControlAgent/<AnimateDroneYawRoutine>d__130:MoveNext () (at Assets/SingleAgent/Scripts/PIDControlAgent.cs:602)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[10:35:40] [Log] <color=green>已到达并稳定在目标偏航角 108.6569° (实际: 108.66, 角速度: 0.00 deg/s)</color>
+[10:35:40] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:40] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:45] [Log] Test command: Rotating to 90 degrees!
+[10:35:45] [Log] 接收到相对旋转命令: 90°
+[10:35:45] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 198.657°</color>
+[10:35:46] [Error] 旋转超时！未能到达目标偏航角 198.657°。当前角度: 6.153244, 角速度: -2864.79 deg/s
+UnityEngine.Debug:LogError (object)
+PIDControlAgent/<AnimateDroneYawRoutine>d__130:MoveNext () (at Assets/SingleAgent/Scripts/PIDControlAgent.cs:602)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[10:35:46] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:48] [Log] Test command: Rotating to 90 degrees!
+[10:35:48] [Log] 接收到相对旋转命令: 90°
+[10:35:48] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 22.8132°</color>
+[10:35:48] [Log] <color=green>已到达并稳定在目标偏航角 22.8132° (实际: 22.82, 角速度: 0.48 deg/s)</color>
+[10:35:48] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:51] [Log] Test command: Rotating to -45 degrees!
+[10:35:51] [Log] 接收到相对旋转命令: -45°
+[10:35:51] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -32.16098°</color>
+[10:35:51] [Log] <color=green>已到达并稳定在目标偏航角 -32.16098° (实际: -32.17, 角速度: -0.66 deg/s)</color>
+[10:35:51] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:55] [Log] Test command: Rotating to -45 degrees!
+[10:35:55] [Log] 接收到相对旋转命令: -45°
+[10:35:55] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -86.96625°</color>
+[10:35:55] [Log] <color=green>已到达并稳定在目标偏航角 -86.96625° (实际: -86.97, 角速度: 0.00 deg/s)</color>
+[10:35:55] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:56] [Log] Test command: Rotating to -45 degrees!
+[10:35:56] [Log] 接收到相对旋转命令: -45°
+[10:35:56] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -131.9662°</color>
+[10:35:56] [Log] <color=green>已到达并稳定在目标偏航角 -131.9662° (实际: -131.97, 角速度: -0.34 deg/s)</color>
+[10:35:56] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:56] [Log] Test command: Rotating to -45 degrees!
+[10:35:56] [Log] 接收到相对旋转命令: -45°
+[10:35:56] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -176.9862°</color>
+[10:35:57] [Log] Test command: Rotating to -45 degrees!
+[10:35:57] [Log] 接收到相对旋转命令: -45°
+[10:35:57] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -98.65536°</color>
+[10:35:57] [Log] <color=green>已到达并稳定在目标偏航角 -98.65536° (实际: -98.66, 角速度: 0.00 deg/s)</color>
+[10:35:57] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:57] [Error] 旋转超时！未能到达目标偏航角 -176.9862°。当前角度: -98.6553, 角速度: 0.00 deg/s
+UnityEngine.Debug:LogError (object)
+PIDControlAgent/<AnimateDroneYawRoutine>d__130:MoveNext () (at Assets/SingleAgent/Scripts/PIDControlAgent.cs:602)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[10:35:57] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:35:59] [Log] Test command: Rotating to -45 degrees!
+[10:35:59] [Log] 接收到相对旋转命令: -45°
+[10:35:59] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -143.6553°</color>
+[10:36:00] [Log] <color=green>已到达并稳定在目标偏航角 -143.6553° (实际: -143.66, 角速度: -0.02 deg/s)</color>
+[10:36:00] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:36:01] [Log] Test command: Rotating to -45 degrees!
+[10:36:01] [Log] 接收到相对旋转命令: -45°
+[10:36:01] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -188.6553°</color>
+[10:36:02] [Log] Test command: Rotating to -45 degrees!
+[10:36:02] [Log] 接收到相对旋转命令: -45°
+[10:36:02] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -46.79443°</color>
+[10:36:02] [Log] <color=green>已到达并稳定在目标偏航角 -46.79443° (实际: -46.79, 角速度: -0.32 deg/s)</color>
+[10:36:02] [Error] 旋转超时！未能到达目标偏航角 -188.6553°。当前角度: -46.79437, 角速度: 0.00 deg/s
+UnityEngine.Debug:LogError (object)
+PIDControlAgent/<AnimateDroneYawRoutine>d__130:MoveNext () (at Assets/SingleAgent/Scripts/PIDControlAgent.cs:602)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[10:36:02] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:36:02] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:36:08] [Log] Test command: Rotating to -45 degrees!
+[10:36:08] [Log] 接收到相对旋转命令: -45°
+[10:36:08] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -91.79449°</color>
+[10:36:08] [Log] <color=green>已到达并稳定在目标偏航角 -91.79449° (实际: -91.79, 角速度: -0.01 deg/s)</color>
+[10:36:08] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:36:11] [Log] Test command: Rotating to -45 degrees!
+[10:36:11] [Log] 接收到相对旋转命令: -45°
+[10:36:11] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -136.7945°</color>
+[10:36:11] [Log] <color=green>已到达并稳定在目标偏航角 -136.7945° (实际: -136.79, 角速度: 0.21 deg/s)</color>
+[10:36:11] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[10:36:12] [Log] Test command: Rotating to -45 degrees!
+[10:36:12] [Log] 接收到相对旋转命令: -45°
+[10:36:12] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -181.8891°</color>
+[10:36:13] [Error] 旋转超时！未能到达目标偏航角 -181.8891°。当前角度: 112.0757, 角速度: 2864.79 deg/s
+UnityEngine.Debug:LogError (object)
+PIDControlAgent/<AnimateDroneYawRoutine>d__130:MoveNext () (at Assets/SingleAgent/Scripts/PIDControlAgent.cs:602)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+[10:36:13] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>

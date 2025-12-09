@@ -1,0 +1,37 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (-27.54, 0.37, -39.38) - Reason: Hit Obstacle: Plane.000
+Target: (-30.65, 3.38, -40.63) - Reason: Hit Obstacle: Wall(1)
+Target: (-26.75, 0.11, -42.16) - Reason: Hit Obstacle: Cube
+Target: (-29.76, 5.59, -42.93) - Reason: Hit Obstacle: Wall(1)
+Target: (-28.62, 0.27, -43.05) - Reason: Hit Obstacle: Wall(1)
+Target: (-28.48, 0.27, -42.02) - Reason: Hit Obstacle: Wall(1)
+Target: (-28.21, 2.58, -37.80) - Reason: Hit Obstacle: Cube
+Target: (-29.30, 4.86, -41.51) - Reason: Hit Obstacle: Cube
+Target: (-29.90, 0.12, -39.80) - Reason: Hit Obstacle: Wall(1)
+Target: (-28.08, 5.95, -39.10) - Reason: Hit Obstacle: Cube
+Target: (-29.32, 5.15, -39.14) - Reason: Hit Obstacle: Cube
+Target: (-29.86, 5.37, -41.32) - Reason: Hit Obstacle: Cube
+Target: (-27.58, 1.82, -42.53) - Reason: Hit Obstacle: Wall(2)
+Target: (-27.66, 0.80, -40.17) - Reason: Hit Obstacle: Wall(1)
+Target: (-25.80, 5.87, -42.14) - Reason: Hit Obstacle: Wall(1)
+Target: (-27.33, 4.35, -41.51) - Reason: Hit Obstacle: Wall(2)
+Target: (-27.37, 5.73, -41.28) - Reason: Hit Obstacle: Cube
+Target: (-27.87, 3.93, -41.19) - Reason: Hit Obstacle: Wall(1)
+Target: (-29.02, 1.14, -40.26) - Reason: Hit Obstacle: Cube
+Target: (-29.95, 0.64, -41.91) - Reason: Hit Obstacle: Cube
+Target: (-30.04, 5.98, -42.94) - Reason: Hit Obstacle: Wall(2)
+Target: (-28.01, 5.71, -42.66) - Reason: Hit Obstacle: Wall(1)
+Target: (-27.06, 5.86, -41.17) - Reason: Hit Obstacle: Wall(1)
+Target: (-29.33, 0.16, -40.69) - Reason: Hit Obstacle: Wall(1)
+Target: (-27.67, 0.24, -40.00) - Reason: Hit Obstacle: Wall(1)
+Target: (-27.62, 5.40, -43.20) - Reason: Hit Obstacle: Wall(1)
+Target: (-29.76, 4.77, -40.78) - Reason: Hit Obstacle: Cube
+Target: (-26.79, 1.10, -41.91) - Reason: Hit Obstacle: Wall(1)
+Target: (-24.75, 5.44, -41.75) - Reason: Hit Obstacle: Cube
+Target: (-28.93, 0.15, -42.52) - Reason: Hit Obstacle: Wall(2)

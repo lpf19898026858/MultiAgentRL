@@ -1,0 +1,811 @@
+﻿<Project>
+  <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
+  <PropertyGroup>
+    <BaseIntermediateOutputPath>Temp/obj/$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)</IntermediateOutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <UseCommonOutputDirectory>true</UseCommonOutputDirectory>
+    <OutputPath>Temp/bin/Debug/</OutputPath>
+  </PropertyGroup>
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Include="Unity" />
+  </ItemGroup>
+  <PropertyGroup>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <LangVersion>9.0</LangVersion>
+    <RootNamespace></RootNamespace>
+    <OutputType>Library</OutputType>
+    <AssemblyName>YamlDotNet</AssemblyName>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>0169;USG0001</NoWarn>
+    <DefineConstants>UNITY_2022_3_54;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_LINUX;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_SERVER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoStandardLibraries>true</NoStandardLibraries>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <DisableImplicitFrameworkReferences>true</DisableImplicitFrameworkReferences>
+    <MSBuildWarningsAsMessages>MSB3277</MSBuildWarningsAsMessages>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.23</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneLinux64:24</UnityBuildTarget>
+    <UnityVersion>2022.3.54f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/home/lpf/.vscode/extensions/visualstudiotoolsforunity.vstuc-1.1.3/Analyzers/Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll" />
+    <Analyzer Include="/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/BufferedDeserialization/TypeDiscriminatingNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ScalarStyle.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphVisitors/AnchorAssigner.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/HashCode.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Helpers/NumberExtensions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IValueSerializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/StaticArrayNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Converters/DateOnlyConverter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IValueDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/EventType.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ITypeResolver.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Helpers/ReadOnlyCollectionExtensions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Utilities/StringExtensions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Serializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Converters/DateTimeConverter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/YamlMemberAttribute.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IYamlConvertible.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/YamlScalarNode.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/NullNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/DictionaryDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ObjectPool/StringLookAheadBufferPool.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/Tag.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/Comment.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/FlowSequenceEnd.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Schemas/FailsafeSchema.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectFactories/ObjectFactoryBase.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/NodeEvent.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/StaticBuilderSkeleton.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/StaticContext.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IObjectFactory.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Scanner.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NamingConventions/UnderscoredNamingConvention.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/StandardRegexOptions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/TypeConverterNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/MappingStart.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/EventEmitters/JsonEventEmitter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/BlockEnd.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/StreamStart.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/BufferedDeserialization/TypeDiscriminators/KeyValueTypeDiscriminator.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/Scalar.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/Key.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TypeInspectors/NamingConventionTypeInspector.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/YamlDocument.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/YamlAliasNode.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Helpers/GenericCollectionToNonGenericAdapter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphTraversalStrategyFactory.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/LazyComponentRegistrationListExtensions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeTypeResolvers/YamlSerializableTypeResolver.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TypeInspectors/TypeInspectorSkeleton.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/IScanner.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphVisitors/EmittingObjectGraphVisitor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/YamlSequenceNode.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/MergingParser.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ObjectPool/DefaultPooledObjectPolicy.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TypeInspectors/ReadablePropertiesTypeInspector.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/IEmitter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/YamlConvertibleNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphVisitors/ChainedObjectGraphVisitor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/EmitterState.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/LookAheadBuffer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IAliasProvider.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/SequenceStart.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NamingConventions/HyphenatedNamingConvention.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/FlowEntry.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/FsharpListNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/BlockSequenceStart.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Mark.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/EventEmitters/WriterEventEmitter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/EventEmitters/ChainedEventEmitter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeTypeResolvers/YamlConvertibleTypeResolver.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Callbacks/OnSerializingAttribute.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/MappingStyle.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ParserExtensions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Settings.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/CultureInfoAdapter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NamingConventions/LowerCaseNamingConvention.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/IParser.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/SyntaxErrorException.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/YamlNodeType.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IObjectAccessor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/ArrayNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/YamlConverterAttribute.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/Value.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectDescriptor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/BufferedDeserialization/TypeDiscriminators/IValueTypeDiscriminator.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NamingConventions/CamelCaseNamingConvention.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeTypeResolvers/DefaultContainersNodeTypeResolver.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Utilities/TypeConverter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ValueDeserializers/AliasValueDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Utilities/TypeConverterCache.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Converters/GuidConverter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Utilities/NullTypeConverter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/StaticSerializerBuilder.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Deserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/TagDirectiveCollection.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/EventInfo.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/EmitterSettings.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Parser.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Utilities/SerializerState.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/IYamlVisitor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/StreamEnd.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/IParsingEventVisitor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/LazyComponentRegistrationList.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ObjectPool/DefaultObjectPool.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ObjectPool/ObjectPool.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/YamlVisitor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphVisitors/DefaultValuesObjectGraphVisitor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/DocumentLoadingState.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Converters/DateTimeOffsetConverter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IObjectGraphVisitor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Utilities/ObjectAnchorCollection.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/SequenceEnd.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/Token.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/EventEmitters/TypeAssigningEventEmitter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphTraversalStrategies/FullObjectGraphTraversalStrategy.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/EnumerableNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TypeResolvers/DynamicTypeResolver.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/BufferedDeserialization/ITypeDiscriminatingNodeDeserializerOptions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphVisitors/AnchorAssigningObjectGraphVisitor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphVisitors/DefaultExclusiveObjectGraphVisitor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/MaximumRecursionLevelReachedException.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/PropertyInfoExtensions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/ScalarNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/YamlStaticContextAttribute.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/ParsingEvent.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ForwardAnchorNotSupportedException.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TypeInspectors/CachedTypeInspector.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/YamlIgnoreAttribute.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/YamlAttributesTypeInspector.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/DictionaryNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ValueDeserializers/NodeValueDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/SemanticErrorException.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TypeInspectors/ReadableAndWritablePropertiesTypeInspector.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Version.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Helpers/IOrderedDictionary.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Helpers/OrderedDictionary.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/LibYamlEventStream.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TypeInspectors/WritablePropertiesTypeInspector.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphVisitors/CustomSerializationObjectGraphVisitor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/StaticDeserializerBuilder.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Converters/TimeOnlyConverter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/StringLookAheadBuffer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/YamlVisitorBase.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ObjectPool/StringBuilderPool.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/FlowMappingEnd.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeTypeResolvers/TypeNameInTagNodeTypeResolver.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Utilities/IPostDeserializationCallback.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/DocumentStart.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Callbacks/OnDeserializedAttribute.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/StaticCollectionNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeTypeResolvers/TagNodeTypeResolver.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IYamlSerializable.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectFactories/LambdaObjectFactory.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/YamlSerializable.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ISerializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Helpers/FsharpHelper.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectFactories/DefaultObjectFactory.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TagMappings.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/YamlAttributeOverrides.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeTypeResolvers/MappingNodeTypeResolver.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/PropertyDescriptor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Constants.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/TagName.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IPropertyDescriptor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TypeResolvers/StaticTypeResolver.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Helpers/Polyfills.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Helpers/ExpressionExtensions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/DocumentEnd.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/StreamStart.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/AnchorAlias.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/StreamEnd.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/YamlFormatter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/EmissionPhaseObjectGraphVisitorArgs.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectFactories/StaticObjectFactory.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/INamingConvention.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Callbacks/OnDeserializingAttribute.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/DeserializerBuilder.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Utilities/ITypeConverter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/Scalar.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/INodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ParserState.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeTypeResolvers/RejectUnknownTagsNodeTypeResolver.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/AnchorName.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Helpers/ThrowHelper.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/VersionDirective.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IEventEmitter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Callbacks/OnSerializedAttribute.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphVisitors/CommentsObjectGraphVisitor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphTraversalStrategies/RoundtripObjectGraphTraversalStrategy.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/YamlStream.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/MappingEnd.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/INodeTypeResolver.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/EmitterState.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ObjectGraphVisitors/PreProcessingPhaseObjectGraphVisitorSkeleton.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/DocumentEnd.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/YamlNode.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/DocumentStart.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IRegistrationLocationSelectionSyntax.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/ObjectNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IYamlTypeConverter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/CharacterAnalyzer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/StaticDictionaryNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/BuilderSkeleton.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/YamlAttributeOverridesInspector.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/YamlNodeIdentityEqualityComparer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/RepresentationModel/YamlMappingNode.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/DefaultValuesHandling.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/BufferedDeserialization/TypeDiscriminatingNodeDeserializerOptions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/ReflectionExtensions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/Comment.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/SerializerBuilder.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/Anchor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Helpers/GenericDictionaryToNonGenericAdapter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/BufferedDeserialization/ParserBuffer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Nothing.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Emitter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/SimpleKey.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IValuePromise.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ILookAheadBuffer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/CollectionNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/BlockEntry.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TypeInspectors/ReflectionTypeInspector.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Helpers/DictionaryExtensions.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TypeInspectors/ReadableFieldsTypeInspector.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/CollectionDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/BufferedDeserialization/TypeDiscriminators/UniqueKeyTypeDiscriminator.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Events/SequenceStyle.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/StreamFragment.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NamingConventions/NullNamingConvention.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/FlowMappingStart.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IObjectGraphTraversalStrategy.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/TypeInspectors/CompositeTypeInspector.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Cursor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/TagDirective.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ObjectPool/IPooledObjectPolicy.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/ITypeInspector.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Utilities/ReflectionTypeConverter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Converters/DateTime8601Converter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/IObjectDescriptor.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/AnchorAlias.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/Error.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ObjectPool/IResettable.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/YamlException.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/RecursionLevel.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/BlockMappingStart.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NodeDeserializers/YamlSerializableNodeDeserializer.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/Converters/SystemTypeConverter.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/ObjectPool/StringBuilderPooledObjectPolicy.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/InsertionQueue.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/AnchorNotFoundException.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Core/Tokens/FlowSequenceStart.cs" />
+    <Compile Include="Assets/Plugins/YamlDotNet/Serialization/NamingConventions/PascalCaseNamingConvention.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Plugins/YamlDotNet/YamlDotNet.asmdef" />
+    <None Include="Assets/Plugins/YamlDotNet/csc.rsp" />
+    <None Include="Assets/Plugins/YamlDotNet/Readme.txt" />
+    <None Include="Assets/Plugins/YamlDotNet/YamlDotNet.license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="netstandard">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/home/lpf/Unity/Hub/Editor/2022.3.54f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+  <ItemGroup>
+    <ProjectCapability Remove="LaunchProfiles" />
+    <ProjectCapability Remove="SharedProjectReferences" />
+    <ProjectCapability Remove="ReferenceManagerSharedProjects" />
+    <ProjectCapability Remove="ReferenceManagerProjects" />
+    <ProjectCapability Remove="COMReferences" />
+    <ProjectCapability Remove="ReferenceManagerCOM" />
+    <ProjectCapability Remove="AssemblyReferences" />
+    <ProjectCapability Remove="ReferenceManagerAssemblies" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,112 @@
+--- Unity ML-Agents Training Log Started at 2025/8/26 22:37:26 ---
+
+[22:37:26] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[22:37:26] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[22:37:26] [Log] ROS连接已设置。订阅: /drone_target. 发布: /drone_status, /drone_pose, /camera/image_raw
+[22:37:26] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[22:37:26] [Log] <color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>
+[22:37:28] [Log] Test command: Rotating to 90 degrees!
+[22:37:28] [Log] 接收到相对旋转命令: 90°
+[22:37:28] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -28.67163°</color>
+[22:37:28] [Log] <color=green>已到达并稳定在目标偏航角 -28.67163° (实际: -28.67, 角速度: 0.06 deg/s)</color>
+[22:37:28] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:37:31] [Log] Test command: Rotating to 90 degrees!
+[22:37:31] [Log] 接收到相对旋转命令: 90°
+[22:37:31] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 61.32828°</color>
+[22:37:31] [Log] <color=green>已到达并稳定在目标偏航角 61.32828° (实际: 61.33, 角速度: -0.01 deg/s)</color>
+[22:37:31] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:37:36] [Log] Test command: Rotating to 90 degrees!
+[22:37:36] [Log] 接收到相对旋转命令: 90°
+[22:37:36] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 151.328°</color>
+[22:37:36] [Log] <color=green>已到达并稳定在目标偏航角 151.328° (实际: 151.33, 角速度: -0.08 deg/s)</color>
+[22:37:37] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:37:50] [Log] Test command: Rotating to -45 degrees!
+[22:37:50] [Log] 接收到相对旋转命令: -45°
+[22:37:50] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 106.327°</color>
+[22:37:50] [Log] <color=green>已到达并稳定在目标偏航角 106.327° (实际: 106.33, 角速度: -0.06 deg/s)</color>
+[22:37:50] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:37:52] [Log] Test command: Rotating to -45 degrees!
+[22:37:52] [Log] 接收到相对旋转命令: -45°
+[22:37:52] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 61.32703°</color>
+[22:37:52] [Log] <color=green>已到达并稳定在目标偏航角 61.32703° (实际: 61.33, 角速度: 0.03 deg/s)</color>
+[22:37:52] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:37:53] [Log] Test command: Rotating to -45 degrees!
+[22:37:53] [Log] 接收到相对旋转命令: -45°
+[22:37:53] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 16.32759°</color>
+[22:37:53] [Log] <color=green>已到达并稳定在目标偏航角 16.32759° (实际: 16.33, 角速度: 0.03 deg/s)</color>
+[22:37:53] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:37:54] [Log] Test command: Rotating to -45 degrees!
+[22:37:54] [Log] 接收到相对旋转命令: -45°
+[22:37:54] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -28.67185°</color>
+[22:37:54] [Log] <color=green>已到达并稳定在目标偏航角 -28.67185° (实际: -28.67, 角速度: -0.06 deg/s)</color>
+[22:37:54] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:03] [Log] Test command: Rotating to 90 degrees!
+[22:38:03] [Log] 接收到相对旋转命令: 90°
+[22:38:03] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 61.32822°</color>
+[22:38:03] [Log] <color=green>已到达并稳定在目标偏航角 61.32822° (实际: 61.33, 角速度: 0.05 deg/s)</color>
+[22:38:03] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:10] [Log] Test command: Rotating to -45 degrees!
+[22:38:10] [Log] 接收到相对旋转命令: -45°
+[22:38:10] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 16.32912°</color>
+[22:38:10] [Log] <color=green>已到达并稳定在目标偏航角 16.32912° (实际: 16.33, 角速度: 0.07 deg/s)</color>
+[22:38:10] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:11] [Log] Test command: Rotating to -45 degrees!
+[22:38:11] [Log] 接收到相对旋转命令: -45°
+[22:38:11] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -28.66969°</color>
+[22:38:11] [Log] <color=green>已到达并稳定在目标偏航角 -28.66969° (实际: -28.67, 角速度: -0.11 deg/s)</color>
+[22:38:11] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:12] [Log] Test command: Rotating to 90 degrees!
+[22:38:12] [Log] 接收到相对旋转命令: 90°
+[22:38:12] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 61.33063°</color>
+[22:38:12] [Log] <color=green>已到达并稳定在目标偏航角 61.33063° (实际: 61.33, 角速度: -0.18 deg/s)</color>
+[22:38:12] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:12] [Log] Test command: Rotating to -45 degrees!
+[22:38:12] [Log] 接收到相对旋转命令: -45°
+[22:38:12] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 16.3279°</color>
+[22:38:13] [Log] <color=green>已到达并稳定在目标偏航角 16.3279° (实际: 16.33, 角速度: -0.11 deg/s)</color>
+[22:38:13] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:13] [Log] Test command: Rotating to -45 degrees!
+[22:38:13] [Log] 接收到相对旋转命令: -45°
+[22:38:13] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -28.67177°</color>
+[22:38:13] [Log] <color=green>已到达并稳定在目标偏航角 -28.67177° (实际: -28.67, 角速度: -0.04 deg/s)</color>
+[22:38:13] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:14] [Log] Test command: Rotating to 90 degrees!
+[22:38:14] [Log] 接收到相对旋转命令: 90°
+[22:38:14] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 61.32739°</color>
+[22:38:14] [Log] <color=green>已到达并稳定在目标偏航角 61.32739° (实际: 61.33, 角速度: 0.06 deg/s)</color>
+[22:38:15] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:15] [Log] Test command: Rotating to 90 degrees!
+[22:38:15] [Log] 接收到相对旋转命令: 90°
+[22:38:15] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 151.3272°</color>
+[22:38:15] [Log] <color=green>已到达并稳定在目标偏航角 151.3272° (实际: 151.33, 角速度: 0.03 deg/s)</color>
+[22:38:15] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:16] [Log] Test command: Rotating to -45 degrees!
+[22:38:16] [Log] 接收到相对旋转命令: -45°
+[22:38:16] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 106.3268°</color>
+[22:38:16] [Log] <color=green>已到达并稳定在目标偏航角 106.3268° (实际: 106.33, 角速度: -0.22 deg/s)</color>
+[22:38:16] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:17] [Log] Test command: Rotating to -45 degrees!
+[22:38:17] [Log] 接收到相对旋转命令: -45°
+[22:38:17] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 61.32783°</color>
+[22:38:17] [Log] <color=green>已到达并稳定在目标偏航角 61.32783° (实际: 61.33, 角速度: -0.21 deg/s)</color>
+[22:38:17] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:19] [Log] Test command: Rotating to -45 degrees!
+[22:38:19] [Log] 接收到相对旋转命令: -45°
+[22:38:19] [Log] <color=yellow>命令无人机旋转至绝对Yaw: 16.32888°</color>
+[22:38:19] [Log] <color=green>已到达并稳定在目标偏航角 16.32888° (实际: 16.33, 角速度: -0.02 deg/s)</color>
+[22:38:19] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:22] [Log] Test command: Rotating to -45 degrees!
+[22:38:22] [Log] 接收到相对旋转命令: -45°
+[22:38:22] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -28.67151°</color>
+[22:38:22] [Log] <color=green>已到达并稳定在目标偏航角 -28.67151° (实际: -28.67, 角速度: 0.08 deg/s)</color>
+[22:38:22] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:25] [Log] Test command: Rotating to -45 degrees!
+[22:38:25] [Log] 接收到相对旋转命令: -45°
+[22:38:25] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -73.67172°</color>
+[22:38:25] [Log] <color=green>已到达并稳定在目标偏航角 -73.67172° (实际: -73.67, 角速度: 0.03 deg/s)</color>
+[22:38:25] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>
+[22:38:26] [Log] Test command: Rotating to -45 degrees!
+[22:38:26] [Log] 接收到相对旋转命令: -45°
+[22:38:26] [Log] <color=yellow>命令无人机旋转至绝对Yaw: -118.6711°</color>
+[22:38:26] [Log] <color=green>已到达并稳定在目标偏航角 -118.6711° (实际: -118.67, 角速度: -0.22 deg/s)</color>
+[22:38:26] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE'</color>

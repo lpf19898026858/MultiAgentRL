@@ -1,0 +1,40 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+New Range: X=5.0, Z=5.0
+============================================
+Target: (-30.29, 4.17, -33.80) - Reason: Hit Obstacle: Cube (3)
+Target: (-17.08, 4.46, -31.59) - Reason: Hit Obstacle: Cube (3)
+Target: (-18.94, 1.36, -41.35) - Reason: Hit Obstacle: Cube (1)
+Target: (-18.66, 5.87, -30.81) - Reason: Hit Obstacle: Cube
+Target: (-28.99, 0.63, -34.39) - Reason: Hit Obstacle: Cube
+Target: (-21.91, 0.20, -39.89) - Reason: Hit Obstacle: Cube
+Target: (-29.30, 5.67, -37.93) - Reason: Hit Obstacle: Cube
+Target: (-29.81, 0.30, -37.83) - Reason: Hit Obstacle: Cube (1)
+Target: (-28.89, 5.26, -39.42) - Reason: Hit Obstacle: Cube (1)
+Target: (-20.87, 0.45, -29.30) - Reason: Hit Obstacle: Cube
+Target: (-28.71, 0.78, -36.91) - Reason: Hit Obstacle: Cube
+Target: (-21.73, 3.35, -43.07) - Reason: Hit Obstacle: Cube
+Target: (-22.79, 0.32, -43.19) - Reason: Hit Obstacle: Cube
+Target: (-18.22, 4.63, -40.65) - Reason: Hit Obstacle: Cube
+Target: (-28.41, 1.02, -34.00) - Reason: Hit Obstacle: Cube
+Target: (-29.35, 4.93, -40.84) - Reason: Hit Obstacle: Cube
+Target: (-29.39, 2.71, -33.97) - Reason: Hit Obstacle: Cube (1)
+Target: (-29.99, 0.27, -41.47) - Reason: Hit Obstacle: Cube
+Target: (-20.76, 0.84, -43.16) - Reason: Hit Obstacle: Cube
+Target: (-22.79, 0.22, -28.39) - Reason: Hit Obstacle: Plane.000
+Target: (-20.29, 1.04, -41.47) - Reason: Hit Obstacle: Cube (1)
+Target: (-27.87, 3.10, -25.36) - Reason: Hit Obstacle: Cube (2)
+Target: (-30.16, 1.41, -19.87) - Reason: Hit Obstacle: Cube (2)
+Target: (-26.30, 4.68, -25.59) - Reason: Hit Obstacle: Cube (2)
+Target: (-18.23, 1.75, -32.59) - Reason: Hit Obstacle: Plane.000
+Target: (-21.55, 1.07, -13.49) - Reason: Hit Obstacle: Plane.000
+Target: (-24.68, 3.48, -20.49) - Reason: Hit Obstacle: Cube (2)
+Target: (-25.61, 4.60, -24.78) - Reason: Hit Ground
+Target: (-22.17, 4.32, -29.39) - Reason: Hit Obstacle: Plane.000
+Target: (-28.84, 2.26, -12.59) - Reason: Hit Obstacle: Plane.000
+Target: (-22.14, 3.81, -18.94) - Reason: Hit Obstacle: Plane.000
+Target: (-15.04, 5.47, -12.21) - Reason: Hit Obstacle: Plane.000
+Target: (-30.38, 5.66, -10.20) - Reason: Hit Obstacle: Plane.000
+Target: (-30.93, 4.21, -19.90) - Reason: Hit Obstacle: Plane.000

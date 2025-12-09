@@ -1,0 +1,31 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (-27.46, 4.12, -37.81) - Reason: Hit Obstacle: Cube
+Target: (-29.14, 5.58, -41.25) - Reason: Hit Obstacle: Cube
+Target: (-27.64, 4.26, -38.51) - Reason: Hit Obstacle: Cube
+Target: (-29.74, 4.28, -39.67) - Reason: Hit Obstacle: Cube
+Target: (-28.07, 1.43, -43.04) - Reason: Hit Obstacle: Wall(2)
+Target: (-29.48, 5.60, -41.14) - Reason: Hit Obstacle: Wall(1)
+Target: (-25.37, 0.67, -43.09) - Reason: Hit Obstacle: Cube
+Target: (-26.47, 5.00, -38.94) - Reason: Hit Obstacle: Wall(1)
+Target: (-30.49, 5.88, -42.48) - Reason: Hit Obstacle: Wall(1)
+Target: (-28.83, 5.67, -39.55) - Reason: Hit Obstacle: Wall(1)
+Target: (-24.84, 0.79, -39.46) - Reason: Hit Obstacle: Wall(1)
+Target: (-28.10, 0.07, -38.43) - Reason: Hit Obstacle: Cube
+Target: (-29.01, 5.66, -41.19) - Reason: Hit Obstacle: Cube
+Target: (-30.28, 0.11, -41.51) - Reason: Hit Obstacle: Wall(2)
+Target: (-28.64, 4.92, -42.88) - Reason: Hit Obstacle: Wall(1)
+Target: (-28.26, 0.95, -39.95) - Reason: Hit Obstacle: Wall(2)
+Target: (-27.59, 0.71, -41.77) - Reason: Hit Obstacle: Cube
+Target: (-28.07, 1.85, -40.56) - Reason: Hit Obstacle: Wall(1)
+Target: (-29.70, 0.91, -38.92) - Reason: Hit Obstacle: Plane.000
+Target: (-27.54, 4.39, -42.49) - Reason: Hit Obstacle: Wall(1)
+Target: (-27.86, 4.56, -39.27) - Reason: Hit Obstacle: Wall(1)
+Target: (-28.55, 0.48, -42.42) - Reason: Hit Obstacle: Wall(1)
+Target: (-26.18, 4.50, -38.13) - Reason: Hit Obstacle: Cube
+Target: (-29.47, 0.18, -41.52) - Reason: Hit Obstacle: Wall(1)

@@ -1,0 +1,27 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (-11.64, 2.50, 10.45) - Reason: Hit Ground
+Target: (-10.82, -0.01, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.82, 0.00, 8.38) - Reason: Out of Bounds
+Target: (-10.84, 2.00, 8.35) - Reason: Hit Ground
+Target: (-15.84, 2.00, 13.35) - Reason: Hit Ground

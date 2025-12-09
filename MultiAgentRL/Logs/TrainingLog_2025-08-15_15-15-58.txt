@@ -1,0 +1,54 @@
+--- Unity ML-Agents Training Log Started at 2025/8/15 15:15:58 ---
+
+[15:15:58] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[15:15:58] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[15:15:59] [Log] 已订阅: /drone_target, /clock. 已发布: /drone_status, /drone_pose
+[15:15:59] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[15:15:59] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:16:09] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:16:19] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:16:29] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:16:39] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:16:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:16:59] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:17:09] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:17:19] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:17:29] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:17:39] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:17:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:17:59] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:18:09] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:18:19] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:18:29] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:18:39] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:18:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:18:59] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:19:09] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:19:19] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:19:29] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:19:39] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:19:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:19:59] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:20:09] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:20:19] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:20:29] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:20:39] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:20:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:20:59] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:21:09] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:21:19] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:21:29] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:21:39] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:21:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:21:59] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:22:09] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:22:19] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:22:29] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:22:39] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:22:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:22:59] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:23:09] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:23:19] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:23:29] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:23:39] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[15:23:49] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>

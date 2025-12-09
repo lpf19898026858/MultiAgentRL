@@ -1,0 +1,19 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (-29.64, 2.50, -35.75) - Reason: Hit Obstacle: Cylinder (1)
+Target: (-29.74, 1.77, -36.98) - Reason: Hit Obstacle: Cylinder (1)
+Target: (-29.64, 1.76, -37.02) - Reason: Hit Obstacle: Cylinder (1)
+Target: (-29.55, 1.76, -37.08) - Reason: Hit Obstacle: Cylinder (1)
+Target: (-29.56, 1.76, -37.09) - Reason: Hit Obstacle: Cylinder (1)
+Target: (-29.57, 1.75, -37.09) - Reason: Hit Obstacle: Cylinder (1)
+Target: (-29.57, 1.75, -37.09) - Reason: Hit Obstacle: Cylinder (1)
+Target: (-29.57, 1.75, -37.09) - Reason: Hit Obstacle: Cylinder (1)
+Target: (-29.57, 1.75, -37.09) - Reason: Hit Obstacle: Cylinder (1)
+Target: (-29.57, 1.75, -37.09) - Reason: Hit Obstacle: Cylinder (1)
+Target: (-29.57, 1.75, -37.09) - Reason: Hit Obstacle: Cylinder (1)
+Target: (-29.57, 1.75, -37.09) - Reason: Hit Obstacle: Cylinder (1)

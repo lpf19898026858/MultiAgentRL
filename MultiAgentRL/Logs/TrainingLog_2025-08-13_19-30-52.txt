@@ -1,0 +1,10 @@
+--- Unity ML-Agents Training Log Started at 2025/8/13 19:30:52 ---
+
+[19:30:52] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[19:30:52] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[19:30:53] [Log] 已订阅: /drone_target, /clock. 已发布: /drone_status, /drone_pose
+[19:30:53] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[19:30:53] [Log] <color=cyan>模拟推理模式: 回合开始。随机生成起点和目标。</color>
+[19:30:54] [Log] <color=red>飞出边界! 最终奖励: -1</color>
+[19:30:54] [Log] <color=cyan>模拟推理模式: 回合开始。随机生成起点和目标。</color>
+[19:31:04] [Log] <color=cyan>模拟推理模式: 回合开始。随机生成起点和目标。</color>

@@ -1,0 +1,15 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (-21.91, 3.00, -41.90) - Reason: Hit Obstacle: Cube
+Target: (-9.10, 3.00, -37.72) - Reason: Hit Obstacle: Cube
+Target: (-29.49, 2.97, -44.13) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.49, 2.97, -44.13) - Reason: Hit Obstacle: Cube (4)
+Target: (-29.69, 2.95, -44.16) - Reason: Hit Obstacle: Cube (4)
+Target: (-17.85, 3.00, -29.30) - Reason: Hit Obstacle: Cube
+Target: (-30.03, 2.92, -44.12) - Reason: Hit Obstacle: Cube (4)
+Target: (-30.03, 2.92, -44.12) - Reason: Hit Obstacle: Cube (4)

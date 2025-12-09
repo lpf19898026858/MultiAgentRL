@@ -1,0 +1,17 @@
+--- Unity ML-Agents Training Log Started at 2025/8/12 22:31:37 ---
+
+[22:31:37] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[22:31:37] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[22:31:38] [Log] 已订阅: /drone_target, /clock. 已发布: /drone_status, /drone_pose
+[22:31:38] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[22:32:29] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[22:32:31] [Log] <color=cyan>接收到新目标。Unity坐标: (-38.15, 2.00, -38.28), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:32:31] [Log] <color=yellow>新目标已入队。位置: (-38.15, 2.00, -38.28)。 队列中总目标数: 1。</color>
+[22:32:31] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-38.15, 2.00, -38.28)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[22:32:31] [Log] <color=red>OnCollisionEnter: Hit Obstacle! Episode Ended. Hit: Cube</color>
+[22:32:31] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[22:32:58] [Log] <color=cyan>接收到新目标。Unity坐标: (-38.15, 2.00, -38.28), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[22:32:58] [Log] <color=yellow>新目标已入队。位置: (-38.15, 2.00, -38.28)。 队列中总目标数: 1。</color>
+[22:32:58] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-38.15, 2.00, -38.28)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[22:32:58] [Log] <color=red>OnCollisionEnter: Hit Obstacle! Episode Ended. Hit: Cube</color>
+[22:32:58] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>

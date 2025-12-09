@@ -1,0 +1,36 @@
+--- Unity ML-Agents Training Log Started at 2025/8/16 10:04:30 ---
+
+[10:04:30] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[10:04:30] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[10:04:30] [Log] 已订阅: /drone_target, /clock. 已发布: /drone_status, /drone_pose
+[10:04:30] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[10:04:30] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:04:41] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:04:51] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:05:01] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:05:11] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:05:21] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:05:31] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:05:41] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:05:51] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:06:01] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:06:11] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:06:21] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:06:30] [Log] <color=lightblue>Received action service request: takeoff</color>
+[10:06:30] [Log] Executing TakeoffRoutine to altitude: 3m.
+[10:06:30] [Log] Takeoff finished. Hovering at target altitude.
+[10:06:31] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.64, 0.55, -42.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[10:06:31] [Log] <color=yellow>新目标已入队。位置: (-29.64, 0.55, -42.75)。 队列中总目标数: 1。</color>
+[10:06:31] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 0.55, -42.75)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[10:06:31] [Log] <color=cyan>接收到新目标。Unity坐标: (-22.74, 0.55, -42.45), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[10:06:31] [Log] <color=yellow>新目标已入队。位置: (-22.74, 0.55, -42.45)。 队列中总目标数: 1。</color>
+[10:06:31] [Log] <color=cyan>接收到新目标。Unity坐标: (-21.94, 0.55, -41.95), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[10:06:31] [Log] <color=yellow>新目标已入队。位置: (-21.94, 0.55, -41.95)。 队列中总目标数: 2。</color>
+[10:06:31] [Log] <color=green>到达航点: (-29.64, 0.55, -42.75)。正在处理队列中的下一个目标...</color>
+[10:06:31] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-22.74, 0.55, -42.45)。 偏航角: 0°。队列中还剩 1 个目标。</color>
+[10:06:31] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:06:31] [Log] <color=lightblue>Received action service request: rotate_360</color>
+[10:06:31] [Log] Executing Rotate360Routine.
+[10:06:32] [Log] Rotation finished.
+[10:06:41] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[10:06:51] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>

@@ -1,0 +1,106 @@
+--- Unity ML-Agents Training Log Started at 2025/8/29 19:22:13 ---
+
+[19:22:13] [Log] RosTargetManager: Subscribed to /V_UAV_0/drone_target for V_UAV_0
+[19:22:13] [Log] RosTargetManager: Registered publishers for V_UAV_0.
+[19:22:13] [Warning] RosTargetManager for V_UAV_0: Waiting for ROSConnection to establish connection. HasThread: False, HasError: False
+[19:22:13] [Log] ROS连接已为 'V_UAV_0' 设置。订阅: /V_UAV_0/drone_target. 发布: /V_UAV_0/drone_status, /V_UAV_0/drone_pose, /V_UAV_0/camera/image_raw, /V_UAV_0/action_feedback
+[19:22:13] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[19:22:13] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[19:22:13] [Log] <b>[V_UAV_0]</b> <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[19:22:13] [Log] <b>[V_UAV_0]</b> <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[19:22:13] [Warning] RosTargetManager for V_UAV_0: Waiting for ROSConnection to establish connection. HasThread: True, HasError: True
+[19:22:14] [Log] <color=green>RosTargetManager for V_UAV_0: ROSConnection appears connected. Publishers are active.</color>
+[19:22:28] [Log] <b>[V_UAV_0]</b> <color=lightblue>Received and QUEUED action service request: takeoff</color>
+[19:22:28] [Log] <b>[V_UAV_0]</b> <color=lime>Starting next action from queue. Drone is idle.</color>
+[19:22:28] [Log] <b>[V_UAV_0]</b> Executing TakeoffRoutine to altitude: 3m.
+[19:22:28] [Log] <b>[V_UAV_0]</b> Takeoff finished. Hovering at target altitude.
+[19:22:28] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE' for V_UAV_0</color>
+[19:23:11] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-29.64, 2.50, -42.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-29.64, 2.50, -42.75)。 队列中总目标数: 1。</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 2.50, -42.75)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[19:23:11] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-26.64, 2.50, -36.95), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-26.64, 2.50, -36.95)。 队列中总目标数: 1。</color>
+[19:23:11] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-22.64, 2.50, -31.55), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-22.64, 2.50, -31.55)。 队列中总目标数: 2。</color>
+[19:23:11] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-22.54, 2.50, -24.55), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-22.54, 2.50, -24.55)。 队列中总目标数: 3。</color>
+[19:23:11] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-22.54, 2.50, -17.55), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-22.54, 2.50, -17.55)。 队列中总目标数: 4。</color>
+[19:23:11] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-22.54, 2.50, -10.55), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-22.54, 2.50, -10.55)。 队列中总目标数: 5。</color>
+[19:23:11] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-22.54, 2.50, -3.55), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-22.54, 2.50, -3.55)。 队列中总目标数: 6。</color>
+[19:23:11] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-22.54, 2.50, -0.95), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-22.54, 2.50, -0.95)。 队列中总目标数: 7。</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-29.64, 2.50, -42.75)。正在处理队列中的下一个目标...</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-26.64, 2.50, -36.95)。 偏航角: 0°。队列中还剩 6 个目标。</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-26.64, 2.50, -36.95)。正在处理队列中的下一个目标...</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-22.64, 2.50, -31.55)。 偏航角: 0°。队列中还剩 5 个目标。</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-22.64, 2.50, -31.55)。正在处理队列中的下一个目标...</color>
+[19:23:11] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-22.54, 2.50, -24.55)。 偏航角: 0°。队列中还剩 4 个目标。</color>
+[19:23:12] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-22.54, 2.50, -24.55)。正在处理队列中的下一个目标...</color>
+[19:23:12] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-22.54, 2.50, -17.55)。 偏航角: 0°。队列中还剩 3 个目标。</color>
+[19:23:12] [Log] <b>[V_UAV_0]</b> <color=lightblue>Received and QUEUED action service request: rotate_drone_yaw_relative</color>
+[19:23:12] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-22.54, 2.50, -17.55)。正在处理队列中的下一个目标...</color>
+[19:23:12] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-22.54, 2.50, -10.55)。 偏航角: 0°。队列中还剩 2 个目标。</color>
+[19:23:12] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-22.54, 2.50, -10.55)。正在处理队列中的下一个目标...</color>
+[19:23:12] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-22.54, 2.50, -3.55)。 偏航角: 0°。队列中还剩 1 个目标。</color>
+[19:23:13] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-22.54, 2.50, -3.55)。正在处理队列中的下一个目标...</color>
+[19:23:13] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-22.54, 2.50, -0.95)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[19:23:13] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-22.54, 2.50, -0.95)。正在处理队列中的下一个目标...</color>
+[19:23:13] [Log] <b>[V_UAV_0]</b> <color=cyan>航点队列已空。正在悬停并等待新的ROS目标。</color>
+[19:23:13] [Log] <b>[V_UAV_0]</b> <color=lime>Starting next action from queue. Drone is idle.</color>
+[19:23:13] [Log] <b>[V_UAV_0]</b> 接收到相对旋转命令: 10.61899°
+[19:23:13] [Log] <b>[V_UAV_0]</b> <color=yellow>命令无人机旋转至绝对Yaw: -19.20035°</color>
+[19:23:13] [Log] <b>[V_UAV_0]</b> <color=green>已到达并稳定在目标偏航角 -19.20035° (实际: -19.20, 角速度: 0.01 deg/s)</color>
+[19:23:13] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE' for V_UAV_0</color>
+[19:23:14] [Log] <b>[V_UAV_0]</b> <color=lightblue>Received and QUEUED action service request: backup</color>
+[19:23:14] [Log] <b>[V_UAV_0]</b> <color=lime>Starting next action from queue. Drone is idle.</color>
+[19:23:14] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE' for V_UAV_0</color>
+[19:23:16] [Log] <b>[V_UAV_0]</b> <color=lightblue>Received and QUEUED action service request: adjust_camera_pitch</color>
+[19:23:16] [Log] <b>[V_UAV_0]</b> <color=lime>Starting next action from queue. Drone is idle.</color>
+[19:23:16] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE' for V_UAV_0</color>
+[19:23:17] [Log] <b>[V_UAV_0]</b> <color=lightblue>Received and QUEUED action service request: wait</color>
+[19:23:17] [Log] <b>[V_UAV_0]</b> <color=lime>Starting next action from queue. Drone is idle.</color>
+[19:23:17] [Log] <b>[V_UAV_0]</b> Executing WaitRoutine for 5 seconds.
+[19:23:18] [Log] <b>[V_UAV_0]</b> Wait finished.
+[19:23:18] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE' for V_UAV_0</color>
+[19:23:18] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-21.44, 3.00, -2.65), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-21.44, 3.00, -2.65)。 队列中总目标数: 1。</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-21.44, 3.00, -2.65)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[19:23:18] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-26.44, 3.00, -7.65), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-26.44, 3.00, -7.65)。 队列中总目标数: 1。</color>
+[19:23:18] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-29.64, 3.00, -13.35), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-29.64, 3.00, -13.35)。 队列中总目标数: 2。</color>
+[19:23:18] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-29.64, 3.00, -20.35), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-29.64, 3.00, -20.35)。 队列中总目标数: 3。</color>
+[19:23:18] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-29.64, 3.00, -27.35), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-29.64, 3.00, -27.35)。 队列中总目标数: 4。</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-21.44, 3.00, -2.65)。正在处理队列中的下一个目标...</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-26.44, 3.00, -7.65)。 偏航角: 0°。队列中还剩 3 个目标。</color>
+[19:23:18] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-29.64, 3.00, -34.35), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-29.64, 3.00, -34.35)。 队列中总目标数: 4。</color>
+[19:23:18] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-29.64, 3.00, -41.35), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-29.64, 3.00, -41.35)。 队列中总目标数: 5。</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=lightblue>Received and QUEUED action service request: land</color>
+[19:23:18] [Log] <color=cyan>RosTargetManager for V_UAV_0: 接收到新目标。Unity坐标: (-29.64, 3.00, -42.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[19:23:18] [Log] <b>[V_UAV_0]</b> <color=yellow>新目标已入队。位置: (-29.64, 3.00, -42.75)。 队列中总目标数: 6。</color>
+[19:23:19] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-26.44, 3.00, -7.65)。正在处理队列中的下一个目标...</color>
+[19:23:19] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 3.00, -13.35)。 偏航角: 0°。队列中还剩 5 个目标。</color>
+[19:23:19] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-29.64, 3.00, -13.35)。正在处理队列中的下一个目标...</color>
+[19:23:19] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 3.00, -20.35)。 偏航角: 0°。队列中还剩 4 个目标。</color>
+[19:23:19] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-29.64, 3.00, -20.35)。正在处理队列中的下一个目标...</color>
+[19:23:19] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 3.00, -27.35)。 偏航角: 0°。队列中还剩 3 个目标。</color>
+[19:23:20] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-29.64, 3.00, -27.35)。正在处理队列中的下一个目标...</color>
+[19:23:20] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 3.00, -34.35)。 偏航角: 0°。队列中还剩 2 个目标。</color>
+[19:23:20] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-29.64, 3.00, -34.35)。正在处理队列中的下一个目标...</color>
+[19:23:20] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 3.00, -41.35)。 偏航角: 0°。队列中还剩 1 个目标。</color>
+[19:23:20] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-29.64, 3.00, -41.35)。正在处理队列中的下一个目标...</color>
+[19:23:20] [Log] <b>[V_UAV_0]</b> <color=lime>正在处理队列中的下一个目标。位置: (-29.64, 3.00, -42.75)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[19:23:20] [Log] <b>[V_UAV_0]</b> <color=green>到达航点: (-29.64, 3.00, -42.75)。正在处理队列中的下一个目标...</color>
+[19:23:20] [Log] <b>[V_UAV_0]</b> <color=cyan>航点队列已空。正在悬停并等待新的ROS目标。</color>
+[19:23:20] [Log] <b>[V_UAV_0]</b> <color=lime>Starting next action from queue. Drone is idle.</color>
+[19:23:21] [Log] <b>[V_UAV_0]</b> Landing finished. Drone is on the ground.
+[19:23:21] [Log] <b>[V_UAV_0]</b> <color=red>碰撞失败! Hit Ground。最终奖励: -12</color>
+[19:23:21] [Log] <b>[V_UAV_0]</b> <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[19:23:21] [Log] <color=cyan>RosTargetManager: 已发布动作回报: 'ACTION_COMPLETE' for V_UAV_0</color>

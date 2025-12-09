@@ -1,0 +1,31 @@
+--- Drone Failure Log ---
+
+
+=============== LESSON 1 STARTED ===============
+Global Range: X=5.0, Z=5.0
+Local Target Range: 5.0
+============================================
+Target: (-14.04, 2.50, -8.35) - Reason: Hit Obstacle: MachineA
+Target: (-14.04, 2.50, -8.35) - Reason: Hit Obstacle: MachineA
+Target: (-14.04, 2.50, -8.35) - Reason: Hit Obstacle: MachineA
+Target: (11.46, 2.50, -2.15) - Reason: Hit Obstacle: Cube
+Target: (11.46, 2.50, -2.15) - Reason: Hit Obstacle: Cube
+Target: (11.46, 2.50, -2.15) - Reason: Hit Obstacle: Cube
+Target: (11.46, 2.50, -2.15) - Reason: Hit Obstacle: Cube
+Target: (1.26, 2.00, -6.05) - Reason: Hit Obstacle: Cube
+Target: (1.26, 2.00, -6.05) - Reason: Hit Obstacle: Cube
+Target: (1.26, 2.00, -6.05) - Reason: Hit Obstacle: Cube
+Target: (1.26, 2.00, -6.05) - Reason: Hit Obstacle: Cube
+Target: (1.26, 2.00, -6.05) - Reason: Hit Obstacle: Cube
+Target: (1.26, 2.00, -6.05) - Reason: Hit Obstacle: Cube
+Target: (1.26, 2.00, -6.05) - Reason: Hit Obstacle: Cube
+Target: (-5.44, 2.00, -6.95) - Reason: Hit Obstacle: Cube
+Target: (-5.44, 2.00, -6.95) - Reason: Hit Obstacle: Cube
+Target: (-5.44, 2.00, -6.95) - Reason: Hit Obstacle: Cube
+Target: (-5.44, 2.00, -6.95) - Reason: Hit Obstacle: Cube
+Target: (-20.14, 2.00, -17.05) - Reason: Hit Obstacle: MachineA
+Target: (-20.14, 2.00, -17.05) - Reason: Hit Obstacle: MachineA
+Target: (-20.14, 2.00, -17.05) - Reason: Hit Obstacle: Plane.000
+Target: (-20.14, 2.00, -17.05) - Reason: Hit Obstacle: Plane.000
+Target: (-20.14, 2.00, -17.05) - Reason: Hit Obstacle: Plane.000
+Target: (-20.14, 2.00, -24.05) - Reason: Hit Obstacle: Plane.000

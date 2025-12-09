@@ -1,0 +1,59 @@
+--- Unity ML-Agents Training Log Started at 2025/8/15 17:05:06 ---
+
+[17:05:06] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[17:05:06] [Log] AudioListener component deleted: Component belongs to a disabled built-in package.
+[17:05:06] [Log] 已订阅: /drone_target, /clock. 已发布: /drone_status, /drone_pose
+[17:05:06] [Log] <color=yellow>Lesson changed to 1. New Range: X=5.0, Z=5.0</color>
+[17:05:06] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:05:17] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:05:27] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:05:37] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:05:47] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:05:57] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.60, 3.00, -42.77), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-29.60, 3.00, -42.77)。 队列中总目标数: 1。</color>
+[17:05:57] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.60, 3.00, -42.77)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[17:05:57] [Log] <color=red>碰撞失败! Hit Ground。最终奖励: -12</color>
+[17:05:57] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.04, 2.00, -42.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-29.04, 2.00, -42.75)。 队列中总目标数: 1。</color>
+[17:05:57] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-29.04, 2.00, -42.75)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-29.04, 2.00, -35.75), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-29.04, 2.00, -35.75)。 队列中总目标数: 1。</color>
+[17:05:57] [Log] <color=red>碰撞失败! Hit Ground。最终奖励: -12</color>
+[17:05:57] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, -29.65), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, -29.65)。 队列中总目标数: 1。</color>
+[17:05:57] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-31.44, 2.00, -29.65)。 偏航角: 0°。队列中还剩 0 个目标。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, -22.65), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, -22.65)。 队列中总目标数: 1。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, -15.65), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, -15.65)。 队列中总目标数: 2。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, -8.65), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, -8.65)。 队列中总目标数: 3。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, -1.65), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, -1.65)。 队列中总目标数: 4。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 5.35), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 5.35)。 队列中总目标数: 5。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 12.35), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 12.35)。 队列中总目标数: 6。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 19.35), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 19.35)。 队列中总目标数: 7。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 26.35), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 26.35)。 队列中总目标数: 8。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 33.35), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 33.35)。 队列中总目标数: 9。</color>
+[17:05:57] [Log] <color=cyan>接收到新目标。Unity坐标: (-31.44, 2.00, 36.25), Unity旋转: (0.00, 0.00, 0.00)°</color>
+[17:05:57] [Log] <color=yellow>新目标已入队。位置: (-31.44, 2.00, 36.25)。 队列中总目标数: 10。</color>
+[17:06:03] [Log] <color=green>到达航点: (-31.44, 2.00, -29.65)。正在处理队列中的下一个目标...</color>
+[17:06:03] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-31.44, 2.00, -22.65)。 偏航角: 0°。队列中还剩 9 个目标。</color>
+[17:06:05] [Log] <color=green>到达航点: (-31.44, 2.00, -22.65)。正在处理队列中的下一个目标...</color>
+[17:06:05] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-31.44, 2.00, -15.65)。 偏航角: 0°。队列中还剩 8 个目标。</color>
+[17:06:07] [Log] <color=green>到达航点: (-31.44, 2.00, -15.65)。正在处理队列中的下一个目标...</color>
+[17:06:07] [Log] <color=lime>正在处理队列中的下一个目标。位置: (-31.44, 2.00, -8.65)。 偏航角: 0°。队列中还剩 7 个目标。</color>
+[17:06:07] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:06:17] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:06:27] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:06:37] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:06:47] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>
+[17:06:57] [Log] <color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>

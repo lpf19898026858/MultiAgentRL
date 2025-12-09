@@ -1,0 +1,67 @@
+<linker>
+    <!-- 
+    ================================================================================================
+    高优先级 / 最可能出问题的程序集 (High Priority / Most Likely Suspects)
+    ================================================================================================
+    这些库大量使用反射、序列化或网络通信，是代码剥离最常见的受害者。
+    建议首先保留这些库的全部内容。
+    -->
+    
+    <!-- 您的项目主代码 -->
+    <assembly fullname="Assembly-CSharp" preserve="all"/>
+
+    <!-- ML-Agents 核心库 -->
+    <assembly fullname="Unity.ML-Agents" preserve="all"/>
+    <assembly fullname="Unity.ML-Agents.CommunicatorObjects" preserve="all"/>
+    <assembly fullname="Unity.ML-Agents.Extensions" preserve="all"/>
+
+    <!-- ROS# (ROS Sharp) 相关库 -->
+    <assembly fullname="RosBridgeClient" preserve="all"/>
+    <assembly fullname="MessageGeneration" preserve="all"/>
+    <assembly fullname="Urdf" preserve="all"/>
+    <assembly fullname="websocket-sharp" preserve="all"/>
+
+    <!-- 序列化库 (非常重要) -->
+    <assembly fullname="Newtonsoft.Json" preserve="all"/> <!-- 即使只看到Bson，主库也最好保留 -->
+    <assembly fullname="Newtonsoft.Json.Bson" preserve="all"/>
+    <assembly fullname="YamlDotNet" preserve="all"/>
+
+    <!-- Google Protobuf 和 gRPC (用于 ML-Agents 通信) -->
+    <assembly fullname="Google.Protobuf_Packed" preserve="all"/>
+    <assembly fullname="Grpc.Core" preserve="all"/>
+    <assembly fullname="System.Interactive.Async" preserve="all"/>
+    
+    <!-- Unity Sentis (ONNX 运行时) -->
+    <assembly fullname="Unity.Sentis" preserve="all"/>
+
+    <!-- 其他依赖库 -->
+    <assembly fullname="System.IO.Abstractions" preserve="all"/>
+    <assembly fullname="System.Runtime.CompilerServices.Unsafe" preserve="all"/>
+
+
+    <!-- 
+    ================================================================================================
+    中等优先级 / 如果问题仍然存在，可以尝试取消注释以下内容 (Medium Priority)
+    ================================================================================================
+    -->
+    
+    
+    <assembly fullname="Unity.Burst" preserve="all"/>
+    <assembly fullname="Unity.Collections" preserve="all"/>
+    <assembly fullname="Unity.Mathematics" preserve="all"/>
+    <assembly fullname="UnityEngine.UI" preserve="all"/>
+
+
+    <!-- 
+    ================================================================================================
+    低优先级 / 引擎和系统库 (Low Priority / Engine & System)
+    ================================================================================================
+    通常情况下，Unity 能够正确处理这些模块的依赖关系，不需要手动保留。
+    只有在极少数情况下，或者错误日志明确指向这些模块时，才需要开启它们。
+    开启这些会显著增大包体。
+    
+    <assembly fullname="UnityEngine.CoreModule" preserve="all"/>
+    <assembly fullname="mscorlib" preserve="all"/>
+    -->
+
+</linker>
