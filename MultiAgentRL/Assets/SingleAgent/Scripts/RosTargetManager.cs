@@ -3,24 +3,17 @@ using UnityEngine;
 using Unity.Robotics.ROSTCPConnector;
 using RosMessageTypes.Geometry;
 using RosMessageTypes.Std;
-using RosMessageTypes.Sensor; 
+using RosMessageTypes.Sensor; // <-- 新增: 引入Image消息的命名空间
 using RosMessageTypes.BuiltinInterfaces;
-using System.Collections; // For Coroutines
-using System.Collections.Generic; // For List
 
 public class RosTargetManager : MonoBehaviour
 {
-    [Header("★ 无人机身份设置 ★")]
-    [Tooltip("这个无人机的ROS命名空间/ID，例如 'V_UAV_0'。所有话题都会以此为前缀。")]
-    public string uavNamespace = "drone"; // 提供一个默认值，但应在Inspector中为每个无人机设置
-
-    [Header("ROS话题名称 (相对路径)")]
-    // 这些是相对话题名，会在内部与 uavNamespace 组合
-    public string targetRelativeTopic = "drone_target"; 
-    public string statusRelativeTopic = "drone_status"; 
-    public string poseRelativeTopic = "drone_pose";     
-    public string imageRelativeTopic = "camera/image_raw";
-    public string actionFeedbackRelativeTopic = "drone_action_feedback"; 
+    [Header("ROS话题名称")]
+    public string targetTopicName = "/drone_target";
+    public string statusTopicName = "/drone_status";
+    public string poseTopicName = "/drone_pose";
+    public string imageTopicName = "/camera/image_raw"; 
+    public string actionFeedbackTopic = "/drone_action_feedback"; 
 
     [Header("摄像头图像发布设置")] 
     [Tooltip("拖拽你的Unity摄像机到这里")]
@@ -39,149 +32,63 @@ public class RosTargetManager : MonoBehaviour
 
     [Header("组件链接")]
     public PIDControlAgent agentToControl;
-    public Transform targetVisual; // 用于可视化ROS目标
+    public Transform targetVisual;
 
-    private ROSConnection rosConnection; // 统一变量名
+    private ROSConnection ros;
     private StringMsg statusMessage;
-    private PoseStampedMsg poseMessage;
+    private PoseStampedMsg poseMessage; // 用于发布位姿
     private ImageMsg imageMessage; 
     private StringMsg actionFeedbackMessage; 
     private float timeSinceLastPoseStatusPublish;
     private float timeSinceLastImagePublish;
     private float imagePublishInterval;
-
-    // 完整话题名 (包含命名空间) - 在Awake中初始化
-    private string fullTargetTopic;
-    private string fullStatusTopic;
-    private string fullPoseTopic;
-    private string fullImageTopic;
-    private string fullActionFeedbackTopic;
+    private bool isTaskActive = false;
 
     // 图像捕获专用资源
     private Texture2D texture2D;
     private RenderTexture renderTexture;
     private Rect cameraRect;
-    private bool _publishersRegisteredAndReady = false; // Publisher就绪标志位
 
-    // Awake 方法现在只负责获取 ROSConnection 实例，并进行一些初始化。
-    void Awake() 
+    void Start()
     {
-        rosConnection = ROSConnection.GetOrCreateInstance();
-        
-        if (rosConnection == null)
-        {
-            Debug.LogError($"RosTargetManager for {uavNamespace}: ROSConnection instance is null in Awake(). Ensure ROSConnection GameObject exists and is configured.");
-            enabled = false; // 禁用此脚本以避免更多错误
+        if (agentToControl == null || targetVisual == null) { /* ... 错误处理 ... */ return; }
+        if (imageCamera == null) { 
+            Debug.LogError("Image Camera 未分配！请拖拽一个摄像机到此字段。");
             return;
         }
-
-        // --- 订阅 ROSConnection 的连接状态事件 (如果你在 ROSConnection.cs 中添加了这些事件) ---
-        // 你的 ROSConnection.cs 源码没有 onConnected/onDisconnected 事件，所以暂时注释掉
-        // 如果你修改了 ROSConnection.cs 源码添加了这些事件，可以取消注释
-        // rosConnection.onConnected.AddListener(OnRosConnected);
-        // rosConnection.onDisconnected.AddListener(OnRosDisconnected);
-
-        // --- 构建完整话题名 (包含命名空间) ---
-        fullTargetTopic         = $"/{uavNamespace}/{targetRelativeTopic}";
-        fullStatusTopic         = $"/{uavNamespace}/{statusRelativeTopic}";
-        fullPoseTopic           = $"/{uavNamespace}/{poseRelativeTopic}";
-        fullImageTopic          = $"/{uavNamespace}/{imageRelativeTopic}";
-        fullActionFeedbackTopic = $"/{uavNamespace}/{actionFeedbackRelativeTopic}";
-
-        // --- 订阅话题 (使用完整话题名) ---
-        rosConnection.Subscribe<PoseStampedMsg>(fullTargetTopic, OnTargetReceived);
-        Debug.Log($"RosTargetManager: Subscribed to {fullTargetTopic} for {uavNamespace}");
-
-        // --- 注册发布话题 (使用完整话题名) ---
-        rosConnection.RegisterPublisher<StringMsg>(fullStatusTopic);
-        rosConnection.RegisterPublisher<PoseStampedMsg>(fullPoseTopic); 
-        rosConnection.RegisterPublisher<ImageMsg>(fullImageTopic); 
-        rosConnection.RegisterPublisher<StringMsg>(fullActionFeedbackTopic); 
-        Debug.Log($"RosTargetManager: Registered publishers for {uavNamespace}.");
-
-        // --- 初始化消息对象 ---
+        ros = ROSConnection.GetOrCreateInstance();
+        
+        // 订阅目标话题
+        ros.Subscribe<PoseStampedMsg>(targetTopicName, OnTargetReceived);
+        
+        // 注册发布话题
+        ros.RegisterPublisher<StringMsg>(statusTopicName);
+        ros.RegisterPublisher<PoseStampedMsg>(poseTopicName); 
+        ros.RegisterPublisher<ImageMsg>(imageTopicName);
+        ros.RegisterPublisher<StringMsg>(actionFeedbackTopic); // <<< 新增：注册回报发布者
+        
+        // --- 初始化消息 ---
         statusMessage = new StringMsg();
         poseMessage = new PoseStampedMsg();
-        actionFeedbackMessage = new StringMsg();
+        actionFeedbackMessage = new StringMsg(); // <<< 新增：初始化回报消息
+        InitializeImagePublisher(); 
 
-        InitializeImagePublisher(); // 初始化图像相关的资源
-        imagePublishInterval = 1f / imagePublishRateHz; // 计算图像发布间隔
-
-        // 启动等待Publisher就绪的协程
-        StartCoroutine(WaitForPublishersToBecomeReady());
+        // --- 计算发布间隔 ---
+        imagePublishInterval = 1f / imagePublishRateHz;
         
-        Debug.Log($"ROS连接已为 '{uavNamespace}' 设置。订阅: {fullTargetTopic}. 发布: {fullStatusTopic}, {fullPoseTopic}, {fullImageTopic}, {fullActionFeedbackTopic}");
+        statusMessage = new StringMsg();
+        poseMessage = new PoseStampedMsg(); // <-- 新增: 初始化位姿消息
+        
+        Debug.Log($"ROS连接已设置。订阅: {targetTopicName}. 发布: {statusTopicName}, {poseTopicName}, {imageTopicName}");
     }
 
-    void Start() // Start 方法只做一些最终检查
-    {
-        if (agentToControl == null || targetVisual == null) {
-            Debug.LogError($"RosTargetManager for {uavNamespace}: Missing AgentToControl or TargetVisual link in Inspector!");
-            enabled = false;
-            return;
-        }
-        if (imageCamera == null) { 
-            Debug.LogError($"RosTargetManager for {uavNamespace}: Image Camera 未分配！请拖拽一个摄像机到此字段。");
-            enabled = false;
-            return;
-        }
-    }
-
-    // --- ROSConnection 连接状态回调 (如果 ROSConnection.cs 源码中没有这些事件，它们将无法被调用) ---
-    /*
-    private void OnRosConnected()
-    {
-        _publishersRegisteredAndReady = true;
-        Debug.Log($"<color=green>RosTargetManager for {uavNamespace}: ROSConnection Established. Publishers are now active.</color>");
-    }
-
-    private void OnRosDisconnected()
-    {
-        _publishersRegisteredAndReady = false;
-        Debug.LogWarning($"<color=red>RosTargetManager for {uavNamespace}: ROSConnection Disconnected. Publishers are inactive.</color>");
-    }
-    */
-
-    private System.Collections.IEnumerator WaitForPublishersToBecomeReady()
-    {
-        float startTime = Time.time;
-        float timeout = 10.0f; // 增加超时时间
-
-        while (Time.time < startTime + timeout)
-        {
-            // <<< 修复 CS1061: 'ROSConnection' does not contain a definition for 'IsConnected' >>>
-            // 依据 ROSConnection 源码，我们通过检查连接线程是否运行且无连接错误来判断连接状态
-            // `HasConnectionThread` 表示连接线程已启动
-            // `HasConnectionError` (静态变量) 表示最近一次连接尝试是否有错误
-            if (rosConnection != null && rosConnection.HasConnectionThread && !rosConnection.HasConnectionError)
-            {
-                _publishersRegisteredAndReady = true;
-                Debug.Log($"<color=green>RosTargetManager for {uavNamespace}: ROSConnection appears connected. Publishers are active.</color>");
-                yield break; // 连接成功，就认为Publisher已就绪
-            }
-            // 只有当 rosConnection 实例存在时才尝试打印连接状态
-            if (rosConnection != null)
-            {
-                Debug.LogWarning($"RosTargetManager for {uavNamespace}: Waiting for ROSConnection to establish connection. " +
-                                 $"HasThread: {rosConnection.HasConnectionThread}, HasError: {rosConnection.HasConnectionError}");
-            }
-            yield return null; // 等待下一帧再检查
-        }
-
-        Debug.LogError($"<color=red>RosTargetManager for {uavNamespace}: Timeout waiting for ROSConnection to establish connection! Publishers will not be active.</color>");
-        _publishersRegisteredAndReady = false; 
-    }
-
-    void FixedUpdate()
-    {
-        // 只有当 Publisher 准备就绪时才尝试发布
-        if (!_publishersRegisteredAndReady) return; 
-
+void FixedUpdate()
+{
         // 位姿和状态的发布循环
         timeSinceLastPoseStatusPublish += Time.fixedDeltaTime; 
         if (timeSinceLastPoseStatusPublish >= poseStatusPublishInterval)
         {
-            PublishStatus(); // 调用无参数的PublishStatus
+            PublishStatus();
             PublishPose();
             timeSinceLastPoseStatusPublish = 0f;
         }
@@ -193,163 +100,57 @@ public class RosTargetManager : MonoBehaviour
             PublishImage();
             timeSinceLastImagePublish = 0f;
         }
-    }
-
-    // --- ROS消息发布方法 ---
-    void PublishStatus() 
+}
+    public void PublishActionFeedback(string message)
     {
-        // 即使 _publishersRegisteredAndReady 为 true，rosConnection也可能在运行时断开
-        // 所以每次发布前都应检查 HasConnectionThread 和 HasConnectionError
-        if (!_publishersRegisteredAndReady || !rosConnection.HasConnectionThread || rosConnection.HasConnectionError) return;
-        
-        string currentStatus = "UNKNOWN"; 
-
-        if (agentToControl != null)
-        {
-            if (agentToControl.IsPerformingScriptedActionPublic)
-            {
-                currentStatus = "PERFORMING_ACTION";
-            }
-            else if (agentToControl.IsNavigatingPublic)
-            {
-                currentStatus = "NAVIGATING";
-            }
-            else if (agentToControl.IsAwaitingRosTargetPublic)
-            {
-                currentStatus = "HOVERING"; 
-            }
-            else
-            {
-                currentStatus = "IDLE";
-            }
-            
-            if (agentToControl.transform.position.y < 0.2f && !agentToControl.IsNavigatingPublic && !agentToControl.IsPerformingScriptedActionPublic) {
-                 currentStatus = "IDLE_ON_GROUND";
-            }
-        }
-        else
-        {
-            currentStatus = "AGENT_NOT_LINKED"; 
-            Debug.LogWarning($"RosTargetManager for {uavNamespace}: agentToControl is null when trying to PublishStatus.");
-        }
-        
-        statusMessage.data = currentStatus;
-        rosConnection.Publish(fullStatusTopic, statusMessage);
+        actionFeedbackMessage.data = message;
+        ros.Publish(actionFeedbackTopic, actionFeedbackMessage);
+        Debug.Log($"<color=cyan>RosTargetManager: 已发布动作回报: '{message}'</color>");
     }
-
-    void PublishPose()
+    private void InitializeImagePublisher()
     {
-        if (!_publishersRegisteredAndReady || !rosConnection.HasConnectionThread || rosConnection.HasConnectionError) return;
-        
-        Transform droneTransform = agentToControl.transform;
+        // 创建一次性的资源
+        texture2D = new Texture2D(imageWidth, imageHeight, TextureFormat.RGB24, false);
+        renderTexture = new RenderTexture(imageWidth, imageHeight, 24, RenderTextureFormat.ARGB32);
+        cameraRect = new Rect(0, 0, imageWidth, imageHeight);
 
-        poseMessage.header.stamp = new TimeMsg(); 
-        poseMessage.header.frame_id = "world";
-
-        // 填充位置 (Unity to ROS)
-        poseMessage.pose.position.x = droneTransform.position.z;
-        poseMessage.pose.position.y = -droneTransform.position.x;
-        poseMessage.pose.position.z = droneTransform.position.y;
-        
-        // 填充姿态 (Unity to ROS)
-        poseMessage.pose.orientation.x = -droneTransform.rotation.y;
-        poseMessage.pose.orientation.y = droneTransform.rotation.z;
-        poseMessage.pose.orientation.z = -droneTransform.rotation.x;
-        poseMessage.pose.orientation.w = droneTransform.rotation.w;
-
-        rosConnection.Publish(fullPoseTopic, poseMessage);
+        // 初始化ROS Image消息结构
+        imageMessage = new ImageMsg
+        {
+            header = new HeaderMsg
+            {
+                frame_id = imageFrameId
+            },
+            height = (uint)imageHeight,
+            width = (uint)imageWidth,
+            encoding = "rgb8", // 纯RGB字节
+            is_bigendian = 0,
+            step = (uint)(imageWidth * 3), // 每行字节数: 宽度 * 3 (RGB)
+            data = new byte[imageWidth * imageHeight * 3]
+        };
     }
 
     private void PublishImage()
     {
-        if (!_publishersRegisteredAndReady || !rosConnection.HasConnectionThread || rosConnection.HasConnectionError) return;
-        
-        imageMessage.header.stamp = new TimeMsg(); 
-        imageMessage.header.frame_id = imageFrameId; 
+        // 1. 更新时间戳
+        imageMessage.header.stamp = new TimeMsg();
 
+        // 2. 核心图像捕获逻辑
         imageCamera.targetTexture = renderTexture;
         imageCamera.Render();
         RenderTexture.active = renderTexture;
         texture2D.ReadPixels(cameraRect, 0, 0);
         texture2D.Apply();
         
+        // 3. 将像素数据填充到消息中
         imageMessage.data = texture2D.GetRawTextureData();
 
+        // 4. 清理
         RenderTexture.active = null;
-        imageCamera.targetTexture = null; 
+        imageCamera.targetTexture = null;
 
-        rosConnection.Publish(fullImageTopic, imageMessage);
-    }
-
-    public void PublishActionFeedback(string message)
-    {
-        if (!_publishersRegisteredAndReady || !rosConnection.HasConnectionThread || rosConnection.HasConnectionError) return;
-        
-        actionFeedbackMessage.data = message; 
-        rosConnection.Publish(fullActionFeedbackTopic, actionFeedbackMessage); 
-        Debug.Log($"<color=cyan>RosTargetManager: 已发布动作回报: '{message}' for {uavNamespace}</color>");
-    }
-
-    // --- ROS消息订阅回调 ---
-    void OnTargetReceived(PoseStampedMsg msg)
-    {
-        Vector3 unityPosition = new Vector3(
-            -(float)msg.pose.position.y, 
-            (float)msg.pose.position.z, 
-            (float)msg.pose.position.x
-        );
-
-        Quaternion unityRotation = new Quaternion(
-            -(float)msg.pose.orientation.y,    
-            (float)msg.pose.orientation.z,     
-            -(float)msg.pose.orientation.x,    
-            (float)msg.pose.orientation.w
-        );
-
-        Debug.Log($"<color=cyan>RosTargetManager for {uavNamespace}: 接收到新目标。Unity坐标: {unityPosition}, Unity旋转: {unityRotation.eulerAngles}°</color>");
-        
-        if (targetVisual != null) {
-            targetVisual.position = unityPosition;
-            targetVisual.rotation = unityRotation;
-        } else {
-            Debug.LogWarning($"RosTargetManager for {uavNamespace}: targetVisual is null, cannot update visual target.");
-        }
-        
-        if (agentToControl != null) {
-            agentToControl.SetTargetFromRos(unityPosition, unityRotation);
-        } else {
-            Debug.LogWarning($"RosTargetManager for {uavNamespace}: agentToControl is null, cannot set ROS target.");
-        }
-    }
-
-    // --- 图像捕获专用资源初始化和清理 ---
-    private void InitializeImagePublisher()
-    {
-        if (imageCamera == null) {
-            Debug.LogError($"RosTargetManager for {uavNamespace}: Image Camera is null, cannot initialize image publisher resources.");
-            enabled = false; 
-            return;
-        }
-
-        texture2D = new Texture2D(imageWidth, imageHeight, TextureFormat.RGB24, false);
-        renderTexture = new RenderTexture(imageWidth, imageHeight, 24, RenderTextureFormat.ARGB32);
-        cameraRect = new Rect(0, 0, imageWidth, imageHeight);
-
-        imageMessage = new ImageMsg
-        {
-            header = new HeaderMsg
-            {
-                frame_id = imageFrameId 
-            },
-            height = (uint)imageHeight,
-            width = (uint)imageWidth,
-            encoding = "rgb8",
-            is_bigendian = 0,
-            step = (uint)(imageWidth * 3), 
-            data = new byte[imageWidth * imageHeight * 3] 
-        };
-
-        imageCamera.targetTexture = renderTexture;
+        // 5. 发布消息
+        ros.Publish(imageTopicName, imageMessage);
     }
     
     // 确保在对象销毁时释放资源
@@ -364,16 +165,94 @@ public class RosTargetManager : MonoBehaviour
         {
             Destroy(texture2D);
         }
-        
-        // <<< 修复 CS1501: No overload for method 'Unsubscribe' takes 2 arguments >>>
-        // Unsubscribe 只接受话题名称作为参数
-        if (rosConnection != null) 
-        {
-            rosConnection.Unsubscribe(fullTargetTopic); 
-            
-            // 你的 ROSConnection.cs 源码没有 onConnected/onDisconnected 事件，所以这里移除对应的移除监听器代码
-            // rosConnection.onConnected.RemoveListener(OnRosConnected);
-            // rosConnection.onDisconnected.RemoveListener(OnRosDisconnected);
-        }
     }
+
+
+void OnTargetReceived(PoseStampedMsg msg)
+    {
+        // 1. 从ROS消息中提取并转换位置 (ROS -> Unity)
+        Vector3 unityPosition = new Vector3(
+            -(float)msg.pose.position.y, 
+            (float)msg.pose.position.z, 
+            (float)msg.pose.position.x
+        );
+
+        // 2. 新增: 从ROS消息中提取并转换姿态/旋转 (ROS -> Unity)
+        Quaternion unityRotation = new Quaternion(
+            -(float)msg.pose.orientation.y, 
+            (float)msg.pose.orientation.z, 
+            -(float)msg.pose.orientation.x, 
+            (float)msg.pose.orientation.w
+        );
+
+        Debug.Log($"<color=cyan>接收到新目标。Unity坐标: {unityPosition}, Unity旋转: {unityRotation.eulerAngles}°</color>");
+        
+        // 更新用于视觉显示的目标对象
+        targetVisual.position = unityPosition;
+        targetVisual.rotation = unityRotation;
+        
+        isTaskActive = true;
+        
+        // 3. 修改: 调用正确的方法名，并传入位置和旋转两个参数nt)
+        agentToControl.SetTargetFromRos(unityPosition, unityRotation);
+    }
+
+    void PublishStatus()
+    {
+        string currentStatus = "UNKNOWN"; // 默认状态
+
+        // --- 核心状态决策逻辑 ---
+        if (agentToControl.IsPerformingScriptedAction)
+        {
+            // 最高优先级：如果正在执行脚本动作，状态就是动作本身。
+            // (这里可以进一步细化，比如从Agent获取具体动作名，但暂时用一个通用状态)
+            currentStatus = "PERFORMING_ACTION";
+        }
+        else if (agentToControl.IsNavigating)
+        {
+            // 第二优先级：如果没有执行脚本动作，且正在导航，那么状态就是导航中。
+            currentStatus = "NAVIGATING";
+        }
+        else if (agentToControl.IsAwaitingRosTarget)
+        {
+            // 第三优先级：如果既没执行动作，也没在导航，且在等待指令，那就是悬停等待。
+            currentStatus = "HOVERING"; // 或者 "IDLE_IN_AIR"
+        }
+        else
+        {
+            // 其他情况，可以认为是通用IDLE
+            currentStatus = "IDLE";
+        }
+
+        // 可以添加一个最终的覆盖逻辑，比如根据高度判断是否在地面上
+        if (agentToControl.transform.position.y < 0.2f && !agentToControl.IsNavigating) {
+             currentStatus = "IDLE_ON_GROUND";
+        }
+        
+        statusMessage.data = currentStatus;
+        ros.Publish(statusTopicName, statusMessage);
+    }
+
+    // <-- 新增: 发布位姿的完整方法 -->
+void PublishPose()
+{
+    Transform droneTransform = agentToControl.transform;
+
+poseMessage.header.stamp = new TimeMsg(); 
+
+    poseMessage.header.frame_id = "world";
+
+    // 填充位置 (Unity to ROS)
+    poseMessage.pose.position.x = droneTransform.position.z;
+    poseMessage.pose.position.y = -droneTransform.position.x;
+    poseMessage.pose.position.z = droneTransform.position.y;
+    
+    // 填充姿态 (Unity to ROS)
+    poseMessage.pose.orientation.x = -droneTransform.rotation.y;
+    poseMessage.pose.orientation.y = droneTransform.rotation.z;
+    poseMessage.pose.orientation.z = -droneTransform.rotation.x;
+    poseMessage.pose.orientation.w = droneTransform.rotation.w;
+
+    ros.Publish(poseTopicName, poseMessage);
+}
 }
