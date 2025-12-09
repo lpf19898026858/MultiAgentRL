@@ -125,7 +125,7 @@ public class PIDControlAgent : Agent
 
     private Vector3 initialPosition;
     private Vector3 _currentRosTargetPosition;
-    private float lastDistanceToTarget; 
+    private float lastDistanceToTarget; // 您可能已经有了这个
 
     private static string logFilePath;
     private static bool isLogInitialized = false;
@@ -141,6 +141,11 @@ public class PIDControlAgent : Agent
 
     private Queue<RosTarget> _rosTargetQueue = new Queue<RosTarget>();
     private RayPerceptionSensorComponent3D _raySensor;
+
+    // 用于智能制动系统，存储原始的PID Kd值
+    private float _originalVelocityX_Kd;
+    private float _originalVelocityZ_Kd;
+    private bool _isOriginalPID_Kd_Stored = false;
 
     private float _originalMass;
     private float _originalDrag;
@@ -168,12 +173,10 @@ public class PIDControlAgent : Agent
     
     // 导航任务是否激活？
     public bool IsNavigating { get; private set; } = false;
-    public bool IsNavigatingPublic => IsNavigating; 
     // 是否正在执行一个非导航的脚本化动作？
-    public bool IsPerformingScriptedActionPublic => _isPerformingScriptedAction; // 公共只读属性
-
+    public bool IsPerformingScriptedAction => _isPerformingScriptedAction;
     // 是否正在等待ROS指令？（悬停等待状态）
-    public bool IsAwaitingRosTargetPublic => _isAwaitingNextRosTarget; // 公共只读属性
+    public bool IsAwaitingRosTarget => _isAwaitingNextRosTarget;
     
     // 我们需要一个标志位来告诉OnActionReceived何时忽略ONNX模型
     private bool _isPerformingScriptedAction = false;
@@ -189,9 +192,6 @@ public class PIDControlAgent : Agent
     private bool _isFlyingToFinalDestination; // 新增：是否正在飞往最终目的地
     private readonly Queue<System.Collections.IEnumerator> _actionQueue = new Queue<System.Collections.IEnumerator>();
     private Coroutine _currentActionCoroutine = null; // 用于跟踪当前正在执行的协程
-
-private string logPrefix;
-
     #endregion
 public override void Initialize()
     {
@@ -207,59 +207,42 @@ public override void Initialize()
 
             // 写入文件头
             File.WriteAllText(logFilePath, "--- Drone Failure Log ---\n\n");
-            Log($"Failure log file initialized at: {logFilePath}");
+            Debug.Log($"Failure log file initialized at: {logFilePath}");
             isLogInitialized = true;
         }
 
+        if (!_isOriginalPID_Kd_Stored)
+        {
+            _originalVelocityX_Kd = velocityXPID.Kd;
+            _originalVelocityZ_Kd = velocityZPID.Kd;
+            _isOriginalPID_Kd_Stored = true;
+        }
          if (spawnAreaCenter == null)
         {
-            LogWarning($"'Spawn Area Center' 未设置，将使用Agent的初始位置 ({initialPosition}) 作为生成区域的中心。");
+            Debug.LogWarning($"'Spawn Area Center' 未设置，将使用Agent的初始位置 ({initialPosition}) 作为生成区域的中心。");
             var centerObject = new GameObject($"{name}_SpawnCenter");
             centerObject.transform.position = initialPosition;
             spawnAreaCenter = centerObject.transform;
         }
         if (cameraTransform == null)
         {
-            LogError("请在Inspector中为检查序列指定Camera Transform！");
+            Debug.LogError("请在Inspector中为检查序列指定Camera Transform！", this);
         }
         if (rBody == null)
         {
-            LogError("Rigidbody component not found on the drone agent!");
+            Debug.LogError("Rigidbody component not found on the drone agent!");
         }
         rBody.useGravity = true;
 
         _originalMass = rBody.mass;
         _originalDrag = rBody.drag;
         _originalAngularDrag = rBody.angularDrag;
-
-        logPrefix = $"<b>[{gameObject.name}]</b>";
-        if (rosManager != null && !string.IsNullOrEmpty(rosManager.uavNamespace))
-        {
-            string serviceTopic = $"/{rosManager.uavNamespace}/execute_drone_action"; // 根据无人机命名空间生成服务话题
-            ROSConnection.GetOrCreateInstance().ImplementService<ExecuteDroneActionRequest, ExecuteDroneActionResponse>(serviceTopic, ExecuteActionService);
-            Log($"已注册 ROS 服务: {serviceTopic}");
-        }
-        else
-        {
-            LogError($"PIDControlAgent {name}: rosManager未设置或其uavNamespace为空，无法注册ROS服务。");
-        }
+        ROSConnection.GetOrCreateInstance().ImplementService<ExecuteDroneActionRequest, ExecuteDroneActionResponse>("/execute_drone_action", ExecuteActionService);
         StartCoroutine(ActionQueueProcessor());
+
+        Debug.Log("已注册 /drone_action_feedback 发布者。");
     }
-private void Log(string message)
-{
-    // 在原始消息前加上前缀
-    Debug.Log($"{logPrefix} {message}");
-}
 
-private void LogWarning(string message)
-{
-    Debug.LogWarning($"{logPrefix} {message}");
-}
-
-private void LogError(string message)
-{
-    Debug.LogError($"{logPrefix} {message}");
-}
 public override void OnEpisodeBegin()
 {
     // --- 步骤 1: 获取环境参数并重置基本状态 ---
@@ -273,7 +256,7 @@ public override void OnEpisodeBegin()
     IsNavigating = false;
     _isPerformingScriptedAction = false;
     _isAwaitingNextRosTarget = isRosInferenceMode;
-    //_rosTargetQueue.Clear();
+    _rosTargetQueue.Clear();
     
     rBody.velocity = Vector3.zero;
     rBody.angularVelocity = Vector3.zero;
@@ -298,7 +281,7 @@ public override void OnEpisodeBegin()
         _hasNextWaypoint = false;
         _isFlyingToFinalDestination = true;
         
-        Log("<color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>");
+        Debug.Log("<color=purple>推理模式: 回合开始。在起点悬停并等待ROS目标。</color>");
     }
     else 
     {
@@ -333,7 +316,7 @@ public override void OnEpisodeBegin()
         bool isMultiWaypointScenario = Random.value > 0.5f;
         if (isMultiWaypointScenario)
         {
-            Log("<color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>");
+            Debug.Log("<color=cyan>训练回合: 模拟多航点任务 (冲刺模式)</color>");
             Vector3 nextPosCandidate = _currentRosTargetPosition + new Vector3(Random.Range(-5f, 5f), 0, Random.Range(-5f, 5f));
             
             // 修正后的安全检查逻辑: CheckSphere返回true意味着有碰撞，不安全
@@ -350,16 +333,11 @@ public override void OnEpisodeBegin()
         }
         else
         {
-            Log("<color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>");
+            Debug.Log("<color=orange>训练回合: 模拟单目标任务 (刹车模式)</color>");
             _hasNextWaypoint = false;
             _isFlyingToFinalDestination = true;
         }
-                // 只有在训练模式下，才清空所有任务队列
-        _rosTargetQueue.Clear();
-        lock (_actionQueue)
-        {
-            _actionQueue.Clear();
-        }
+        
         _isAwaitingNextRosTarget = false; // 训练时立即开始
     }
 
@@ -400,7 +378,7 @@ private void CleanUpObstacles()
 }
 private ExecuteDroneActionResponse ExecuteActionService(ExecuteDroneActionRequest request)
 {
-    Log($"<color=lightblue>Received and QUEUED action service request: {request.action_type}</color>");
+    Debug.Log($"<color=lightblue>Received and QUEUED action service request: {request.action_type}</color>");
     var jsonSettings = new JsonSerializerSettings
     {
         Culture = System.Globalization.CultureInfo.InvariantCulture
@@ -448,7 +426,7 @@ private ExecuteDroneActionResponse ExecuteActionService(ExecuteDroneActionReques
             break;
 
         default:
-            LogError($"Unknown action type received: {request.action_type}");
+            Debug.LogError($"Unknown action type received: {request.action_type}");
             is_known_action = false;
             break;
     }
@@ -470,7 +448,7 @@ private ExecuteDroneActionResponse ExecuteActionService(ExecuteDroneActionReques
 }
 private System.Collections.IEnumerator ActionQueueProcessor()
 {
-    Log("Action Queue Processor started.");
+    Debug.Log("Action Queue Processor started.");
     while (true) // 无限循环
     {
         // 步骤 1: 等待，直到无人机处于可以执行脚本动作的状态
@@ -495,7 +473,7 @@ private System.Collections.IEnumerator ActionQueueProcessor()
         // 步骤 3: 如果取出了动作，就执行它
         if (actionToExecute != null)
         {
-            Log($"<color=lime>Starting next action from queue. Drone is idle.</color>");
+            Debug.Log($"<color=lime>Starting next action from queue. Drone is idle.</color>");
             // 使用 PerformScriptedAction 包装器来管理状态。
             // ActionQueueProcessor会在这里等待，直到这个协程执行完毕。
             yield return StartCoroutine(PerformScriptedAction(actionToExecute));
@@ -511,7 +489,7 @@ private System.Collections.IEnumerator ActionQueueProcessor()
     {
         if (cameraTransform == null)
         {
-            LogError("无法旋转摄像头：cameraTransform未设置！");
+            Debug.LogError("无法旋转摄像头：cameraTransform未设置！");
             yield break; // 提前退出协程
         }
 
@@ -530,12 +508,12 @@ private System.Collections.IEnumerator ActionQueueProcessor()
 
     private System.Collections.IEnumerator WaitRoutine(float duration)
     {
-        Log($"Executing WaitRoutine for {duration} seconds.");
+        Debug.Log($"Executing WaitRoutine for {duration} seconds.");
     
         // 核心逻辑就是等待
         yield return new WaitForSeconds(duration);
     
-        Log("Wait finished.");
+        Debug.Log("Wait finished.");
     }
 /// <summary>
 /// 通过PID控制器将无人机旋转到绝对目标偏航角。
@@ -543,7 +521,7 @@ private System.Collections.IEnumerator ActionQueueProcessor()
 /// </summary>
 private System.Collections.IEnumerator AnimateDroneYawRoutine(float targetYawAngle, float rotationSpeedFactor = 1.0f)
 {
-    Log($"<color=yellow>命令无人机旋转至绝对Yaw: {targetYawAngle}°</color>");
+    Debug.Log($"<color=yellow>命令无人机旋转至绝对Yaw: {targetYawAngle}°</color>");
     
     _scriptedTargetRotation = Quaternion.Euler(0, NormalizeAngle(targetYawAngle), 0);
     
@@ -582,7 +560,7 @@ private System.Collections.IEnumerator AnimateDroneYawRoutine(float targetYawAng
         // 只有当稳定时间足够长，我们才真正确信它稳定了
         if (timeStable >= stabilizationTime)
         {
-            Log($"<color=green>已到达并稳定在目标偏航角 {targetYawAngle}° (实际: {currentYaw:F2}, 角速度: {currentAngularVelocityY:F2} deg/s)</color>");
+            Debug.Log($"<color=green>已到达并稳定在目标偏航角 {targetYawAngle}° (实际: {currentYaw:F2}, 角速度: {currentAngularVelocityY:F2} deg/s)</color>");
             yield break; // 成功完成，退出协程
         }
         
@@ -592,7 +570,7 @@ private System.Collections.IEnumerator AnimateDroneYawRoutine(float targetYawAng
 
     if (elapsedTime >= safetyTimeout)
     {
-        LogError($"旋转超时！未能到达目标偏航角 {targetYawAngle}°。当前角度: {GetYaw()}, 角速度: {rBody.angularVelocity.y * Mathf.Rad2Deg:F2} deg/s");
+        Debug.LogError($"旋转超时！未能到达目标偏航角 {targetYawAngle}°。当前角度: {GetYaw()}, 角速度: {rBody.angularVelocity.y * Mathf.Rad2Deg:F2} deg/s");
     }
 }
     
@@ -612,7 +590,7 @@ private System.Collections.IEnumerator AnimateDroneYawRoutine(float targetYawAng
     // 这能确保每次动作都从一个“干净”的初始状态开始，消除历史误差累积。
     pitchController.Reset();
     rollController.Reset();
-    yawController.Reset(); 
+    yawController.Reset(); // <<< 添加这一行至关重要！
     
     // 同时，强制将速度目标清零，防止速度控制器干扰
     _targetVelocityX = 0f;
@@ -625,14 +603,14 @@ private System.Collections.IEnumerator AnimateDroneYawRoutine(float targetYawAng
     yield return StartCoroutine(actionCoroutine); // 执行具体的动作协程
     _currentDesiredYawAngle = NormalizeAngle(GetYaw());
     yield return new WaitForSeconds(0.5f); // 0.5秒稳定时间
-
+        // 通过 rosManager 调用公共方法来发布回报 >>>
         if (rosManager != null)
         {
             rosManager.PublishActionFeedback("ACTION_COMPLETE");
         }
         else
         {
-            LogWarning("无法发送动作完成回报，因为 rosManager 未设置。");
+            Debug.LogWarning("无法发送动作完成回报，因为 rosManager 未设置。");
         }
 
     _isPerformingScriptedAction = false; // 动作完成，归还控制权
@@ -654,7 +632,7 @@ private System.Collections.IEnumerator AnimateDroneYawRoutine(float targetYawAng
 
     private System.Collections.IEnumerator AdjustCameraRoutine(float targetPitch)
     {
-        Log($"Executing AdjustCameraRoutine to pitch: {targetPitch} degrees.");
+        Debug.Log($"Executing AdjustCameraRoutine to pitch: {targetPitch} degrees.");
         // 在这里添加你实际控制相机GameObject旋转的代码
         // 例如:
         // Transform cameraTransform = ...;
@@ -670,12 +648,12 @@ private System.Collections.IEnumerator AnimateDroneYawRoutine(float targetYawAng
         // }
         
         yield return new WaitForSeconds(2.0f); // 作为一个简单的占位符，我们等待2秒
-        Log("Camera adjustment finished.");
+        Debug.Log("Camera adjustment finished.");
     }
 
 private System.Collections.IEnumerator RotateYawRelativeRoutine(float relativeAngleDegrees)
 {
-    Log($"接收到相对旋转命令: {relativeAngleDegrees}°");
+    Debug.Log($"接收到相对旋转命令: {relativeAngleDegrees}°");
     float startYaw = GetYaw();
     float targetYaw = startYaw + relativeAngleDegrees;
     
@@ -695,7 +673,7 @@ private System.Collections.IEnumerator RotateYawRelativeRoutine(float relativeAn
 
     private System.Collections.IEnumerator TakeoffRoutine(float targetAltitude)
     {
-        Log($"Executing TakeoffRoutine to altitude: {targetAltitude}m.");
+        Debug.Log($"Executing TakeoffRoutine to altitude: {targetAltitude}m.");
         
         // 命令无人机PID控制器将目标高度设为指定值
         _targetAltitude = targetAltitude;
@@ -707,7 +685,7 @@ private System.Collections.IEnumerator RotateYawRelativeRoutine(float relativeAn
             yield return null; // 等待下一物理帧
         }
         
-        Log("Takeoff finished. Hovering at target altitude.");
+        Debug.Log("Takeoff finished. Hovering at target altitude.");
     }
 
     private System.Collections.IEnumerator LandRoutine()
@@ -725,7 +703,7 @@ private System.Collections.IEnumerator RotateYawRelativeRoutine(float relativeAn
         rBody.velocity = Vector3.zero;
         rBody.angularVelocity = Vector3.zero;
 
-        Log("Landing finished. Drone is on the ground.");
+        Debug.Log("Landing finished. Drone is on the ground.");
     }
 
 private System.Collections.IEnumerator BackupRoutine(float distance, float duration)
@@ -761,7 +739,7 @@ private System.Collections.IEnumerator BackupRoutine(float distance, float durat
             _isAwaitingNextRosTarget = false; // 我们现在正在积极飞向一个目标。
             IsNavigating = true; // <--- 关键：开始导航时，设置状态为 true
             _gizmoCenterForLocalRange = transform.position;
-            Log($"<color=lime>正在处理队列中的下一个目标。位置: {_currentRosTargetPosition}。 " +
+            Debug.Log($"<color=lime>正在处理队列中的下一个目标。位置: {_currentRosTargetPosition}。 " +
                       $"偏航角: {_rosTargetYaw.Value}°。队列中还剩 {_rosTargetQueue.Count} 个目标。</color>");
 
             lastDistanceToTarget = Vector3.Distance(transform.position, _currentRosTargetPosition);
@@ -790,7 +768,7 @@ private System.Collections.IEnumerator BackupRoutine(float distance, float durat
             // 队列已空。所有航点均已到达。
             _isAwaitingNextRosTarget = true; // 进入悬停/等待状态。
             IsNavigating = false; // <--- 关键：导航队列为空，设置状态为 false
-            Log("<color=cyan>航点队列已空。正在悬停并等待新的ROS目标。</color>");
+            Debug.Log("<color=cyan>航点队列已空。正在悬停并等待新的ROS目标。</color>");
             _rosTargetYaw = null; 
         }
     }
@@ -804,19 +782,19 @@ private System.Collections.IEnumerator BackupRoutine(float distance, float durat
         }
         if (target == null)
         {
-            LogError("致命错误！'target' transform 为空。中止 SetTargetFromRos。");
+            Debug.LogError("致命错误！'target' transform 为空。中止 SetTargetFromRos。");
             return;
         }
         if (newTargetRotation.x == 0 && newTargetRotation.y == 0 && newTargetRotation.z == 0 && newTargetRotation.w == 0)
         {
-            LogWarning("SetTargetFromRos: 收到一个无效的(零)四元数。已修正为单位四元数。");
+            Debug.LogWarning("SetTargetFromRos: 收到一个无效的(零)四元数。已修正为单位四元数。");
             newTargetRotation = Quaternion.identity;
         }
 
         var newTarget = new RosTarget { position = newTargetPosition, rotation = newTargetRotation };
         _rosTargetQueue.Enqueue(newTarget);
         
-        Log($"<color=yellow>新目标已入队。位置: {newTarget.position}。 " +
+        Debug.Log($"<color=yellow>新目标已入队。位置: {newTarget.position}。 " +
                   $"队列中总目标数: {_rosTargetQueue.Count}。</color>");
 
         if (_isAwaitingNextRosTarget)
@@ -869,7 +847,7 @@ private System.Collections.IEnumerator BackupRoutine(float distance, float durat
     {
         if (_isPerformingScriptedAction)
         {
-            Hover(); // 在执行脚本动作时，底层保持悬停
+            //Hover(); // 在执行脚本动作时，底层保持悬停
             return;
         }
 
@@ -1102,10 +1080,10 @@ private void CalculatedAndApplyRewards()
             }
             catch (IOException ex)
             {
-                LogError($"Error writing lesson marker to log file: {ex.Message}");
+                 Debug.LogError($"Error writing lesson marker to log file: {ex.Message}");
             }
 
-            Log($"<color=yellow>Lesson changed to {lessonCounter}. New Range: X={currentRangeX:F1}, Z={currentRangeZ:F1}</color>");
+            Debug.Log($"<color=yellow>Lesson changed to {lessonCounter}. New Range: X={currentRangeX:F1}, Z={currentRangeZ:F1}</color>");
         }
     }
 void FixedUpdate()
@@ -1118,7 +1096,7 @@ void FixedUpdate()
         // 如果距离小于到达阈值 (例如1.0米)
         if (distanceToCurrentWaypoint < arrivalZoneDistance) // 使用你已经定义的arrivalZoneDistance
         {
-            Log($"<color=green>到达航点: {_currentRosTargetPosition}。正在处理队列中的下一个目标...</color>");
+            Debug.Log($"<color=green>到达航点: {_currentRosTargetPosition}。正在处理队列中的下一个目标...</color>");
             
             // 立即处理队列中的下一个航点
             // 这会更新 _currentRosTargetPosition 为下一个航点，或者如果队列为空，则将 _isAwaitingNextRosTarget 设为 true
@@ -1136,7 +1114,7 @@ void FixedUpdate()
         if (StepCount >= MaxStep && MaxStep > 0) // MaxStep>0 确保这个功能是开启的
         {
             //SetReward(0.0f);
-            Log($"<color=orange>达到最大步数 {MaxStep}！回合超时结束。最终奖励: 0.0</color>");
+            Debug.Log($"<color=orange>达到最大步数 {MaxStep}！回合超时结束。最终奖励: 0.0</color>");
             RecordFailurePoint(transform.position, "Timeout");
             totalEpisodes++;
             windowTotalEpisodes++;
@@ -1176,14 +1154,23 @@ void FixedUpdate()
         float pitchTorque = pitchController.Calculate(_desiredPitchAngle, currentPitch, Time.fixedDeltaTime);
         float rollTorque = rollController.Calculate(_desiredRollAngle, currentRoll, Time.fixedDeltaTime);
 
+        //float yawSetpoint;
+        //if (_rosTargetYaw.HasValue && !Academy.Instance.IsCommunicatorOn)
+        //{
+        //    yawSetpoint = _rosTargetYaw.Value;
+        //}
+        //else
+        //{
+            // ...否则，使用由神经网络控制的、随时间累积的偏航角。
+        //    yawSetpoint = _currentDesiredYawAngle;
+        //}
         float yawTorque;
         if (_isPerformingScriptedAction && _scriptedTargetRotation.HasValue)
         {
+            // 【脚本动作模式】: 如果正在执行脚本动作并且有临时旋转目标，
+            // 那么PID的目标就是这个临时目标。
             float scriptedYawSetpoint = NormalizeAngle(_scriptedTargetRotation.Value.eulerAngles.y);
-    
-            // ★★★ 使用 Mathf.DeltaAngle 来计算最短路径误差 ★★★
-            float yawError = Mathf.DeltaAngle(currentYaw, scriptedYawSetpoint);
-            yawTorque = yawController.Calculate(0, -yawError, Time.fixedDeltaTime); // PID的目标是误差为0
+            yawTorque = yawController.Calculate(scriptedYawSetpoint, currentYaw, Time.fixedDeltaTime);
         }
         else
         {
@@ -1197,10 +1184,9 @@ void FixedUpdate()
             {
                 yawSetpoint = _currentDesiredYawAngle;
             }
-            // ★★★ 这里也使用 Mathf.DeltaAngle ★★★
-            float yawError = Mathf.DeltaAngle(currentYaw, yawSetpoint);
-            yawTorque = yawController.Calculate(0, -yawError, Time.fixedDeltaTime); // PID的目标是误差为0
+            yawTorque = yawController.Calculate(yawSetpoint, currentYaw, Time.fixedDeltaTime);
         }
+        //float yawTorque = yawController.Calculate(yawSetpoint, currentYaw, Time.fixedDeltaTime);
 
         rBody.AddTorque(transform.right * pitchTorque);
         rBody.AddTorque(transform.forward * -rollTorque); 
@@ -1233,7 +1219,7 @@ void Update()
     // 按下 'R' 键，命令无人机旋转到 90 度
     if (Input.GetKeyDown(KeyCode.R))
     {
-        Log("Test command: Rotating to 90 degrees!");
+        Debug.Log("Test command: Rotating to 90 degrees!");
         // 启动你的旋转协程，就像ROS调用一样
         StartCoroutine(PerformScriptedAction(RotateYawRelativeRoutine(90.0f)));
     }
@@ -1241,7 +1227,7 @@ void Update()
     // 按下 'T' 键，命令无人机旋转到 -45 度
     if (Input.GetKeyDown(KeyCode.T))
     {
-        Log("Test command: Rotating to -45 degrees!");
+        Debug.Log("Test command: Rotating to -45 degrees!");
         StartCoroutine(PerformScriptedAction(RotateYawRelativeRoutine(-45.0f)));
     }
 }
@@ -1249,7 +1235,6 @@ private void OnCollisionEnter(Collision collision)
 {
     string failureReason = "";
     bool didFail = false;
-
     if (((1 << collision.gameObject.layer) & obstacleLayer) != 0)
     {
         failureReason = $"Hit Obstacle: {collision.gameObject.name}";
@@ -1260,20 +1245,18 @@ private void OnCollisionEnter(Collision collision)
         failureReason = "Hit Ground";
         didFail = true;
     }
+    
     if (didFail)
     {
         AddReward(terminalFailurePenalty); 
-        Log($"<color=red>碰撞失败! {failureReason}。最终奖励: {terminalFailurePenalty}</color>");
+        Debug.Log($"<color=red>碰撞失败! {failureReason}。最终奖励: {terminalFailurePenalty}</color>");
         
         RecordFailurePoint(_currentRosTargetPosition, failureReason);
 
         totalEpisodes++;
         windowTotalEpisodes++;
         RecordSuccessRate();
-        if(!isRosInferenceMode)
-        {
-            EndEpisode();
-        }
+        EndEpisode();
     }
 }
 
@@ -1285,16 +1268,13 @@ private bool CheckBoundsAndEndEpisode()
         currentPos.z < minZ || currentPos.z > maxZ)
     {
         AddReward(terminalFailurePenalty);
-        Log($"<color=red>飞出边界! 最终奖励: {terminalFailurePenalty}</color>");
+        Debug.Log($"<color=red>飞出边界! 最终奖励: {terminalFailurePenalty}</color>");
         RecordFailurePoint(currentPos, "Out of Bounds"); // 记录失败
         
         totalEpisodes++;
         windowTotalEpisodes++;
         RecordSuccessRate();
-        if(!isRosInferenceMode)
-        {
-            EndEpisode();
-        }
+        EndEpisode();
         return true; 
     }
     return false; 
@@ -1313,7 +1293,7 @@ private bool CheckBoundsAndEndEpisode()
         }
         catch (IOException ex)
         {
-            LogError($"Error writing to log file: {ex.Message}");
+            Debug.LogError($"Error writing to log file: {ex.Message}");
         }
     }
 private void CheckAndReportWindowedSuccessRate()
@@ -1375,7 +1355,7 @@ private void RecordSuccessRate()
 
         } while (attempts < 100);
 
-        LogError("无法为无人机找到一个安全的出生点！请检查课程学习范围、障碍物层或环境边界。将返回中心点。");
+        Debug.LogError("无法为无人机找到一个安全的出生点！请检查课程学习范围、障碍物层或环境边界。将返回中心点。");
         return targetInitialPoint;
     }
 
@@ -1411,7 +1391,7 @@ private void RecordSuccessRate()
 
         } while (attempts < 100);
 
-        LogWarning($"无法在 {startPosition} 附近找到安全的目标点。将返回起始点前方5米处作为备用目标。");
+        Debug.LogWarning($"无法在 {startPosition} 附近找到安全的目标点。将返回起始点前方5米处作为备用目标。");
         return startPosition + transform.forward * 5f;
     }
 private void GenerateRandomObstacles(Vector3 centerPoint, float rangeX, float rangeZ)
@@ -1425,7 +1405,7 @@ private void GenerateRandomObstacles(Vector3 centerPoint, float rangeX, float ra
         // 从预制体列表中随机选一个
         if (obstaclePrefabs == null || obstaclePrefabs.Count == 0)
         {
-            LogError("障碍物预制体列表 (obstaclePrefabs) 为空！");
+            Debug.LogError("障碍物预制体列表 (obstaclePrefabs) 为空！");
             return;
         }
         GameObject prefabToSpawn = obstaclePrefabs[Random.Range(0, obstaclePrefabs.Count)];
@@ -1489,7 +1469,7 @@ private void GenerateRandomObstacles(Vector3 centerPoint, float rangeX, float ra
         }
         else
         {
-            LogWarning("无法为障碍物找到一个安全的位置，跳过生成。");
+             Debug.LogWarning("无法为障碍物找到一个安全的位置，跳过生成。");
         }
     }
 }
